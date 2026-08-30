@@ -137,6 +137,7 @@ outputs/                # verified reports and plots included as evidence
 
 - [Read the Wheat Rust AI technical article](docs/WHEAT_RUST_AI_TECHNICAL_ARTICLE.pdf)
 - [Try the live Streamlit demonstration](https://devanandha-wheat-rust-ai.streamlit.app/)
+- [Read the published LinkedIn technical article](https://www.linkedin.com/pulse/when-anomaly-detection-failed-lessons-from-building-wheat-vs-iotze/)
   
 ## Responsible use
 
