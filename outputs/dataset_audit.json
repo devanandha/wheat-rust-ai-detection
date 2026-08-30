@@ -1,0 +1,65 @@
+{
+  "counts": {
+    "train/Brown_rust": 902,
+    "train/Healthy": 1116,
+    "train/Yellow_rust": 924,
+    "val/Brown_rust": 226,
+    "val/Healthy": 279,
+    "val/Yellow_rust": 232
+  },
+  "corrupt_files": [],
+  "exact_duplicate_groups": [],
+  "unique_dimensions": 3627,
+  "most_common_dimensions": [
+    {
+      "width": 2592,
+      "height": 1944,
+      "count": 4
+    },
+    {
+      "width": 140,
+      "height": 184,
+      "count": 3
+    },
+    {
+      "width": 122,
+      "height": 342,
+      "count": 2
+    },
+    {
+      "width": 336,
+      "height": 208,
+      "count": 2
+    },
+    {
+      "width": 132,
+      "height": 180,
+      "count": 2
+    },
+    {
+      "width": 88,
+      "height": 268,
+      "count": 2
+    },
+    {
+      "width": 182,
+      "height": 288,
+      "count": 2
+    },
+    {
+      "width": 104,
+      "height": 210,
+      "count": 2
+    },
+    {
+      "width": 104,
+      "height": 200,
+      "count": 2
+    },
+    {
+      "width": 96,
+      "height": 178,
+      "count": 2
+    }
+  ]
+}

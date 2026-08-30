@@ -1,0 +1,29 @@
+{
+  "Healthy": {
+    "precision": 0.3665283540802213,
+    "recall": 0.9498207885304659,
+    "f1-score": 0.5289421157684631,
+    "support": 279.0
+  },
+  "Disease anomaly": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 458.0
+  },
+  "accuracy": 0.35956580732700133,
+  "macro avg": {
+    "precision": 0.18326417704011064,
+    "recall": 0.47491039426523296,
+    "f1-score": 0.26447105788423153,
+    "support": 737.0
+  },
+  "weighted avg": {
+    "precision": 0.13875361029631172,
+    "recall": 0.35956580732700133,
+    "f1-score": 0.2002372459964738,
+    "support": 737.0
+  },
+  "roc_auc": 0.08629540936908171,
+  "threshold": 0.021613990887999535
+}
