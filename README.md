@@ -133,6 +133,10 @@ outputs/                # verified reports and plots included as evidence
 - Reliable deployment would require external field data, expert review, calibration, and prospective testing.
 - Exact-file duplicate checks cannot detect near-duplicates, crops derived from the same source image, or source-level leakage.
 
+## Technical Article
+
+- [Read the Wheat Rust AI technical article](docs/WHEAT_RUST_AI_TECHNICAL_ARTICLE.pdf)
+- [Try the live Streamlit demonstration](https://devanandha-wheat-rust-ai.streamlit.app/)
 ## Responsible use
 
 This software is intended for education and research. Consult a qualified crop specialist before acting on a prediction. Do not use the system to recommend pesticide products or treatment quantities.
