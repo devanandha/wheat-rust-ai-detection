@@ -137,6 +137,7 @@ outputs/                # verified reports and plots included as evidence
 
 - [Read the Wheat Rust AI technical article](docs/WHEAT_RUST_AI_TECHNICAL_ARTICLE.pdf)
 - [Try the live Streamlit demonstration](https://devanandha-wheat-rust-ai.streamlit.app/)
+  
 ## Responsible use
 
 This software is intended for education and research. Consult a qualified crop specialist before acting on a prediction. Do not use the system to recommend pesticide products or treatment quantities.
