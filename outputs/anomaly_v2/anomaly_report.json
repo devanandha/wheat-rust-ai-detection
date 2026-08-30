@@ -1,0 +1,75 @@
+{
+  "Healthy": {
+    "precision": 0.35127478753541075,
+    "recall": 0.8888888888888888,
+    "f1-score": 0.5035532994923858,
+    "support": 279.0
+  },
+  "Disease anomaly": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 458.0
+  },
+  "accuracy": 0.33649932157394846,
+  "macro avg": {
+    "precision": 0.17563739376770537,
+    "recall": 0.4444444444444444,
+    "f1-score": 0.2517766497461929,
+    "support": 737.0
+  },
+  "weighted avg": {
+    "precision": 0.13297919365316094,
+    "recall": 0.33649932157394846,
+    "f1-score": 0.19062601161245,
+    "support": 737.0
+  },
+  "roc_auc": 0.026967804542110764,
+  "roc_auc_high_error_means_disease": 0.026967804542110764,
+  "roc_auc_low_error_means_disease_diagnostic": 0.9730321954578892,
+  "best_direction_auc_diagnostic": 0.9730321954578892,
+  "threshold": 0.011045435443520546,
+  "threshold_percentile": 95,
+  "threshold_source": "Separate 10% healthy calibration split from train/Healthy",
+  "split_counts": {
+    "healthy_autoencoder_training": 892,
+    "healthy_early_stopping_tuning": 112,
+    "healthy_threshold_calibration": 112,
+    "held_out_evaluation": 737
+  },
+  "reconstruction_error_summary": {
+    "Healthy": {
+      "count": 279,
+      "mean": 0.006623317953199148,
+      "median": 0.006003985647112131,
+      "standard_deviation": 0.003720025299116969,
+      "minimum": 0.0009587814565747976,
+      "maximum": 0.024689091369509697
+    },
+    "Brown_rust": {
+      "count": 226,
+      "mean": 0.0015393468784168363,
+      "median": 0.0014624807517975569,
+      "standard_deviation": 0.0006531012477353215,
+      "minimum": 0.00046305987052619457,
+      "maximum": 0.004841806832700968
+    },
+    "Yellow_rust": {
+      "count": 232,
+      "mean": 0.0011368200648576021,
+      "median": 0.0010564371477812529,
+      "standard_deviation": 0.0003912609245162457,
+      "minimum": 0.0004913600860163569,
+      "maximum": 0.003385848831385374
+    },
+    "Disease_combined": {
+      "count": 458,
+      "mean": 0.0013354469556361437,
+      "median": 0.0011992850340902805,
+      "standard_deviation": 0.0005731683340854943,
+      "minimum": 0.00046305987052619457,
+      "maximum": 0.004841806832700968
+    }
+  },
+  "interpretation": "The primary AUC uses the intended convention that higher reconstruction error means disease. The inverted AUC is diagnostic only. If the inverted AUC is much larger, diseased images are being reconstructed with lower error than healthy images; this is model behaviour, not a label reversal inside roc_auc_score."
+}
