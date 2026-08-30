@@ -2,6 +2,10 @@
 
 An applied computer-vision project for classifying wheat-leaf images as **Healthy**, **Brown Rust**, or **Yellow Rust**, with a complementary anomaly-detection experiment trained only on healthy leaves.
 
+## Live demonstration
+
+[Launch the Wheat Rust AI Detection app](https://devanandha-wheat-rust-ai.streamlit.app/)
+
 This repository is a reproducible extension of my 2024 MSc Artificial Intelligence dissertation at Ulster University. The original research explored Isolation Forest, autoencoders, transfer learning, image preprocessing, and YOLO-based object-detection concepts. The 2026 extension reorganises the experimental scripts into a transparent training and evaluation pipeline and adds an interactive demonstration.
 
 > This is a research prototype, not an agronomic or diagnostic tool. Predictions should not be used as the sole basis for crop-treatment decisions.
