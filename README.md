@@ -2,6 +2,12 @@
 
 An applied computer-vision project for classifying wheat-leaf images as **Healthy**, **Brown Rust**, or **Yellow Rust**, with a complementary anomaly-detection experiment trained only on healthy leaves.
 
+# Wheat Rust AI Detection
+
+[![DOI](https://zenodo.org/badge/1351419076.svg)](https://doi.org/10.5281/zenodo.22726590)
+
+An applied computer-vision project for classifying wheat-leaf images as **Healthy**, **Brown Rust**, or **Yellow Rust**, with a complementary anomaly-detection experiment trained only on healthy leaves.
+
 ## Live demonstration
 
 [Launch the Wheat Rust AI Detection app](https://devanandha-wheat-rust-ai.streamlit.app/)
