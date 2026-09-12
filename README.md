@@ -13,6 +13,7 @@ This repository is a reproducible extension of my 2024 MSc Artificial Intelligen
 ## Project highlights
 
 - Three-class MobileNetV2 transfer-learning pipeline
+- Grad-CAM explainability showing image regions that influence each classifier prediction
 - Reproducible image loading and augmentation
 - Separate training and validation sets
 - Precision, recall, F1-score, confusion matrix, and classification report
@@ -94,6 +95,15 @@ python -m src.train_anomaly --data-dir data --epochs 15
 
 MobileNetV2, pretrained on ImageNet, is used as a frozen feature extractor. A global-average-pooling layer, dropout, and three-class softmax head are trained on the wheat dataset. Augmentation is applied only during training.
 
+### Model explainability with Grad-CAM
+
+The classifier now includes **Grad-CAM (Gradient-weighted Class Activation Mapping)** to provide a visual explanation of each prediction.
+
+For a selected class prediction, Grad-CAM uses the gradients flowing into an intermediate MobileNetV2 convolutional layer (`block_12_add`) to generate a **14×14 activation map**. This map is resized and overlaid on the original image in the Streamlit application.
+
+The visualisation shows which image regions contributed most strongly to the model's selected prediction. It is an interpretability aid and should not be treated as verified disease localisation.
+
+Grad-CAM does **not** prove that highlighted regions correspond to biologically confirmed rust lesions. Reliable lesion localisation would require independently verified spatial annotations, such as bounding boxes or segmentation masks, and separate localisation evaluation.
 ### Anomaly detection
 
 The convolutional autoencoder is trained **only on healthy training images**. A reconstruction-error threshold is calibrated from held-out healthy validation images. Brown Rust and Yellow Rust images are then treated as anomalous examples. This design avoids teaching the autoencoder to reconstruct diseases as normal.
@@ -113,6 +123,7 @@ app.py
 src/
 ├── audit_dataset.py
 ├── data.py
+├── gradcam.py
 ├── evaluate.py
 ├── model.py
 ├── train_anomaly.py
