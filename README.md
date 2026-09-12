@@ -1,6 +1,3 @@
-# Wheat Rust AI Detection
-
-An applied computer-vision project for classifying wheat-leaf images as **Healthy**, **Brown Rust**, or **Yellow Rust**, with a complementary anomaly-detection experiment trained only on healthy leaves.
 
 # Wheat Rust AI Detection
 
