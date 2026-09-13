@@ -8,7 +8,13 @@ SEED = 42
 EXPECTED_CLASSES = ["Brown_rust", "Healthy", "Yellow_rust"]
 
 
-def load_split(directory: Path, *, shuffle: bool, batch_size: int = BATCH_SIZE):
+def load_split(
+    directory: Path,
+    *,
+    shuffle: bool,
+    batch_size: int = BATCH_SIZE,
+    return_paths: bool = False,
+):
     """Load one class-folder image split with deterministic class ordering."""
     if not directory.is_dir():
         raise FileNotFoundError(f"Dataset directory not found: {directory}")
@@ -23,7 +29,13 @@ def load_split(directory: Path, *, shuffle: bool, batch_size: int = BATCH_SIZE):
         shuffle=shuffle,
         seed=SEED if shuffle else None,
     )
-    return dataset.prefetch(tf.data.AUTOTUNE)
+    file_paths = list(dataset.file_paths)
+    dataset = dataset.prefetch(tf.data.AUTOTUNE)
+
+    if return_paths:
+        return dataset, file_paths
+
+    return dataset
 
 
 def load_train_and_validation(data_dir: Path, batch_size: int = BATCH_SIZE):

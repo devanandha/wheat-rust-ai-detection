@@ -1,6 +1,11 @@
+import argparse
+from pathlib import Path
+
 import numpy as np
 import tensorflow as tf
 from PIL import Image
+
+from .data import IMAGE_SIZE
 
 
 def _find_mobilenet(model: tf.keras.Model) -> tf.keras.Model:
@@ -181,3 +186,46 @@ def heatmap_to_image(
     rgb = np.stack([red, green, blue], axis=-1).astype(np.uint8)
 
     return Image.fromarray(rgb)
+
+def main():
+    parser = argparse.ArgumentParser(description="Generate Grad-CAM visualisation.")
+    parser.add_argument("--image", type=Path, required=True)
+    parser.add_argument("--model", type=Path, required=True)
+    parser.add_argument("--output", type=Path, required=True)
+    args = parser.parse_args()
+
+    model = tf.keras.models.load_model(args.model)
+
+    image = Image.open(args.image).convert("RGB")
+
+    image_array = tf.keras.utils.load_img(
+        args.image,
+        target_size=IMAGE_SIZE,
+        interpolation="bilinear",
+    )
+
+    image_array = tf.keras.utils.img_to_array(image_array)
+    image_batch = np.expand_dims(image_array, axis=0)
+
+    probabilities = model.predict(image_batch, verbose=0)
+    predicted_index = int(np.argmax(probabilities[0]))
+    confidence = float(probabilities[0][predicted_index])
+
+    heatmap = make_gradcam_heatmap(
+        model,
+        image_batch,
+        class_index=predicted_index,
+    )
+
+    overlay = overlay_heatmap(image, heatmap)
+
+    args.output.parent.mkdir(parents=True, exist_ok=True)
+    overlay.save(args.output)
+
+    print(f"Predicted class index: {predicted_index}")
+    print(f"Confidence: {confidence:.6f}")
+    print(f"Saved Grad-CAM overlay to: {args.output}")
+
+
+if __name__ == "__main__":
+    main()
