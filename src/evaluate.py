@@ -12,12 +12,18 @@ from sklearn.metrics import classification_report, confusion_matrix
 from .data import EXPECTED_CLASSES, load_split
 
 
-def evaluate(data_dir: Path, model_path: Path, output_dir: Path):
+def evaluate(
+    data_dir: Path,
+    model_path: Path,
+    output_dir: Path,
+    batch_size: int = 32,
+):
     output_dir.mkdir(parents=True, exist_ok=True)
 
     validation, image_paths = load_split(
         data_dir / "val",
         shuffle=False,
+        batch_size=batch_size,
         return_paths=True,
     )
 
