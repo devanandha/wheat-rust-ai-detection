@@ -8,10 +8,19 @@ from .data import load_train_and_validation
 from .model import build_classifier
 
 
-def train(data_dir: Path, model_path: Path, output_dir: Path, epochs: int, batch_size: int):
+def train(
+    data_dir: Path,
+    model_path: Path,
+    output_dir: Path,
+    epochs: int,
+    batch_size: int,
+    architecture: str,
+):
     tf.keras.utils.set_random_seed(42)
     train_data, validation_data = load_train_and_validation(data_dir, batch_size)
-    model = build_classifier()
+    model = build_classifier(
+        architecture=architecture,
+    )
 
     model_path.parent.mkdir(parents=True, exist_ok=True)
     output_dir.mkdir(parents=True, exist_ok=True)
@@ -39,10 +48,21 @@ def parse_args():
     parser.add_argument("--output-dir", type=Path, default=Path("outputs/classifier"))
     parser.add_argument("--epochs", type=int, default=10)
     parser.add_argument("--batch-size", type=int, default=32)
+    parser.add_argument(
+        "--architecture",
+        choices=["mobilenetv2", "efficientnetb0", "resnet50"],
+        default="mobilenetv2",
+    )
     return parser.parse_args()
 
 
 if __name__ == "__main__":
     args = parse_args()
-    train(args.data_dir, args.model, args.output_dir, args.epochs, args.batch_size)
-
+    train(
+        args.data_dir,
+        args.model,
+        args.output_dir,
+        args.epochs,
+        args.batch_size,
+        args.architecture,
+    )
