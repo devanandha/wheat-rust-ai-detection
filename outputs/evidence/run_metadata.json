@@ -1,0 +1,32 @@
+{
+  "generated_at_utc": "2026-09-16T13:02:44.802234+00:00",
+  "purpose": "manuscript evidence generation and reproducibility snapshot",
+  "git_commit": "0b46038705b6a517c76720110ad4d06352082c46",
+  "python_version": "3.12.0 (tags/v3.12.0:0fb18b0, Oct  2 2023, 13:03:39) [MSC v.1935 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "package_versions": {
+    "tensorflow": "2.18.1",
+    "numpy": "2.0.2",
+    "pandas": "2.3.3",
+    "Pillow": "11.3.0",
+    "scikit-learn": "1.9.1",
+    "ImageHash": "4.3.2"
+  },
+  "model_sha256": {
+    "healthy_autoencoder_v2.keras": "5e70474d1783a042b5094eedea8fdccef753ff898f6e8b46c2c04e0c9e17fc96",
+    "wheat_rust_efficientnetb0.keras": "7e9fb11213c7dad4aaa0dbd4ba057fa1f29050ab35d9f5636dbb1e4e3eaa09a9",
+    "wheat_rust_mobilenetv2.keras": "2c18f6061bd3f26427bdb05d21ea1b3bd85fc82f92596194c3e36f6b2c1513e4",
+    "wheat_rust_resnet50.keras": "6398d89d706ebdb1806012a79f60d617a79e12a772c4b3d519424c0c2cbd13b1"
+  },
+  "parameters": {
+    "classes": [
+      "Brown_rust",
+      "Healthy",
+      "Yellow_rust"
+    ],
+    "phash_threshold": 5,
+    "original_image_count": 3679,
+    "external_image_count": 489
+  },
+  "scope_note": "This records the evidence-generation environment. Historical training hardware and package versions were not retrospectively inferred."
+}

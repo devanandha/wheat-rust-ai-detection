@@ -1,0 +1,4423 @@
+{
+  "dataset": "Wheat Disease Dataset - Small",
+  "source_doi": "10.5281/zenodo.7307816",
+  "included_classes": [
+    "Brown_rust",
+    "Healthy",
+    "Yellow_rust"
+  ],
+  "excluded_classes": [
+    "Mildew",
+    "Septoria"
+  ],
+  "counts": {
+    "Brown_rust": 128,
+    "Healthy": 122,
+    "Yellow_rust": 239
+  },
+  "total_images": 489,
+  "corrupt_files": [],
+  "files": [
+    {
+      "class": "Brown_rust",
+      "relative_path": "Brown_rust/BrownRust1018.png",
+      "sha256": "1c2b7fffb1967ab81e8924ed7a38a91ee4d12007834aa9e013a147524e64b332",
+      "phash": "91c7e40db8f20cf9",
+      "width": 567,
+      "height": 756,
+      "size_bytes": 851038
+    },
+    {
+      "class": "Brown_rust",
+      "relative_path": "Brown_rust/BrownRust1055.png",
+      "sha256": "47d691f74a885c561e7e966387b45b994e6769a199aebffb2b254216dd06c1a8",
+      "phash": "c48687eb40abeaf2",
+      "width": 567,
+      "height": 756,
+      "size_bytes": 923601
+    },
+    {
+      "class": "Brown_rust",
+      "relative_path": "Brown_rust/BrownRust107.png",
+      "sha256": "6045a625f3a322e0080db5350c0863a9db067c7a7904e5ffc09b7fec2f275405",
+      "phash": "eebf03f31ee31800",
+      "width": 567,
+      "height": 756,
+      "size_bytes": 983292
+    },
+    {
+      "class": "Brown_rust",
+      "relative_path": "Brown_rust/BrownRust1080.png",
+      "sha256": "d1fbb7b5f6a1e3bec66843ca6efc111e5edf03e2685ad71d4057f43ec37916d6",
+      "phash": "b4e8d24796f4a986",
+      "width": 567,
+      "height": 756,
+      "size_bytes": 904372
+    },
+    {
+      "class": "Brown_rust",
+      "relative_path": "Brown_rust/BrownRust1119.png",
+      "sha256": "a80bc6fade990fd4c5baf1fb529903087f7d396d9e0bac868b4b62238f017e30",
+      "phash": "af8724beb11dd045",
+      "width": 709,
+      "height": 1260,
+      "size_bytes": 1795682
+    },
+    {
+      "class": "Brown_rust",
+      "relative_path": "Brown_rust/BrownRust1138.png",
+      "sha256": "104fc9bc1edae118649442eea474c37740a258084a8ea2fd0e156970ca183672",
+      "phash": "82555437ae7c43f4",
+      "width": 567,
+      "height": 1008,
+      "size_bytes": 1145523
+    },
+    {
+      "class": "Brown_rust",
+      "relative_path": "Brown_rust/BrownRust1147.png",
+      "sha256": "6630699d1eac7003796c05e35fdcd5787a23288a91fbd369f631ee7cfdd4243f",
+      "phash": "b3574d915be32a48",
+      "width": 567,
+      "height": 1008,
+      "size_bytes": 1087284
+    },
+    {
+      "class": "Brown_rust",
+      "relative_path": "Brown_rust/BrownRust1166.png",
+      "sha256": "6883e62445513f71ea8a828c959a7f3d158ec7b2bd3e6f556e9c844a3574b126",
+      "phash": "f283f1bd2d710a43",
+      "width": 567,
+      "height": 1008,
+      "size_bytes": 1085748
+    },
+    {
+      "class": "Brown_rust",
+      "relative_path": "Brown_rust/BrownRust1206.png",
+      "sha256": "0021b291f9bda69e6d2412864d02032060f8cc8fea37cba7dcf48eae56b4d1cd",
+      "phash": "f96707bc05631c36",
+      "width": 567,
+      "height": 1008,
+      "size_bytes": 1029675
+    },
+    {
+      "class": "Brown_rust",
+      "relative_path": "Brown_rust/BrownRust1215.png",
+      "sha256": "11538716a2a7071370a43a0badabaef496eeabf1aed88d823fec50aa3ea9b967",
+      "phash": "98d91b6216d57bc2",
+      "width": 567,
+      "height": 1008,
+      "size_bytes": 1040693
+    },
+    {
+      "class": "Brown_rust",
+      "relative_path": "Brown_rust/BrownRust1238.png",
+      "sha256": "c42cb1a5b8c2d53237bbb4f23813f87bfd2715304f6993d9186aa69b488deac9",
+      "phash": "d0931856c7e17d0f",
+      "width": 567,
+      "height": 1008,
+      "size_bytes": 1108737
+    },
+    {
+      "class": "Brown_rust",
+      "relative_path": "Brown_rust/BrownRust1248.png",
+      "sha256": "755c0604496b78f3cf9c005e1b1b3a682e31452182b8b4504533859e04f3ea50",
+      "phash": "c77001e394b76b78",
+      "width": 567,
+      "height": 1008,
+      "size_bytes": 1053138
+    },
+    {
+      "class": "Brown_rust",
+      "relative_path": "Brown_rust/BrownRust1261.png",
+      "sha256": "1fb4e50940cb46dc94594787b7240e473a6c3e96f2a87cacb9997a499b1f9f42",
+      "phash": "b0d6b61e50b4067f",
+      "width": 567,
+      "height": 1008,
+      "size_bytes": 1173066
+    },
+    {
+      "class": "Brown_rust",
+      "relative_path": "Brown_rust/BrownRust1279.png",
+      "sha256": "fe085bbea44b44857edbda33746ab3131e8271d71688c799a5c691d798efb18e",
+      "phash": "be0b20ec3115f3b5",
+      "width": 567,
+      "height": 1008,
+      "size_bytes": 1158892
+    },
+    {
+      "class": "Brown_rust",
+      "relative_path": "Brown_rust/BrownRust1301.png",
+      "sha256": "d8f074bf2d203f38d455421f5b4fb48cd84e33762cff7889e66976527ea60577",
+      "phash": "c625905fc371cd1b",
+      "width": 567,
+      "height": 319,
+      "size_bytes": 421436
+    },
+    {
+      "class": "Brown_rust",
+      "relative_path": "Brown_rust/BrownRust1317.png",
+      "sha256": "c83926fac20f523bd7ef2cebad35eb47bf62e0aeaa04bc48e4bad1567192abc2",
+      "phash": "e40cf9d02f9a6687",
+      "width": 567,
+      "height": 1008,
+      "size_bytes": 1064963
+    },
+    {
+      "class": "Brown_rust",
+      "relative_path": "Brown_rust/BrownRust1325.png",
+      "sha256": "2572ef096b186f61ea48b94f79713f6c96d3e014977d643382daec047bc3ee0e",
+      "phash": "931adec6678361e8",
+      "width": 567,
+      "height": 1008,
+      "size_bytes": 1069332
+    },
+    {
+      "class": "Brown_rust",
+      "relative_path": "Brown_rust/BrownRust1339.png",
+      "sha256": "ab7ee71fc7bff5b77d09cac5e34ca1d96b9a1315f36e569d048dfadf0c6dc84d",
+      "phash": "a815e98d897aaec5",
+      "width": 567,
+      "height": 1008,
+      "size_bytes": 1004394
+    },
+    {
+      "class": "Brown_rust",
+      "relative_path": "Brown_rust/BrownRust1353.png",
+      "sha256": "de6fa3d8e28095bf7b0e43183515c62e1786aa074d55c8abec213840d3a2357b",
+      "phash": "937391a6f2a43c6c",
+      "width": 567,
+      "height": 1008,
+      "size_bytes": 1158059
+    },
+    {
+      "class": "Brown_rust",
+      "relative_path": "Brown_rust/BrownRust1364.png",
+      "sha256": "082682842e7a1621ada8ffbe6a6449dfcd1d01b069b3e64dc6ea48becdf53455",
+      "phash": "d8ec9e625826c753",
+      "width": 709,
+      "height": 1260,
+      "size_bytes": 1770348
+    },
+    {
+      "class": "Brown_rust",
+      "relative_path": "Brown_rust/BrownRust1377.png",
+      "sha256": "d020057bfc5f2ea9802e43a96090c1504169cd6ea45ff992552b8ec07330d484",
+      "phash": "8d6d1d3d20d697c1",
+      "width": 567,
+      "height": 1008,
+      "size_bytes": 1021848
+    },
+    {
+      "class": "Brown_rust",
+      "relative_path": "Brown_rust/BrownRust1393.png",
+      "sha256": "349f2849fe5ac157878d4e9494001babb49ed9db22d06e9a5b489e577d0cf1af",
+      "phash": "8dbf4dd8a5a90255",
+      "width": 567,
+      "height": 756,
+      "size_bytes": 920359
+    },
+    {
+      "class": "Brown_rust",
+      "relative_path": "Brown_rust/BrownRust141.png",
+      "sha256": "428050d4d3e7e219c6f9060bc3d43fe84ac2342b57cc8a94d548a8e95ee595bc",
+      "phash": "8e51d7dcaa835453",
+      "width": 567,
+      "height": 756,
+      "size_bytes": 982315
+    },
+    {
+      "class": "Brown_rust",
+      "relative_path": "Brown_rust/BrownRust1432.png",
+      "sha256": "3559db9a04e968fd02e9a49316ad65e395567e33069e0b36d2a3f5b955c0b6be",
+      "phash": "acdbd3ec54a140e5",
+      "width": 567,
+      "height": 756,
+      "size_bytes": 954086
+    },
+    {
+      "class": "Brown_rust",
+      "relative_path": "Brown_rust/BrownRust145.png",
+      "sha256": "1a4b54304a4d7f415d5923b0a577f5a9c654f70e59c06a53c831fd9bc73f975f",
+      "phash": "ace2f0990d46b7a5",
+      "width": 567,
+      "height": 756,
+      "size_bytes": 977272
+    },
+    {
+      "class": "Brown_rust",
+      "relative_path": "Brown_rust/BrownRust1470.png",
+      "sha256": "052c674021dc079ad8609d2007af5d021308bd5c92fef8d46eb3be193b6a9af3",
+      "phash": "a4e09bd78788c5f8",
+      "width": 567,
+      "height": 756,
+      "size_bytes": 900287
+    },
+    {
+      "class": "Brown_rust",
+      "relative_path": "Brown_rust/BrownRust1480.png",
+      "sha256": "ede835ebec04e5e130bfa7ca18ef4d5a1997be0836591ec491bbec2f10847bb2",
+      "phash": "e38334273da52f1c",
+      "width": 567,
+      "height": 756,
+      "size_bytes": 866737
+    },
+    {
+      "class": "Brown_rust",
+      "relative_path": "Brown_rust/BrownRust1506.png",
+      "sha256": "f90a839760b05abece16a35084b346a5881a2471ea81ab9921dd42f73c2cb462",
+      "phash": "9956534be1ed044f",
+      "width": 567,
+      "height": 756,
+      "size_bytes": 902470
+    },
+    {
+      "class": "Brown_rust",
+      "relative_path": "Brown_rust/BrownRust1508.png",
+      "sha256": "d2253b52263f0a27ee4520a270777beb524c7f1c94607c49de206defbcab3a58",
+      "phash": "ce3cbba78792801b",
+      "width": 567,
+      "height": 756,
+      "size_bytes": 894358
+    },
+    {
+      "class": "Brown_rust",
+      "relative_path": "Brown_rust/BrownRust1522.png",
+      "sha256": "dac40d2d2167d6fd0198b611d6bcebdba06f9cfa39cfc80251b4aa044e059942",
+      "phash": "f98d504517ad83e6",
+      "width": 567,
+      "height": 756,
+      "size_bytes": 892458
+    },
+    {
+      "class": "Brown_rust",
+      "relative_path": "Brown_rust/BrownRust156.png",
+      "sha256": "87a7c7a51fe34d22e5ace73b5c7ad72fd7e82ca07fcfd42f3c3c6f63f3862957",
+      "phash": "8c8ee6b9a7ca103d",
+      "width": 567,
+      "height": 756,
+      "size_bytes": 892812
+    },
+    {
+      "class": "Brown_rust",
+      "relative_path": "Brown_rust/BrownRust1572.png",
+      "sha256": "b4e7df63c207e9d3565c0780cba756897f804bbb0c0edaf915de3d657cab792b",
+      "phash": "c3d5ab6b00fcb708",
+      "width": 567,
+      "height": 756,
+      "size_bytes": 883905
+    },
+    {
+      "class": "Brown_rust",
+      "relative_path": "Brown_rust/BrownRust1599.png",
+      "sha256": "d93afc0aebd9d71c14475639103aa6463c21aa5139fb1453d74eed04135680f3",
+      "phash": "d633908ca4fb3c2e",
+      "width": 567,
+      "height": 756,
+      "size_bytes": 895962
+    },
+    {
+      "class": "Brown_rust",
+      "relative_path": "Brown_rust/BrownRust1614.png",
+      "sha256": "d3b3099c587350808daed58c7bc78cde59b3ef8ebd6d1f7019c4053a44dd10ba",
+      "phash": "fc7f62d35e841481",
+      "width": 567,
+      "height": 756,
+      "size_bytes": 866029
+    },
+    {
+      "class": "Brown_rust",
+      "relative_path": "Brown_rust/BrownRust1647.png",
+      "sha256": "8696e5ade4e35c12329d15867bdbea03352278d06da4f57415d228402cbc0805",
+      "phash": "992a3cf263a7f211",
+      "width": 567,
+      "height": 756,
+      "size_bytes": 855330
+    },
+    {
+      "class": "Brown_rust",
+      "relative_path": "Brown_rust/BrownRust1655.png",
+      "sha256": "f8e702fd6f4748098f62ca3581955a8e41e1008150405488fe035b83737d526f",
+      "phash": "8d1c31b7f6481ed4",
+      "width": 567,
+      "height": 756,
+      "size_bytes": 898107
+    },
+    {
+      "class": "Brown_rust",
+      "relative_path": "Brown_rust/BrownRust1663.png",
+      "sha256": "fc67e6ef12c8711c0a92f89d49df1781cc7b6781783ecdb4d31ae2b7b7bcabc5",
+      "phash": "8f83f8d884ad9933",
+      "width": 567,
+      "height": 756,
+      "size_bytes": 818048
+    },
+    {
+      "class": "Brown_rust",
+      "relative_path": "Brown_rust/BrownRust1682.png",
+      "sha256": "feecbd93a5dd2d9b900c11f367dedda268c237336f91fc0f02b48bdefacdf9e8",
+      "phash": "8e4ef3c31932e307",
+      "width": 567,
+      "height": 756,
+      "size_bytes": 874824
+    },
+    {
+      "class": "Brown_rust",
+      "relative_path": "Brown_rust/BrownRust1696.png",
+      "sha256": "cc62bf564ba38f5af4e4c54845029424a2b63fc97f7ece5a4bfda6e79277797b",
+      "phash": "864727cddec23a32",
+      "width": 567,
+      "height": 756,
+      "size_bytes": 887043
+    },
+    {
+      "class": "Brown_rust",
+      "relative_path": "Brown_rust/BrownRust1704.png",
+      "sha256": "b1167aee3dec94f3a47d91a2ff7eed0ead75bb99778f0792fb61e2ee3cefb134",
+      "phash": "9c88b6e3d73005d7",
+      "width": 567,
+      "height": 756,
+      "size_bytes": 865077
+    },
+    {
+      "class": "Brown_rust",
+      "relative_path": "Brown_rust/BrownRust1719.png",
+      "sha256": "a468f31468f90d98647f78595bfc57fa4b0e095ce63718966271f156f021b70c",
+      "phash": "a26c8cccb0f0af5b",
+      "width": 567,
+      "height": 756,
+      "size_bytes": 853908
+    },
+    {
+      "class": "Brown_rust",
+      "relative_path": "Brown_rust/BrownRust173.png",
+      "sha256": "48c232c3f528a2fb118e33c840cbb7992d2b90b4b72b73188e707014c2e8bbca",
+      "phash": "f3248bd84a9b68d6",
+      "width": 567,
+      "height": 756,
+      "size_bytes": 807276
+    },
+    {
+      "class": "Brown_rust",
+      "relative_path": "Brown_rust/BrownRust174.png",
+      "sha256": "7db55a548f806af9a47142dc0702acda864650d2e2609952405db069730032d1",
+      "phash": "8c8c17546273dee6",
+      "width": 567,
+      "height": 756,
+      "size_bytes": 879675
+    },
+    {
+      "class": "Brown_rust",
+      "relative_path": "Brown_rust/BrownRust1772.png",
+      "sha256": "873dcafb6b38854ddc5a62138499ef1f42af6b2c1ecf8039889777eb593d01ae",
+      "phash": "f93367a48b04bd45",
+      "width": 567,
+      "height": 756,
+      "size_bytes": 896829
+    },
+    {
+      "class": "Brown_rust",
+      "relative_path": "Brown_rust/BrownRust1795.png",
+      "sha256": "bebbf19b9a7c6909d715b3a49ee1b6fdd9f8f37fa9845eb92373e2c0d1d1139d",
+      "phash": "bfc0f5cc34c4f482",
+      "width": 567,
+      "height": 756,
+      "size_bytes": 922732
+    },
+    {
+      "class": "Brown_rust",
+      "relative_path": "Brown_rust/BrownRust1812.png",
+      "sha256": "efdd86e684801157b2e49db6c7d620a3a03a79f2818361e5e5386c985f1d2927",
+      "phash": "8c07b7f3c18ae4e2",
+      "width": 567,
+      "height": 756,
+      "size_bytes": 859127
+    },
+    {
+      "class": "Brown_rust",
+      "relative_path": "Brown_rust/BrownRust1814.png",
+      "sha256": "5d40fbf25d45a1331e035200ed031c534c9d540c04372b9339ca4f156be96454",
+      "phash": "f0753d950d29893b",
+      "width": 567,
+      "height": 756,
+      "size_bytes": 852847
+    },
+    {
+      "class": "Brown_rust",
+      "relative_path": "Brown_rust/BrownRust1823.png",
+      "sha256": "10c865f2fc896eda39b13d852f1b21de4cb0b06e46509f527e74f6a1a93faff0",
+      "phash": "c4b181e32e4af25f",
+      "width": 567,
+      "height": 756,
+      "size_bytes": 866524
+    },
+    {
+      "class": "Brown_rust",
+      "relative_path": "Brown_rust/BrownRust1840.png",
+      "sha256": "0abe0573a650a7040613cfea0d1686b5d3e1767e5f8ebc609743c41dead26a83",
+      "phash": "9a58b2b6ac09b4bd",
+      "width": 567,
+      "height": 756,
+      "size_bytes": 876408
+    },
+    {
+      "class": "Brown_rust",
+      "relative_path": "Brown_rust/BrownRust1856.png",
+      "sha256": "dfedfb84af307a60371fa44b30593fa13032dab9c68c465acb75c67ee9b1d0dd",
+      "phash": "db49dd1c8c1738e8",
+      "width": 567,
+      "height": 756,
+      "size_bytes": 903524
+    },
+    {
+      "class": "Brown_rust",
+      "relative_path": "Brown_rust/BrownRust1888.png",
+      "sha256": "5246a9a04e0e47f34fe08121e1d0d2851ddc43d267fb28d8986ed783bc578e8a",
+      "phash": "d9580662d735227f",
+      "width": 567,
+      "height": 756,
+      "size_bytes": 858691
+    },
+    {
+      "class": "Brown_rust",
+      "relative_path": "Brown_rust/BrownRust1889.png",
+      "sha256": "06feeae38d09a2519ab3b2a75d0b522d821f30f38352a2349f0425798e546ebc",
+      "phash": "cc4c0da24a7efd0d",
+      "width": 567,
+      "height": 756,
+      "size_bytes": 887754
+    },
+    {
+      "class": "Brown_rust",
+      "relative_path": "Brown_rust/BrownRust1920.png",
+      "sha256": "81730b468a5ba9ab058e381fc13293d5be2c922ccb01e8660c71c9002efc6119",
+      "phash": "8ca7b9ac979272c2",
+      "width": 567,
+      "height": 756,
+      "size_bytes": 880335
+    },
+    {
+      "class": "Brown_rust",
+      "relative_path": "Brown_rust/BrownRust1935.png",
+      "sha256": "d7c49bea2fcf208b2711015932ebb5940e800106f1fb724f3c1985e90a911e53",
+      "phash": "b575a5b5d20c6ac8",
+      "width": 567,
+      "height": 756,
+      "size_bytes": 856818
+    },
+    {
+      "class": "Brown_rust",
+      "relative_path": "Brown_rust/BrownRust1953.png",
+      "sha256": "4f4a870052556b5961763a35875775bf5a289e81a901ef52da27a4d89b2c7cee",
+      "phash": "f46ab596c990546b",
+      "width": 567,
+      "height": 756,
+      "size_bytes": 855460
+    },
+    {
+      "class": "Brown_rust",
+      "relative_path": "Brown_rust/BrownRust1997.png",
+      "sha256": "980140a9a516ea7a7cb92a3f34640486162eb17b3dff06d42bfca9b542424b5c",
+      "phash": "be0602fcd907f9c1",
+      "width": 567,
+      "height": 756,
+      "size_bytes": 883798
+    },
+    {
+      "class": "Brown_rust",
+      "relative_path": "Brown_rust/BrownRust2002.png",
+      "sha256": "c33299c6234bfdc23728ff4d073450c73210f19b14aed483d3c71ed5f0153128",
+      "phash": "de14a159a255b5ad",
+      "width": 567,
+      "height": 756,
+      "size_bytes": 824799
+    },
+    {
+      "class": "Brown_rust",
+      "relative_path": "Brown_rust/BrownRust2038.png",
+      "sha256": "d7a189ae4884f2bf6302b078cb05aa36b51fa263139fa1070ed6f39f2cfe1771",
+      "phash": "f75b32229999b720",
+      "width": 709,
+      "height": 1260,
+      "size_bytes": 1953305
+    },
+    {
+      "class": "Brown_rust",
+      "relative_path": "Brown_rust/BrownRust2062.png",
+      "sha256": "849498c350b902108a8eb5c35f3074abd5fd8aa0be809c315014b70ab4afccf7",
+      "phash": "876d3da8d0a33ec2",
+      "width": 567,
+      "height": 1008,
+      "size_bytes": 1166222
+    },
+    {
+      "class": "Brown_rust",
+      "relative_path": "Brown_rust/BrownRust2075.png",
+      "sha256": "46fb2468e554c65ef03efa73db4aec6c6bea0d4a4e23b4550a1a034a38bca91b",
+      "phash": "ea40f93ca2b2578d",
+      "width": 709,
+      "height": 1260,
+      "size_bytes": 2172048
+    },
+    {
+      "class": "Brown_rust",
+      "relative_path": "Brown_rust/BrownRust2092.png",
+      "sha256": "bea748b6df1fc60be6cbf7c7f2682915bc1b1e450f0de34709d781d05d3d3466",
+      "phash": "d26f1a720ee1350f",
+      "width": 567,
+      "height": 1008,
+      "size_bytes": 1169594
+    },
+    {
+      "class": "Brown_rust",
+      "relative_path": "Brown_rust/BrownRust2110.png",
+      "sha256": "560abf9f8f3066a71db29745a51feecd6690140d648f081f376b3a409325edb2",
+      "phash": "9b6f9c6289304eb3",
+      "width": 567,
+      "height": 1008,
+      "size_bytes": 1118940
+    },
+    {
+      "class": "Brown_rust",
+      "relative_path": "Brown_rust/BrownRust2130.png",
+      "sha256": "e59ab9dd95e0c782b3409c5f966880d0382ce944827792689f7f92a143893975",
+      "phash": "cf0dfc2746895199",
+      "width": 709,
+      "height": 1260,
+      "size_bytes": 1937783
+    },
+    {
+      "class": "Brown_rust",
+      "relative_path": "Brown_rust/BrownRust2151.png",
+      "sha256": "3a0e2e2369a8e74d3d95709d208f83a3bb3e924c5b5cf7daa80fda5dbc9b4ca3",
+      "phash": "8184b7c961e54d9f",
+      "width": 567,
+      "height": 1008,
+      "size_bytes": 1003958
+    },
+    {
+      "class": "Brown_rust",
+      "relative_path": "Brown_rust/BrownRust2167.png",
+      "sha256": "21dd88feee6d4e379cf954adec92b167095f489ad898f035e559db9fb415ba95",
+      "phash": "fdeb490c64b29b88",
+      "width": 709,
+      "height": 1260,
+      "size_bytes": 1942866
+    },
+    {
+      "class": "Brown_rust",
+      "relative_path": "Brown_rust/BrownRust2179.png",
+      "sha256": "64635770ba05f3e358c9dd2fabaa2cb3bec152759e9ebbafd2fa5d99a011f76a",
+      "phash": "9c2cf203a5b6477c",
+      "width": 709,
+      "height": 1260,
+      "size_bytes": 1770283
+    },
+    {
+      "class": "Brown_rust",
+      "relative_path": "Brown_rust/BrownRust2213.png",
+      "sha256": "0e1f6905b1293df7977dc2ec8db2e0dce79c9973e97c80c3930e6bf80a79cd81",
+      "phash": "ed1dca34cc2ea1d1",
+      "width": 567,
+      "height": 1008,
+      "size_bytes": 1197870
+    },
+    {
+      "class": "Brown_rust",
+      "relative_path": "Brown_rust/BrownRust2220.png",
+      "sha256": "df15edd260e04d4adac92340b103b2e5313af5071925643f62c863925e800edc",
+      "phash": "93250d3a71c87f95",
+      "width": 567,
+      "height": 1008,
+      "size_bytes": 1124016
+    },
+    {
+      "class": "Brown_rust",
+      "relative_path": "Brown_rust/BrownRust2245.png",
+      "sha256": "38675f4a1d7d63331bbfdf2fec389abda5c0cc52cad1f1fa67f1ab4fc9507520",
+      "phash": "fc803fd8f1c80de1",
+      "width": 567,
+      "height": 1008,
+      "size_bytes": 1158985
+    },
+    {
+      "class": "Brown_rust",
+      "relative_path": "Brown_rust/BrownRust2288.png",
+      "sha256": "3d5f28cfcaf94543d7476a86fd7b8da79dd245937076675b459e9ffc23fd540b",
+      "phash": "aa0de0d41ce33ec7",
+      "width": 567,
+      "height": 1008,
+      "size_bytes": 1132353
+    },
+    {
+      "class": "Brown_rust",
+      "relative_path": "Brown_rust/BrownRust2301.png",
+      "sha256": "ee40f853092e1f70cf6606f6c4373c6ffa4cc8cb1f7088f629c99c7af91c4853",
+      "phash": "cf140ffb815374a8",
+      "width": 709,
+      "height": 1260,
+      "size_bytes": 1818864
+    },
+    {
+      "class": "Brown_rust",
+      "relative_path": "Brown_rust/BrownRust2318.png",
+      "sha256": "f902c34daa0c8e4c378c2e001ae60953897aaacbb8464f754317d075f3e4f3cd",
+      "phash": "8fc02cd0e7c8b45f",
+      "width": 567,
+      "height": 1008,
+      "size_bytes": 1204033
+    },
+    {
+      "class": "Brown_rust",
+      "relative_path": "Brown_rust/BrownRust2331.png",
+      "sha256": "099c502dbb5531dc7d31cc0d79801efc95bdcbd435a37114c6dc94a8816114b1",
+      "phash": "b165a91b4fae622a",
+      "width": 567,
+      "height": 1008,
+      "size_bytes": 1044000
+    },
+    {
+      "class": "Brown_rust",
+      "relative_path": "Brown_rust/BrownRust2357.png",
+      "sha256": "818cbf6bfd13e0d4ea71c45097e111bb730d290ffb10e7c7b9ab20da8448de35",
+      "phash": "f32546b54b9d0ec4",
+      "width": 567,
+      "height": 1008,
+      "size_bytes": 1090579
+    },
+    {
+      "class": "Brown_rust",
+      "relative_path": "Brown_rust/BrownRust2361.png",
+      "sha256": "32288f75146e8df6df7cf7b4ff4bcf6edebc6a4e8fcd1c60d7004a6e581ec31a",
+      "phash": "8b591bf113c7231b",
+      "width": 567,
+      "height": 1008,
+      "size_bytes": 1132536
+    },
+    {
+      "class": "Brown_rust",
+      "relative_path": "Brown_rust/BrownRust2378.png",
+      "sha256": "52144960b5eab704b2edee44368c00b6667b5f3aed9c23a7ebd995900ad5fcf4",
+      "phash": "fa19686493cead34",
+      "width": 567,
+      "height": 1008,
+      "size_bytes": 1184897
+    },
+    {
+      "class": "Brown_rust",
+      "relative_path": "Brown_rust/BrownRust2418.png",
+      "sha256": "b576630f237f309408bc2a43e12deb2601df467327b57dc897a9697b923cec98",
+      "phash": "e630ec4933d89d4e",
+      "width": 567,
+      "height": 1008,
+      "size_bytes": 1074477
+    },
+    {
+      "class": "Brown_rust",
+      "relative_path": "Brown_rust/BrownRust2431.png",
+      "sha256": "3ba65bcb4dc106cf26e5653d060cbc68efab2a66c3a3217edd2891ffa31c089c",
+      "phash": "ee16a789b906386d",
+      "width": 567,
+      "height": 1008,
+      "size_bytes": 1038204
+    },
+    {
+      "class": "Brown_rust",
+      "relative_path": "Brown_rust/BrownRust2453.png",
+      "sha256": "4b60984650e1ccc69fbe2c1fa171cba3dac1f13a3aef2c796aa7da218188111e",
+      "phash": "ce4f73fc0581970a",
+      "width": 567,
+      "height": 1008,
+      "size_bytes": 1103356
+    },
+    {
+      "class": "Brown_rust",
+      "relative_path": "Brown_rust/BrownRust2461.png",
+      "sha256": "537bf48349208c8ed11e5e2eef58c52eb9fce1bd33e2b5da90c87f0f062c1953",
+      "phash": "ad97728c51b98f44",
+      "width": 567,
+      "height": 1008,
+      "size_bytes": 1138217
+    },
+    {
+      "class": "Brown_rust",
+      "relative_path": "Brown_rust/BrownRust2485.png",
+      "sha256": "d2beabfd0c3561b5c316f5587d65b3ba97d4915638b08443bb1dc00c42de6178",
+      "phash": "db34901c9ed98d5c",
+      "width": 567,
+      "height": 1008,
+      "size_bytes": 1200660
+    },
+    {
+      "class": "Brown_rust",
+      "relative_path": "Brown_rust/BrownRust257.png",
+      "sha256": "7626db5ca35104f1dae3778be26e2e843c7337e649ddf82b7730c8e949447d0a",
+      "phash": "b3b1411a266f5eac",
+      "width": 567,
+      "height": 756,
+      "size_bytes": 815645
+    },
+    {
+      "class": "Brown_rust",
+      "relative_path": "Brown_rust/BrownRust288.png",
+      "sha256": "1fe561306f1881e4fcd3266855f1799cd5bf2b56e98c756b9d345dafd6b8292a",
+      "phash": "e989d147b133a6a9",
+      "width": 567,
+      "height": 756,
+      "size_bytes": 942705
+    },
+    {
+      "class": "Brown_rust",
+      "relative_path": "Brown_rust/BrownRust298.png",
+      "sha256": "112bb8da246adfde771469f94c687ec54bdbae5753002558845d5bf57338b824",
+      "phash": "96d0b64594e5d1ae",
+      "width": 567,
+      "height": 756,
+      "size_bytes": 879994
+    },
+    {
+      "class": "Brown_rust",
+      "relative_path": "Brown_rust/BrownRust324.png",
+      "sha256": "c75e90e4bad9fcbf8f637d87063cb778ed05e4f6576d25e4d3e36db3bd40b620",
+      "phash": "b3a6f30986e1c54e",
+      "width": 567,
+      "height": 756,
+      "size_bytes": 806890
+    },
+    {
+      "class": "Brown_rust",
+      "relative_path": "Brown_rust/BrownRust335.png",
+      "sha256": "6717f08e14371184f1ae037fc72b0bebd51f2008cfbb0df5ab0dd7bf17f470f4",
+      "phash": "bed862f0f8e206c5",
+      "width": 567,
+      "height": 756,
+      "size_bytes": 850403
+    },
+    {
+      "class": "Brown_rust",
+      "relative_path": "Brown_rust/BrownRust348.png",
+      "sha256": "f5f46d942bf745bcc631da880192364cc04c3d86462d5bbb7f5b8325adba946d",
+      "phash": "90c2c6f40d69fb2b",
+      "width": 567,
+      "height": 756,
+      "size_bytes": 894048
+    },
+    {
+      "class": "Brown_rust",
+      "relative_path": "Brown_rust/BrownRust356.png",
+      "sha256": "47069b209bac436a05b00930eaad42eec882226b23a4b9aaaa84ad8885a3f00f",
+      "phash": "96f0858dfb24238f",
+      "width": 567,
+      "height": 756,
+      "size_bytes": 752363
+    },
+    {
+      "class": "Brown_rust",
+      "relative_path": "Brown_rust/BrownRust360.png",
+      "sha256": "d68c7b806fee5cbb473e764e327323b3836e9962281772c4e01250dab62b9b4b",
+      "phash": "b4aa85923dc6738b",
+      "width": 567,
+      "height": 756,
+      "size_bytes": 917347
+    },
+    {
+      "class": "Brown_rust",
+      "relative_path": "Brown_rust/BrownRust398.png",
+      "sha256": "6109b0020de3ba24b9258f471de338cefa54687b5cc1cb97a992ad6f383196ee",
+      "phash": "e85a32c4797907ec",
+      "width": 567,
+      "height": 756,
+      "size_bytes": 896369
+    },
+    {
+      "class": "Brown_rust",
+      "relative_path": "Brown_rust/BrownRust407.png",
+      "sha256": "a11c2adf8bb3405284d17ebb3ef0282126b69217c3ddc2593daf9542bc930300",
+      "phash": "f531985ecf0989c9",
+      "width": 567,
+      "height": 756,
+      "size_bytes": 855817
+    },
+    {
+      "class": "Brown_rust",
+      "relative_path": "Brown_rust/BrownRust429.png",
+      "sha256": "80a804730d8f889baa412b0041b4da558b2049400cf34ea01d8802b5a0bba7b0",
+      "phash": "a12fbe18b0c1f3c6",
+      "width": 567,
+      "height": 756,
+      "size_bytes": 930305
+    },
+    {
+      "class": "Brown_rust",
+      "relative_path": "Brown_rust/BrownRust442.png",
+      "sha256": "64eeeaac85a496be262e56d4e43a0d4f8c80f21dc859c7e5f3a6464f6e06e148",
+      "phash": "bf096431df8c924b",
+      "width": 567,
+      "height": 756,
+      "size_bytes": 885582
+    },
+    {
+      "class": "Brown_rust",
+      "relative_path": "Brown_rust/BrownRust476.png",
+      "sha256": "2f864861e96213bdcd1993dfc8304359acb14a4cd8b59908b1130553551e38f5",
+      "phash": "f67ee09684a243da",
+      "width": 567,
+      "height": 756,
+      "size_bytes": 900138
+    },
+    {
+      "class": "Brown_rust",
+      "relative_path": "Brown_rust/BrownRust501.png",
+      "sha256": "e4a0bcd99740d19683f8e29a273b4fd66895a359d21a1a462e6c9dd50eed3455",
+      "phash": "bde4b99854960ad5",
+      "width": 567,
+      "height": 756,
+      "size_bytes": 890420
+    },
+    {
+      "class": "Brown_rust",
+      "relative_path": "Brown_rust/BrownRust511.png",
+      "sha256": "52a66415319b99b6a5e394fc86bdec067a5fc03b79f47e03b8a25026b00f2c3b",
+      "phash": "b944cc966a9372b5",
+      "width": 567,
+      "height": 756,
+      "size_bytes": 810611
+    },
+    {
+      "class": "Brown_rust",
+      "relative_path": "Brown_rust/BrownRust523.png",
+      "sha256": "10323a40e9637c761ea8741978ed8434f1a85fb3d87b2d226c83d510110aba62",
+      "phash": "b127e98adab20e5a",
+      "width": 567,
+      "height": 756,
+      "size_bytes": 872450
+    },
+    {
+      "class": "Brown_rust",
+      "relative_path": "Brown_rust/BrownRust550.png",
+      "sha256": "4093cca574e2a919626129db001be073778e3442662eb8409d42df3894880ad7",
+      "phash": "9ca3e5c9d3a5849a",
+      "width": 567,
+      "height": 756,
+      "size_bytes": 841517
+    },
+    {
+      "class": "Brown_rust",
+      "relative_path": "Brown_rust/BrownRust592.png",
+      "sha256": "0c873a2686b96bfe5b41bcd6590143c1492e13f751a5b9cd285defa3e8c6ba4c",
+      "phash": "9f911b1d0cc7d07c",
+      "width": 567,
+      "height": 756,
+      "size_bytes": 781231
+    },
+    {
+      "class": "Brown_rust",
+      "relative_path": "Brown_rust/BrownRust604.png",
+      "sha256": "5ce587152df94a74a3ca7c33ff2d39be78690ca98f63311450fd277f3d573000",
+      "phash": "ec6bc12cced818f4",
+      "width": 567,
+      "height": 756,
+      "size_bytes": 888078
+    },
+    {
+      "class": "Brown_rust",
+      "relative_path": "Brown_rust/BrownRust622.png",
+      "sha256": "bab30c77da037c8619a2b2a2786fb17a859ea3b7957f9f71904e37d3c40ade0a",
+      "phash": "ec08a6d2bef20f16",
+      "width": 567,
+      "height": 756,
+      "size_bytes": 779855
+    },
+    {
+      "class": "Brown_rust",
+      "relative_path": "Brown_rust/BrownRust644.png",
+      "sha256": "b8d09d9f031b9fafe3d1438df171babd73e7b55477766c4a1ae29fec558d5657",
+      "phash": "d93069fba2cea093",
+      "width": 567,
+      "height": 756,
+      "size_bytes": 829420
+    },
+    {
+      "class": "Brown_rust",
+      "relative_path": "Brown_rust/BrownRust645.png",
+      "sha256": "31b4ce3a744e860ece8c3f9daf8f34d2d191ab18fbbbe3e3d0653f8873940dd1",
+      "phash": "9bf1e7d81015072f",
+      "width": 567,
+      "height": 756,
+      "size_bytes": 888537
+    },
+    {
+      "class": "Brown_rust",
+      "relative_path": "Brown_rust/BrownRust660.png",
+      "sha256": "7be45cad05ab022bbae3abd8ead7744eb0bb2682860283644f6c7761f06b0662",
+      "phash": "a4b447b9a858d6b5",
+      "width": 567,
+      "height": 756,
+      "size_bytes": 875045
+    },
+    {
+      "class": "Brown_rust",
+      "relative_path": "Brown_rust/BrownRust679.png",
+      "sha256": "6ffb1d94c53fa6e61aa1a7105cb1b1da337224a1d931bbab1d7ae2f917152546",
+      "phash": "bc83a3ccdb97a602",
+      "width": 567,
+      "height": 756,
+      "size_bytes": 833260
+    },
+    {
+      "class": "Brown_rust",
+      "relative_path": "Brown_rust/BrownRust693.png",
+      "sha256": "7c734728cd73a32b92bbe06a21b2b5def09d70dc5aaf7e49b02f197df14e0539",
+      "phash": "ee46fcd09c04daac",
+      "width": 567,
+      "height": 756,
+      "size_bytes": 808138
+    },
+    {
+      "class": "Brown_rust",
+      "relative_path": "Brown_rust/BrownRust705.png",
+      "sha256": "b7a5fed3fd9e1ac337973e9b4fc8c7dbefa49cc4374504ad6bd42845a487b1c6",
+      "phash": "c2fcf76354812971",
+      "width": 567,
+      "height": 756,
+      "size_bytes": 827302
+    },
+    {
+      "class": "Brown_rust",
+      "relative_path": "Brown_rust/BrownRust720.png",
+      "sha256": "68c94bdb75216c771d1a2be31ae52daff3e209d4b206bf12ca0c0545ef77c563",
+      "phash": "f2a25b9b39c07cc2",
+      "width": 567,
+      "height": 756,
+      "size_bytes": 844063
+    },
+    {
+      "class": "Brown_rust",
+      "relative_path": "Brown_rust/BrownRust741.png",
+      "sha256": "25e227f4391593361a87b9248f597a959bba03364e0dd8ad4a74415dcdf6cefb",
+      "phash": "ed8ac279895ab84e",
+      "width": 567,
+      "height": 756,
+      "size_bytes": 871349
+    },
+    {
+      "class": "Brown_rust",
+      "relative_path": "Brown_rust/BrownRust763.png",
+      "sha256": "0dbcb03bbdfc5c01533c4cb469ae171d7393d10f4ca35d0865e139aae3e64ec2",
+      "phash": "b9b0b14f9e38ac2c",
+      "width": 567,
+      "height": 756,
+      "size_bytes": 896841
+    },
+    {
+      "class": "Brown_rust",
+      "relative_path": "Brown_rust/BrownRust777.png",
+      "sha256": "cf5f2f2e2be9ece4079a5e6a7c2a34f5215ade8fe508b47e745cd300c2e5a05b",
+      "phash": "87a4d2998c73f946",
+      "width": 567,
+      "height": 756,
+      "size_bytes": 844383
+    },
+    {
+      "class": "Brown_rust",
+      "relative_path": "Brown_rust/BrownRust789.png",
+      "sha256": "b350246d18802082d4e34c830d59be51005036b07feec266a328130745d4d2a3",
+      "phash": "bf5ae999190e0d89",
+      "width": 567,
+      "height": 756,
+      "size_bytes": 864352
+    },
+    {
+      "class": "Brown_rust",
+      "relative_path": "Brown_rust/BrownRust793.png",
+      "sha256": "08d899379bf54521c0ad23863de8ae0010e982cf5b28cd932258ecd1524ad221",
+      "phash": "b25ea7c21cb3c21e",
+      "width": 567,
+      "height": 756,
+      "size_bytes": 788321
+    },
+    {
+      "class": "Brown_rust",
+      "relative_path": "Brown_rust/BrownRust815.png",
+      "sha256": "56d6b56f79877fd44d995e3481c9641ca087e0618f22e23ebf7ba450f5f8f813",
+      "phash": "d2b3780c4677a59c",
+      "width": 567,
+      "height": 756,
+      "size_bytes": 890202
+    },
+    {
+      "class": "Brown_rust",
+      "relative_path": "Brown_rust/BrownRust824.png",
+      "sha256": "7eb8f990e49b76088f5b46cabe857387936a09a83e2efc366fccb68bcc81eefa",
+      "phash": "cdab4236df02e80f",
+      "width": 567,
+      "height": 756,
+      "size_bytes": 957437
+    },
+    {
+      "class": "Brown_rust",
+      "relative_path": "Brown_rust/BrownRust841.png",
+      "sha256": "1e57d5ea5d12224d624881f16a6e62764def6dc19ab695365abde1d072ed7b4b",
+      "phash": "81c73f1e4e66584e",
+      "width": 567,
+      "height": 756,
+      "size_bytes": 837210
+    },
+    {
+      "class": "Brown_rust",
+      "relative_path": "Brown_rust/BrownRust859.png",
+      "sha256": "f7da551417c371f07b2466381f31bc8ab9ece66b89587339052f15954a10a0b2",
+      "phash": "e1b9a31fe5741486",
+      "width": 567,
+      "height": 756,
+      "size_bytes": 890811
+    },
+    {
+      "class": "Brown_rust",
+      "relative_path": "Brown_rust/BrownRust862.png",
+      "sha256": "cb6c68c83cda68e9d0f1d28a3637c7b20c68a0a87afefae068496b29dbf2a76b",
+      "phash": "e7a65d05c178bac2",
+      "width": 567,
+      "height": 756,
+      "size_bytes": 910949
+    },
+    {
+      "class": "Brown_rust",
+      "relative_path": "Brown_rust/BrownRust876.png",
+      "sha256": "81ae71e151bb113db655951845bb40cc936b8bf92f3c089c6e9a10eb9c56af10",
+      "phash": "e95e21ee3023dca5",
+      "width": 567,
+      "height": 756,
+      "size_bytes": 776883
+    },
+    {
+      "class": "Brown_rust",
+      "relative_path": "Brown_rust/BrownRust890.png",
+      "sha256": "ad7f0f566d1b5a00a1f3c67982a549da19c08b62acfb5fe7745c6c82a0ea38a8",
+      "phash": "8b8677bfe01dc01c",
+      "width": 567,
+      "height": 756,
+      "size_bytes": 887489
+    },
+    {
+      "class": "Brown_rust",
+      "relative_path": "Brown_rust/BrownRust91.png",
+      "sha256": "8acffae3efd406576e32ee02fb9d9baa31b2bf642bdee215bc304f5c1a39a509",
+      "phash": "b3e4ba5d85e75180",
+      "width": 567,
+      "height": 756,
+      "size_bytes": 848802
+    },
+    {
+      "class": "Brown_rust",
+      "relative_path": "Brown_rust/BrownRust921.png",
+      "sha256": "8c02fb24a17ff7f39382576a3c0a749e530871d5750d2c894e1cb4d7832aac4b",
+      "phash": "ce3f90965434a3a7",
+      "width": 567,
+      "height": 756,
+      "size_bytes": 859307
+    },
+    {
+      "class": "Brown_rust",
+      "relative_path": "Brown_rust/BrownRust932.png",
+      "sha256": "fa3e8b7527a0617b0ea90e304fe588a6ef00655d4eb498a3ca9f555ddf664588",
+      "phash": "cb96638b33a3624e",
+      "width": 567,
+      "height": 756,
+      "size_bytes": 898926
+    },
+    {
+      "class": "Brown_rust",
+      "relative_path": "Brown_rust/BrownRust949.png",
+      "sha256": "065c6d05c2d9fae47c005a50f8d687ca303ba271043653b8cace3bce3764364c",
+      "phash": "8ce790398ceba30f",
+      "width": 567,
+      "height": 756,
+      "size_bytes": 956922
+    },
+    {
+      "class": "Brown_rust",
+      "relative_path": "Brown_rust/BrownRust971.png",
+      "sha256": "378bdfb087a3035b0926375dbd4f80ff49c68d034aa04d7ad04566d5cd57fb9e",
+      "phash": "8c6bf1e158c0be55",
+      "width": 567,
+      "height": 756,
+      "size_bytes": 896021
+    },
+    {
+      "class": "Brown_rust",
+      "relative_path": "Brown_rust/BrownRust983.png",
+      "sha256": "91462f0b091b0356006da2d4a0504a659a1aad55fa173d0836ee5a797075f63c",
+      "phash": "a8a9788cf214bfd4",
+      "width": 567,
+      "height": 756,
+      "size_bytes": 886523
+    },
+    {
+      "class": "Brown_rust",
+      "relative_path": "Brown_rust/BrownRust994.png",
+      "sha256": "3d99c47acdf0ee0ea57b7c648bb4168b3bad55059525d7179785bbab608566ef",
+      "phash": "ec49937770876c70",
+      "width": 567,
+      "height": 756,
+      "size_bytes": 891212
+    },
+    {
+      "class": "Brown_rust",
+      "relative_path": "Brown_rust/BrownRust998.png",
+      "sha256": "a8400919f9e1b17b532df96ba93085182edf956940b0332b256e14c8eafbdc72",
+      "phash": "f011878f987ced19",
+      "width": 567,
+      "height": 756,
+      "size_bytes": 908574
+    },
+    {
+      "class": "Healthy",
+      "relative_path": "Healthy/Healthy0.png",
+      "sha256": "5d268daaef5b33f3fa76a2277ca8d00aadff91773b4c0c6109607363248e3404",
+      "phash": "867b8430ce734de6",
+      "width": 567,
+      "height": 319,
+      "size_bytes": 414081
+    },
+    {
+      "class": "Healthy",
+      "relative_path": "Healthy/Healthy1019.png",
+      "sha256": "0037a0cd495208ac516916f101a3b9fdcd99d76c1f6d1f71bb38d2ed02ef3ed9",
+      "phash": "a6c899ed2b80fc96",
+      "width": 567,
+      "height": 756,
+      "size_bytes": 840191
+    },
+    {
+      "class": "Healthy",
+      "relative_path": "Healthy/Healthy1042.png",
+      "sha256": "777ab411be63103bcb4303f5aea2b44db3f8c04ad37795f61f421b2f04e314ad",
+      "phash": "bd80e1bf8a16ec89",
+      "width": 567,
+      "height": 756,
+      "size_bytes": 922960
+    },
+    {
+      "class": "Healthy",
+      "relative_path": "Healthy/Healthy1065.png",
+      "sha256": "088ae046d9c4539137b0b1f79ad566986d60c57106b02fb762d6b80c4e81b718",
+      "phash": "f427a7681933f60c",
+      "width": 567,
+      "height": 756,
+      "size_bytes": 847351
+    },
+    {
+      "class": "Healthy",
+      "relative_path": "Healthy/Healthy1084.png",
+      "sha256": "668a585c015b5daedc2cae0ab42cae5790ec2c48aa21f816ef636f64be181f2e",
+      "phash": "f4b23ac6d2330d27",
+      "width": 567,
+      "height": 756,
+      "size_bytes": 794541
+    },
+    {
+      "class": "Healthy",
+      "relative_path": "Healthy/Healthy1110.png",
+      "sha256": "2924cc93239159f895ea4787da592535adc910736ed7ccef785777099fc71dcc",
+      "phash": "fa362d3ddb851122",
+      "width": 567,
+      "height": 756,
+      "size_bytes": 823818
+    },
+    {
+      "class": "Healthy",
+      "relative_path": "Healthy/Healthy1112.png",
+      "sha256": "3c1333df5704c30a6372bcee59d7dd531fc4f39ce0b26d8d455357dc1530732d",
+      "phash": "f252289d53a5dc69",
+      "width": 567,
+      "height": 756,
+      "size_bytes": 831545
+    },
+    {
+      "class": "Healthy",
+      "relative_path": "Healthy/Healthy1171.png",
+      "sha256": "595282b3065cd76f22fbb3913c3e5fdce265dfbd358f6c7661d9a5a0cdf22ddd",
+      "phash": "d97793f01744b449",
+      "width": 567,
+      "height": 756,
+      "size_bytes": 857114
+    },
+    {
+      "class": "Healthy",
+      "relative_path": "Healthy/Healthy1177.png",
+      "sha256": "0a56ba3e7532457b89ea8a4dee57c5d2551dfe9a96025a6589a3a1bb8cbdea85",
+      "phash": "af152b25cbba3035",
+      "width": 567,
+      "height": 756,
+      "size_bytes": 790121
+    },
+    {
+      "class": "Healthy",
+      "relative_path": "Healthy/Healthy1201.png",
+      "sha256": "189f0aaee1c5ffc3c86736459c7cc64acacd0bb7663ece7cd3fd88a187b5ada1",
+      "phash": "9ba6a60d058977dc",
+      "width": 567,
+      "height": 756,
+      "size_bytes": 812365
+    },
+    {
+      "class": "Healthy",
+      "relative_path": "Healthy/Healthy1226.png",
+      "sha256": "085f0b3fae9c92d79a7a2105708dd64ba9b886d6c8b48c3497b25cbaef0a5f4a",
+      "phash": "ea6fa1f55d036284",
+      "width": 567,
+      "height": 756,
+      "size_bytes": 870540
+    },
+    {
+      "class": "Healthy",
+      "relative_path": "Healthy/Healthy1237.png",
+      "sha256": "50c4b71eb03e9ad406cd00c4a18579fb0e3d220177e715dafe433c0e206b6bce",
+      "phash": "fc780315132bab9b",
+      "width": 567,
+      "height": 756,
+      "size_bytes": 743604
+    },
+    {
+      "class": "Healthy",
+      "relative_path": "Healthy/Healthy124.png",
+      "sha256": "68d4177c700ee7c6840dc9ece83bba4c7188c8752440ba1e65ee059a172dcddb",
+      "phash": "a7e0e8add2224acf",
+      "width": 567,
+      "height": 756,
+      "size_bytes": 961890
+    },
+    {
+      "class": "Healthy",
+      "relative_path": "Healthy/Healthy1270.png",
+      "sha256": "7384290c445e5a2bcdd0183fb379f99c7972089e34083fe639851edbb388e8d8",
+      "phash": "dce2228c395c97ec",
+      "width": 567,
+      "height": 756,
+      "size_bytes": 861768
+    },
+    {
+      "class": "Healthy",
+      "relative_path": "Healthy/Healthy1280.png",
+      "sha256": "733262a6ca01de3759ef8ff8bc583b33b4f5cb091a6cce40ce1b5e8e18b72021",
+      "phash": "eaccc9f29a3c411e",
+      "width": 567,
+      "height": 756,
+      "size_bytes": 783851
+    },
+    {
+      "class": "Healthy",
+      "relative_path": "Healthy/Healthy1298.png",
+      "sha256": "4c56b25e52259e4df5e7d675cdf62696f22a8802484728ed0b3812b1369aeec4",
+      "phash": "cacc0c5bcdac925b",
+      "width": 567,
+      "height": 756,
+      "size_bytes": 881745
+    },
+    {
+      "class": "Healthy",
+      "relative_path": "Healthy/Healthy13.png",
+      "sha256": "c3399271917014dcf7166858d26f9e5fbcad08432adcc9188caee575617a18da",
+      "phash": "883ee1162cd07fda",
+      "width": 567,
+      "height": 319,
+      "size_bytes": 353800
+    },
+    {
+      "class": "Healthy",
+      "relative_path": "Healthy/Healthy1311.png",
+      "sha256": "c7e2a59b1dcc777607bf66c1cb8c6d07eb31e4715d121206b8f13743c93ba7d5",
+      "phash": "9d32a468798b327d",
+      "width": 567,
+      "height": 756,
+      "size_bytes": 829057
+    },
+    {
+      "class": "Healthy",
+      "relative_path": "Healthy/Healthy1318.png",
+      "sha256": "bffea38bf1534e3fd74a752efb70d05aab2fdda442e321355ba0985ffeba45dc",
+      "phash": "8ce1c9e85e5b1b13",
+      "width": 567,
+      "height": 756,
+      "size_bytes": 842075
+    },
+    {
+      "class": "Healthy",
+      "relative_path": "Healthy/Healthy1339.png",
+      "sha256": "8940c8b00a522155ae9336314033c0e80f23209649711ef1b46b796fad99e32b",
+      "phash": "f69e95618178f8c2",
+      "width": 567,
+      "height": 756,
+      "size_bytes": 845725
+    },
+    {
+      "class": "Healthy",
+      "relative_path": "Healthy/Healthy134.png",
+      "sha256": "80ae4877656e31bea2f644b3e3ae8f200d399cb6fff5f8180305705b61808e2d",
+      "phash": "aaa7990596c937e8",
+      "width": 567,
+      "height": 756,
+      "size_bytes": 909133
+    },
+    {
+      "class": "Healthy",
+      "relative_path": "Healthy/Healthy1352.png",
+      "sha256": "f2ee7dc5fe67846d985d057b063701a342d646570301efd3efafb6225ddaf0b8",
+      "phash": "9d6c3d9f4f0a8740",
+      "width": 567,
+      "height": 756,
+      "size_bytes": 802398
+    },
+    {
+      "class": "Healthy",
+      "relative_path": "Healthy/Healthy1373.png",
+      "sha256": "b481485bb537a42743523763142559478321ca8033fba5846e3d9b15552b1baf",
+      "phash": "9a2a6de6c8d363a8",
+      "width": 567,
+      "height": 756,
+      "size_bytes": 853735
+    },
+    {
+      "class": "Healthy",
+      "relative_path": "Healthy/Healthy1386.png",
+      "sha256": "e7586ea8d6558eb97116aebb641635de7b71571881e381e4d9ca2abf4ce447e8",
+      "phash": "ada74a569461d875",
+      "width": 567,
+      "height": 756,
+      "size_bytes": 849403
+    },
+    {
+      "class": "Healthy",
+      "relative_path": "Healthy/Healthy1393.png",
+      "sha256": "6f5f0c3601008442b3f5db4d74b76978023d06780b7f68799fa253a0ffef6335",
+      "phash": "acc49681f9fb0f0a",
+      "width": 567,
+      "height": 756,
+      "size_bytes": 861405
+    },
+    {
+      "class": "Healthy",
+      "relative_path": "Healthy/Healthy14.png",
+      "sha256": "1a05410225628d62a0b2d613ddf3d94119b6c129945c593258b895e06f52babe",
+      "phash": "a2cccf201e6bfc15",
+      "width": 567,
+      "height": 1008,
+      "size_bytes": 1179591
+    },
+    {
+      "class": "Healthy",
+      "relative_path": "Healthy/Healthy1410.png",
+      "sha256": "1b02577c82d454b92335c534bd45b1d11520662bfa39a70450ea3de469a6c26e",
+      "phash": "c8cf2788ccf61b8c",
+      "width": 567,
+      "height": 756,
+      "size_bytes": 764090
+    },
+    {
+      "class": "Healthy",
+      "relative_path": "Healthy/Healthy1413.png",
+      "sha256": "21a7e5d04ecbb1e7dcde2291622b942a91c603c3e92fb86b992cfdd15357310c",
+      "phash": "bd2bd626ba5015a5",
+      "width": 567,
+      "height": 756,
+      "size_bytes": 874078
+    },
+    {
+      "class": "Healthy",
+      "relative_path": "Healthy/Healthy1414.png",
+      "sha256": "ffc511557d0d43d28aefb4b719216fcf3f99e810fdc58ccb4a796aea3852e365",
+      "phash": "c1f13119e7d2364e",
+      "width": 567,
+      "height": 756,
+      "size_bytes": 790415
+    },
+    {
+      "class": "Healthy",
+      "relative_path": "Healthy/Healthy1422.png",
+      "sha256": "ef18d9fe9b49cea084080b9dae19433d8ccd8b42ed7993511c55ff6552de45b8",
+      "phash": "f9490e48d25a3757",
+      "width": 567,
+      "height": 756,
+      "size_bytes": 840983
+    },
+    {
+      "class": "Healthy",
+      "relative_path": "Healthy/Healthy1435.png",
+      "sha256": "25c35632140d6962e994d65a68b66aaee2ad4e488e443238bd8f361061041eb7",
+      "phash": "f29b9644a7e0e325",
+      "width": 567,
+      "height": 756,
+      "size_bytes": 856983
+    },
+    {
+      "class": "Healthy",
+      "relative_path": "Healthy/Healthy1453.png",
+      "sha256": "4e03b9c0a6ed3d94e1e1c9a849953c0617710698c36c20af0313c87189963188",
+      "phash": "cf8d9987731ca660",
+      "width": 567,
+      "height": 756,
+      "size_bytes": 787199
+    },
+    {
+      "class": "Healthy",
+      "relative_path": "Healthy/Healthy1475.png",
+      "sha256": "1155ba4876dbeefb000fac24c14c191c3e800ebade2e95eb09386148d72a23e3",
+      "phash": "fc7ea342f4133d01",
+      "width": 567,
+      "height": 756,
+      "size_bytes": 946788
+    },
+    {
+      "class": "Healthy",
+      "relative_path": "Healthy/Healthy1481.png",
+      "sha256": "2bb4cf8e3c656b670f349b4ba74a8b349075f7e7f95bb301347fc627f4ec9b9f",
+      "phash": "d2d9934c8d98c376",
+      "width": 567,
+      "height": 756,
+      "size_bytes": 807453
+    },
+    {
+      "class": "Healthy",
+      "relative_path": "Healthy/Healthy1483.png",
+      "sha256": "ecec7e295db09c21da84947be47a96e102dab83f49971f7b2b8951aca8a2a2b6",
+      "phash": "e490bec2a95487f3",
+      "width": 567,
+      "height": 756,
+      "size_bytes": 923383
+    },
+    {
+      "class": "Healthy",
+      "relative_path": "Healthy/Healthy1507.png",
+      "sha256": "21448e6e2d50abe9574e051f77046393a00748c33c604677a488ba6a686654f0",
+      "phash": "9d0dd42fcf9408f8",
+      "width": 567,
+      "height": 756,
+      "size_bytes": 818804
+    },
+    {
+      "class": "Healthy",
+      "relative_path": "Healthy/Healthy1526.png",
+      "sha256": "983c38a1ce8f560d5642de971048f0ab616839b48f4660c2d333a2b16f2fc887",
+      "phash": "ab0721799b82d769",
+      "width": 567,
+      "height": 756,
+      "size_bytes": 775920
+    },
+    {
+      "class": "Healthy",
+      "relative_path": "Healthy/Healthy1534.png",
+      "sha256": "a655619b02c8f75f165289959d5c355cc3d4df357db53f0f0e908e3956e91a27",
+      "phash": "dc84a6b7b41acb86",
+      "width": 567,
+      "height": 756,
+      "size_bytes": 888351
+    },
+    {
+      "class": "Healthy",
+      "relative_path": "Healthy/Healthy1564.png",
+      "sha256": "d24276cd753e628c543c779b1468ea854fc30f67109bd990d8ad2f3855a68753",
+      "phash": "b9e4895935e2729c",
+      "width": 567,
+      "height": 756,
+      "size_bytes": 848107
+    },
+    {
+      "class": "Healthy",
+      "relative_path": "Healthy/Healthy1565.png",
+      "sha256": "c71327af86526a411a8db53690585b2008aa0f3549e13b29b1ee266c00e4438e",
+      "phash": "ba99840bb17af3b0",
+      "width": 567,
+      "height": 756,
+      "size_bytes": 854408
+    },
+    {
+      "class": "Healthy",
+      "relative_path": "Healthy/Healthy1570.png",
+      "sha256": "5373ae6ba351f8e553323e59dd3ca69499b45f35c85be6e3f889cd58a62e55df",
+      "phash": "e29689b99c8af319",
+      "width": 567,
+      "height": 756,
+      "size_bytes": 844920
+    },
+    {
+      "class": "Healthy",
+      "relative_path": "Healthy/Healthy159.png",
+      "sha256": "e06ca6c5340f61e8c3e4dede5bc3fb23b142f1b33e0545f8b0a6d694428ef787",
+      "phash": "81b7d29ce21f2d13",
+      "width": 567,
+      "height": 756,
+      "size_bytes": 879770
+    },
+    {
+      "class": "Healthy",
+      "relative_path": "Healthy/Healthy1598.png",
+      "sha256": "6c3cce7a27cefb38d03bff461a429ee5ac2fa1b070c6015de67c07648f8ec256",
+      "phash": "ea0cc116f8e39ed2",
+      "width": 567,
+      "height": 756,
+      "size_bytes": 734139
+    },
+    {
+      "class": "Healthy",
+      "relative_path": "Healthy/Healthy1606.png",
+      "sha256": "c33a9e8b771acaeea411e5669a65705d7cb9f45b40a3f5d66f7d3dab9f7038f1",
+      "phash": "ada582e2d6d7a4c4",
+      "width": 567,
+      "height": 756,
+      "size_bytes": 772539
+    },
+    {
+      "class": "Healthy",
+      "relative_path": "Healthy/Healthy1610.png",
+      "sha256": "fcd9cca0da7ea4ff7914f1ef872c0621c482dbe000567628850db9926cdb8871",
+      "phash": "a49c8c9ad5c9dacc",
+      "width": 567,
+      "height": 756,
+      "size_bytes": 740805
+    },
+    {
+      "class": "Healthy",
+      "relative_path": "Healthy/Healthy1640.png",
+      "sha256": "d6c83790b986a84fe47f4fa8f4a9f0a05bdd2f7ecc1cb29b571cf645d471fbd6",
+      "phash": "e2ce85a9debd0a50",
+      "width": 567,
+      "height": 756,
+      "size_bytes": 783128
+    },
+    {
+      "class": "Healthy",
+      "relative_path": "Healthy/Healthy166.png",
+      "sha256": "276f06e21fbaebce646fe315c5f71196d9bef8f10d44a6274e0fc259a03266f4",
+      "phash": "caf5270f16a83666",
+      "width": 567,
+      "height": 756,
+      "size_bytes": 868543
+    },
+    {
+      "class": "Healthy",
+      "relative_path": "Healthy/Healthy1688.png",
+      "sha256": "a0239f6b57e61a785f806884eede9ee7241631d52f6a67a00c01992b50a07bcf",
+      "phash": "89d3e68c5973b614",
+      "width": 567,
+      "height": 756,
+      "size_bytes": 750237
+    },
+    {
+      "class": "Healthy",
+      "relative_path": "Healthy/Healthy17.png",
+      "sha256": "79c31de919633a0d4a8f85942b24a86942119a79dbd2632564fa91d2cd8795a7",
+      "phash": "b5d516f60a22c5bc",
+      "width": 567,
+      "height": 1008,
+      "size_bytes": 1182708
+    },
+    {
+      "class": "Healthy",
+      "relative_path": "Healthy/Healthy1711.png",
+      "sha256": "a644add4e53532f3a8d6f0435cfdb4cc9007e344b9956fd776ab4c5d446001a1",
+      "phash": "88d1e0b159a74fb3",
+      "width": 567,
+      "height": 756,
+      "size_bytes": 906106
+    },
+    {
+      "class": "Healthy",
+      "relative_path": "Healthy/Healthy1726.png",
+      "sha256": "f411657c5f804943bc015cf642ee9565b38a443eb0bdf65df5f0fee579116482",
+      "phash": "fcc6945994663596",
+      "width": 567,
+      "height": 756,
+      "size_bytes": 787111
+    },
+    {
+      "class": "Healthy",
+      "relative_path": "Healthy/Healthy1738.png",
+      "sha256": "f37a871ac17eaa51dfc8ca1392d496bf1802782ce916b068ab507f125ffab9cd",
+      "phash": "f337454a8a65654b",
+      "width": 567,
+      "height": 756,
+      "size_bytes": 951027
+    },
+    {
+      "class": "Healthy",
+      "relative_path": "Healthy/Healthy1743.png",
+      "sha256": "9151a0f2aa9a353fc7c2d5f2af283a984508c75c265e14134f8d637438d60472",
+      "phash": "e9d2903ba362d5a9",
+      "width": 567,
+      "height": 756,
+      "size_bytes": 881936
+    },
+    {
+      "class": "Healthy",
+      "relative_path": "Healthy/Healthy175.png",
+      "sha256": "61ca3a9a92f033e6029e570343feb87b05cfa1d6c04061224895f2749936ca8e",
+      "phash": "c8fb3787d09065d4",
+      "width": 567,
+      "height": 756,
+      "size_bytes": 982894
+    },
+    {
+      "class": "Healthy",
+      "relative_path": "Healthy/Healthy1756.png",
+      "sha256": "cb7f1492b6012eb8a03c0cf092301bda510643ac6820c50b417b0a56a682d364",
+      "phash": "a2debe6c96e56120",
+      "width": 567,
+      "height": 756,
+      "size_bytes": 749324
+    },
+    {
+      "class": "Healthy",
+      "relative_path": "Healthy/Healthy1784.png",
+      "sha256": "1172a9068e10b01ab51c3e3e8dfe1a0eaedf2a270128b62818b87204195a022b",
+      "phash": "a0c6ff43c3989a47",
+      "width": 567,
+      "height": 756,
+      "size_bytes": 923512
+    },
+    {
+      "class": "Healthy",
+      "relative_path": "Healthy/Healthy1843.png",
+      "sha256": "814c7873cc3aee5e5a594b7ad5adec9de44b789beb336529eadc17a181783d24",
+      "phash": "c8a6d3c0f034e93f",
+      "width": 567,
+      "height": 756,
+      "size_bytes": 809067
+    },
+    {
+      "class": "Healthy",
+      "relative_path": "Healthy/Healthy1850.png",
+      "sha256": "97a72d5197c3cd0c654b8eb8a753dca8f3902a0434b8f1cfffe5a67a38ecb495",
+      "phash": "e88a4a486dadf5d2",
+      "width": 567,
+      "height": 756,
+      "size_bytes": 826434
+    },
+    {
+      "class": "Healthy",
+      "relative_path": "Healthy/Healthy1878.png",
+      "sha256": "046df342f863b6be585f84321d897998bae54e8ec6a75cc981ce9e8aee0a62ef",
+      "phash": "c9a13e8ee670cc36",
+      "width": 567,
+      "height": 756,
+      "size_bytes": 811588
+    },
+    {
+      "class": "Healthy",
+      "relative_path": "Healthy/Healthy1888.png",
+      "sha256": "bb4882238c4957856a1f4fa35f8af0186ecca400a9b607bead745aaada7408a0",
+      "phash": "c9a13136ac792ead",
+      "width": 567,
+      "height": 756,
+      "size_bytes": 904965
+    },
+    {
+      "class": "Healthy",
+      "relative_path": "Healthy/Healthy1893.png",
+      "sha256": "b58d8510f6f505333bf8e60cef8d02092ee5c753783c1c583fd3fb52c15c4aa2",
+      "phash": "eb5113c5cf11b06e",
+      "width": 567,
+      "height": 756,
+      "size_bytes": 818882
+    },
+    {
+      "class": "Healthy",
+      "relative_path": "Healthy/Healthy1913.png",
+      "sha256": "41b0f7634d90bea7bad187a7d1c689ea0cad81838d66be77717f72f6d56fd2ea",
+      "phash": "975ba8949a2d7526",
+      "width": 567,
+      "height": 756,
+      "size_bytes": 855483
+    },
+    {
+      "class": "Healthy",
+      "relative_path": "Healthy/Healthy1928.png",
+      "sha256": "953f25cf8f05d8b870fc59361b37103c961b8ba3a93beef1e8af0c550479fcc4",
+      "phash": "b3c7980d1d3ca1e9",
+      "width": 567,
+      "height": 756,
+      "size_bytes": 931314
+    },
+    {
+      "class": "Healthy",
+      "relative_path": "Healthy/Healthy1961.png",
+      "sha256": "19e14ffa44e109f99594a4a4a6f1daac5e2c348a88315b7b3e1fea11a67a7103",
+      "phash": "fa304db8b2aa9746",
+      "width": 567,
+      "height": 756,
+      "size_bytes": 863714
+    },
+    {
+      "class": "Healthy",
+      "relative_path": "Healthy/Healthy2012.png",
+      "sha256": "23c4ec6ebdfab90448b2bc52bea790549f0b613b675714353b9d8c089b79af59",
+      "phash": "c4c48075d8a63eef",
+      "width": 567,
+      "height": 756,
+      "size_bytes": 866175
+    },
+    {
+      "class": "Healthy",
+      "relative_path": "Healthy/Healthy2030.png",
+      "sha256": "18ac1e0779a1d14426803afb88783426a75144db44641af6b6dc5c2a0990b39b",
+      "phash": "f6e3a9aa5a562446",
+      "width": 567,
+      "height": 756,
+      "size_bytes": 842470
+    },
+    {
+      "class": "Healthy",
+      "relative_path": "Healthy/Healthy2036.png",
+      "sha256": "380349d4217c79231bc05db6f8fcd4a128855c399f4d09b5e3b9ad265c6b5e4d",
+      "phash": "fd99b072c6e52c48",
+      "width": 567,
+      "height": 756,
+      "size_bytes": 823986
+    },
+    {
+      "class": "Healthy",
+      "relative_path": "Healthy/Healthy2037.png",
+      "sha256": "0d1e20eab8c0f20b365ac8e17471a9e92b1331c00e76b63a43102fd9d9f1b061",
+      "phash": "e7c1a1b496d2c9a5",
+      "width": 567,
+      "height": 756,
+      "size_bytes": 906844
+    },
+    {
+      "class": "Healthy",
+      "relative_path": "Healthy/Healthy2065.png",
+      "sha256": "2bc316a658df8620b1eff1d86b91fcda3460fb79a04a40b661b3f8bd5c3bd857",
+      "phash": "cbe6cc8a53ac954a",
+      "width": 567,
+      "height": 756,
+      "size_bytes": 894652
+    },
+    {
+      "class": "Healthy",
+      "relative_path": "Healthy/Healthy2083.png",
+      "sha256": "f67955a3cc0e3d71d9e9831382205374e22dc30e26a6b753ad2b0090c7b0212a",
+      "phash": "a2b1c53d4434e35f",
+      "width": 567,
+      "height": 756,
+      "size_bytes": 829173
+    },
+    {
+      "class": "Healthy",
+      "relative_path": "Healthy/Healthy2137.png",
+      "sha256": "cbfeec415d6421032c61e0c5de36aca164af74f6046ba518203b91088b9255d7",
+      "phash": "a1e5e699d8b24355",
+      "width": 567,
+      "height": 756,
+      "size_bytes": 888835
+    },
+    {
+      "class": "Healthy",
+      "relative_path": "Healthy/Healthy2146.png",
+      "sha256": "c02c8427088ef028168b8b0e2095a68e8292b7c60b2da64937907f70571d304c",
+      "phash": "d8b8bb3fce046c09",
+      "width": 567,
+      "height": 756,
+      "size_bytes": 861862
+    },
+    {
+      "class": "Healthy",
+      "relative_path": "Healthy/Healthy2150.png",
+      "sha256": "1fae521f262d2b001bb491566a7af187825e9b9e14d4c39993bc1d105584a4eb",
+      "phash": "b3cff83b9b203405",
+      "width": 567,
+      "height": 756,
+      "size_bytes": 910205
+    },
+    {
+      "class": "Healthy",
+      "relative_path": "Healthy/Healthy2152.png",
+      "sha256": "31a189801cc5d08efd423b49d2cdae2a852e89c6f1f51f6486ebda2df9dd3d4d",
+      "phash": "b1798f2fa3626298",
+      "width": 567,
+      "height": 756,
+      "size_bytes": 894011
+    },
+    {
+      "class": "Healthy",
+      "relative_path": "Healthy/Healthy2161.png",
+      "sha256": "24e87dc8de7004cf87abbe1cd7635ea55ec287c09d8d37cf7b608b9f0df24e06",
+      "phash": "eab485a0be63cac6",
+      "width": 567,
+      "height": 756,
+      "size_bytes": 860161
+    },
+    {
+      "class": "Healthy",
+      "relative_path": "Healthy/Healthy219.png",
+      "sha256": "dd25c8e896e9633f36b5f368b73192f25da1c74287cfe790c6eaa8aeddaa9190",
+      "phash": "d987e599b05b9921",
+      "width": 567,
+      "height": 756,
+      "size_bytes": 969894
+    },
+    {
+      "class": "Healthy",
+      "relative_path": "Healthy/Healthy2201.png",
+      "sha256": "63d73012e6fabace28437f02b94f77401f0526dafa1f4a3fc63887645e3608db",
+      "phash": "eeb5343528ea5265",
+      "width": 567,
+      "height": 756,
+      "size_bytes": 805365
+    },
+    {
+      "class": "Healthy",
+      "relative_path": "Healthy/Healthy2208.png",
+      "sha256": "b7c8cff30c93dc6b737806285ef97cafd9ca098420d9c4a86169d6603a10cef7",
+      "phash": "fc9cb251d62525a3",
+      "width": 567,
+      "height": 756,
+      "size_bytes": 894169
+    },
+    {
+      "class": "Healthy",
+      "relative_path": "Healthy/Healthy2229.png",
+      "sha256": "b3cb71071fd67c6f1aa44bbd90ca6c3b91343b3f42a92081fe056f1935e09fc8",
+      "phash": "f6ab4a74ca8f406a",
+      "width": 567,
+      "height": 756,
+      "size_bytes": 858482
+    },
+    {
+      "class": "Healthy",
+      "relative_path": "Healthy/Healthy2251.png",
+      "sha256": "705b8123f8ff4011694588a3f436cb32a361f88613b24dd5e04bbe3eb4b5337f",
+      "phash": "91ef869fe9702941",
+      "width": 567,
+      "height": 756,
+      "size_bytes": 897957
+    },
+    {
+      "class": "Healthy",
+      "relative_path": "Healthy/Healthy2254.png",
+      "sha256": "1ab9de1c471e124fafc4680108d989f930462a44a6104181ae0c2ec792da143c",
+      "phash": "f62ac1965a595d68",
+      "width": 567,
+      "height": 756,
+      "size_bytes": 816450
+    },
+    {
+      "class": "Healthy",
+      "relative_path": "Healthy/Healthy2262.png",
+      "sha256": "fd10bce28c50ff5ee114b18a935b6d3b5b643930712d54bc4e205c3576f53fdd",
+      "phash": "eed08aea4887dc66",
+      "width": 567,
+      "height": 756,
+      "size_bytes": 746107
+    },
+    {
+      "class": "Healthy",
+      "relative_path": "Healthy/Healthy2268.png",
+      "sha256": "49e967a7c9d39280f691274e8d961e9ea0ad08f35522783e56ca3ff87b0a2407",
+      "phash": "e3214c9aaa7c9b9a",
+      "width": 567,
+      "height": 756,
+      "size_bytes": 813731
+    },
+    {
+      "class": "Healthy",
+      "relative_path": "Healthy/Healthy235.png",
+      "sha256": "d8b7d6559a12e166fa7979fa1c2ebd0106322ef1d627c3d4b351fa874fe41c3b",
+      "phash": "b88f60f38540fa9d",
+      "width": 567,
+      "height": 756,
+      "size_bytes": 878540
+    },
+    {
+      "class": "Healthy",
+      "relative_path": "Healthy/Healthy246.png",
+      "sha256": "3b2b32fdea07cb86940aa432343a91b894d3ac53a9863db47445491acf601d70",
+      "phash": "fc80e95be386bc18",
+      "width": 567,
+      "height": 756,
+      "size_bytes": 986559
+    },
+    {
+      "class": "Healthy",
+      "relative_path": "Healthy/Healthy26.png",
+      "sha256": "2b70b1f023a5aee73f8d06f79782b282dca0e4286ebfb1b78ff400cc2016f97d",
+      "phash": "95a662491ee55d27",
+      "width": 709,
+      "height": 1260,
+      "size_bytes": 2046260
+    },
+    {
+      "class": "Healthy",
+      "relative_path": "Healthy/Healthy264.png",
+      "sha256": "c4e000e0f11245bbefdec026c3e650bc616059fec4bb01f2facf5b9e9b736306",
+      "phash": "88695b3c932d662f",
+      "width": 567,
+      "height": 756,
+      "size_bytes": 1056302
+    },
+    {
+      "class": "Healthy",
+      "relative_path": "Healthy/Healthy279.png",
+      "sha256": "f21dc30709fe067e525fe8d70ef59282619b0951441d180237a4aedadaa1b305",
+      "phash": "a994f2a486cb7cb2",
+      "width": 567,
+      "height": 756,
+      "size_bytes": 1004966
+    },
+    {
+      "class": "Healthy",
+      "relative_path": "Healthy/Healthy296.png",
+      "sha256": "1157ec630ed485a3c189a293067b7772888dd23dbfb7fac6becc25015f6af8f6",
+      "phash": "a3d7be4126329276",
+      "width": 567,
+      "height": 756,
+      "size_bytes": 971491
+    },
+    {
+      "class": "Healthy",
+      "relative_path": "Healthy/Healthy34.png",
+      "sha256": "cf70076d4c1a50dada6ae0cf49997bc0bbb864f110db6d5730bbbb79eb52ad64",
+      "phash": "c9b8b61c3f4149e5",
+      "width": 567,
+      "height": 756,
+      "size_bytes": 938180
+    },
+    {
+      "class": "Healthy",
+      "relative_path": "Healthy/Healthy383.png",
+      "sha256": "79a98fc359b6230357b7e7e8767bc678ec27b4538c7d2a21c697162e6baa4079",
+      "phash": "cc353fcc7c331948",
+      "width": 567,
+      "height": 756,
+      "size_bytes": 1009306
+    },
+    {
+      "class": "Healthy",
+      "relative_path": "Healthy/Healthy4.png",
+      "sha256": "7a332899674bfd96818491273702a1eb159792cec8cd791e2c1dc889bcde0da7",
+      "phash": "f967a3ca0d65b092",
+      "width": 567,
+      "height": 319,
+      "size_bytes": 356672
+    },
+    {
+      "class": "Healthy",
+      "relative_path": "Healthy/Healthy420.png",
+      "sha256": "ab01a6d807c543a4cc75a4dc86b60123ee2cca76046b1ddd2a9ea0277952bbdb",
+      "phash": "fc8b82989a7e00bf",
+      "width": 567,
+      "height": 756,
+      "size_bytes": 1026347
+    },
+    {
+      "class": "Healthy",
+      "relative_path": "Healthy/Healthy446.png",
+      "sha256": "eeb552a75ab49f474773864d2faa7a6a23c8f141041c414b94688727a8e58e97",
+      "phash": "b1f525a4690a57cb",
+      "width": 567,
+      "height": 756,
+      "size_bytes": 928369
+    },
+    {
+      "class": "Healthy",
+      "relative_path": "Healthy/Healthy463.png",
+      "sha256": "e4508d8798b3771d746db0035bd772493357a6f39acc937ef46df74f0432bdb7",
+      "phash": "cda7e6935925708c",
+      "width": 567,
+      "height": 756,
+      "size_bytes": 985498
+    },
+    {
+      "class": "Healthy",
+      "relative_path": "Healthy/Healthy466.png",
+      "sha256": "34023c17981220a4fe997517ea9f62a39da53693362a63b30b4f56d25d9d41ee",
+      "phash": "f22f9ade28e48c19",
+      "width": 567,
+      "height": 756,
+      "size_bytes": 1014332
+    },
+    {
+      "class": "Healthy",
+      "relative_path": "Healthy/Healthy469.png",
+      "sha256": "f1d152af24be8d785fa1ba220c184019e779441113248463abb552cb7a279aa4",
+      "phash": "dbcce4900dfc08af",
+      "width": 567,
+      "height": 756,
+      "size_bytes": 947745
+    },
+    {
+      "class": "Healthy",
+      "relative_path": "Healthy/Healthy492.png",
+      "sha256": "d0957f28b2b1078826e4da4fac4d8d7f0f01c4a43c67a4533dc09a40ffeb8bfe",
+      "phash": "fcfa2bacd5a30a08",
+      "width": 567,
+      "height": 756,
+      "size_bytes": 990791
+    },
+    {
+      "class": "Healthy",
+      "relative_path": "Healthy/Healthy500.png",
+      "sha256": "0a7181e866877d76fba901d85b715956901bd0874d1cc192464285dc07d25fc6",
+      "phash": "b186e09e27bd0717",
+      "width": 567,
+      "height": 756,
+      "size_bytes": 1004499
+    },
+    {
+      "class": "Healthy",
+      "relative_path": "Healthy/Healthy533.png",
+      "sha256": "43769243d3ec1b586abd1dd0a1036b8e93ac6e66ca332c4808144247984da6d4",
+      "phash": "83a0a9bb5a5b3794",
+      "width": 567,
+      "height": 756,
+      "size_bytes": 828198
+    },
+    {
+      "class": "Healthy",
+      "relative_path": "Healthy/Healthy538.png",
+      "sha256": "10609a78c45052de4ddc56ab61907fdcfd03a906fd2ee2b556cbfb4948bcfefc",
+      "phash": "87859f6c694bc8c9",
+      "width": 567,
+      "height": 756,
+      "size_bytes": 747044
+    },
+    {
+      "class": "Healthy",
+      "relative_path": "Healthy/Healthy554.png",
+      "sha256": "656ae8e090afd94cd1e8b8c03d77f24b740dd623d759fc63b61ec6e438d391f0",
+      "phash": "a6d1b3e688a789d8",
+      "width": 567,
+      "height": 756,
+      "size_bytes": 751124
+    },
+    {
+      "class": "Healthy",
+      "relative_path": "Healthy/Healthy57.png",
+      "sha256": "4b5ea814e03056d811e90abb8a3c7c3cea2f4d6e103d4a30b7bfc04e27d78987",
+      "phash": "c0d871276ea9573a",
+      "width": 567,
+      "height": 756,
+      "size_bytes": 916855
+    },
+    {
+      "class": "Healthy",
+      "relative_path": "Healthy/Healthy576.png",
+      "sha256": "e604128d517a51e42b2eed3630c5318ad04a57533b22929c029b6ec2e8839d25",
+      "phash": "fceffcc4c3e20300",
+      "width": 567,
+      "height": 756,
+      "size_bytes": 726249
+    },
+    {
+      "class": "Healthy",
+      "relative_path": "Healthy/Healthy61.png",
+      "sha256": "1149128d928bffbb22e2f70c3d25b01011d5d7f958ffddded011c1deb9fcb5ff",
+      "phash": "c3c83e26cdc9ba4a",
+      "width": 567,
+      "height": 756,
+      "size_bytes": 1006649
+    },
+    {
+      "class": "Healthy",
+      "relative_path": "Healthy/Healthy613.png",
+      "sha256": "5ffa2316895692115a86b25173f78a415e5c65e36b2e446948589c0d6cba7dd9",
+      "phash": "a7b4849ad2e374d4",
+      "width": 567,
+      "height": 756,
+      "size_bytes": 757045
+    },
+    {
+      "class": "Healthy",
+      "relative_path": "Healthy/Healthy629.png",
+      "sha256": "34ad6a014870e43b77a897bb30e2433dc4d3ef54dba1aa6ab7ebedca1225bf11",
+      "phash": "99a2a6ac8b45d87e",
+      "width": 567,
+      "height": 756,
+      "size_bytes": 840205
+    },
+    {
+      "class": "Healthy",
+      "relative_path": "Healthy/Healthy642.png",
+      "sha256": "5be675d2f62b88a15acf6c485eff17177290de4a510c17a0c9909bbbc97cf757",
+      "phash": "9bf9d04c815a30df",
+      "width": 567,
+      "height": 756,
+      "size_bytes": 814899
+    },
+    {
+      "class": "Healthy",
+      "relative_path": "Healthy/Healthy657.png",
+      "sha256": "48982a753c880e1609731297f415c0ceb859fcad07e3965d1a6ae068a4a07933",
+      "phash": "d188bc88ecdbd8e1",
+      "width": 567,
+      "height": 756,
+      "size_bytes": 818042
+    },
+    {
+      "class": "Healthy",
+      "relative_path": "Healthy/Healthy692.png",
+      "sha256": "0c3eb72b02629ea7478105bbdf56fc7488237075420c5909ec9cc15c530eff98",
+      "phash": "b663b0d64f6caa81",
+      "width": 567,
+      "height": 756,
+      "size_bytes": 872999
+    },
+    {
+      "class": "Healthy",
+      "relative_path": "Healthy/Healthy709.png",
+      "sha256": "e4c4d126d047d14c6129cc586d0999d74f399e5ed2fd50dfaac9a005128384ab",
+      "phash": "b787ebcd03e42831",
+      "width": 567,
+      "height": 756,
+      "size_bytes": 954578
+    },
+    {
+      "class": "Healthy",
+      "relative_path": "Healthy/Healthy724.png",
+      "sha256": "6805115d02630a42c230711f478d5336208706918fb4dc520a516259c28b8eb2",
+      "phash": "cfcb4f96a190e44c",
+      "width": 567,
+      "height": 756,
+      "size_bytes": 845802
+    },
+    {
+      "class": "Healthy",
+      "relative_path": "Healthy/Healthy728.png",
+      "sha256": "a9bfef10e74ae22c329073160bffee83d7473c1b70638a0563b59c28686b4028",
+      "phash": "95e93b1f1a8d064b",
+      "width": 567,
+      "height": 756,
+      "size_bytes": 837660
+    },
+    {
+      "class": "Healthy",
+      "relative_path": "Healthy/Healthy742.png",
+      "sha256": "4d95ad4ab2fba7fec222fa4f7ee1dedf9fa7a6cee11e5666072eca7b0bf3d2ab",
+      "phash": "84e35b83a49d1dce",
+      "width": 567,
+      "height": 756,
+      "size_bytes": 893394
+    },
+    {
+      "class": "Healthy",
+      "relative_path": "Healthy/Healthy763.png",
+      "sha256": "3329ca9a8c9cb7a6580b0d8ca4ed0b19e208aba0814f8870ad70c83a16dbf500",
+      "phash": "8e9fbd98b6d69008",
+      "width": 567,
+      "height": 756,
+      "size_bytes": 801586
+    },
+    {
+      "class": "Healthy",
+      "relative_path": "Healthy/Healthy780.png",
+      "sha256": "74d6a9b04d7396d24e6b59cf695e7dcfe4b835ef42d4110fca7668d35c90eab0",
+      "phash": "f2e3c3939388879c",
+      "width": 567,
+      "height": 756,
+      "size_bytes": 895632
+    },
+    {
+      "class": "Healthy",
+      "relative_path": "Healthy/Healthy783.png",
+      "sha256": "36aec3db1359b2fa0591f3dea31ce41b4818026ca44570b09640bce7ed88ffc0",
+      "phash": "dbcdc1a6ecc16087",
+      "width": 567,
+      "height": 756,
+      "size_bytes": 813508
+    },
+    {
+      "class": "Healthy",
+      "relative_path": "Healthy/Healthy845.png",
+      "sha256": "f7737a06b53ccaf50ae22495e4d724b86e52c6f9e2b86c81d412d3694c6ffa1d",
+      "phash": "b55a499142d62d9f",
+      "width": 567,
+      "height": 756,
+      "size_bytes": 1002267
+    },
+    {
+      "class": "Healthy",
+      "relative_path": "Healthy/Healthy90.png",
+      "sha256": "adc1531c76397b7bfe97ff880e48dc442fff2376a5f38c2e3bb34b4163a16f12",
+      "phash": "ddffc24c302e80d3",
+      "width": 567,
+      "height": 756,
+      "size_bytes": 907138
+    },
+    {
+      "class": "Healthy",
+      "relative_path": "Healthy/Healthy914.png",
+      "sha256": "517a40daa8faae012878847148ca6d8f14560ddafe5ec998ceb8b7e40fa8a466",
+      "phash": "ce8a16cef48ff202",
+      "width": 567,
+      "height": 756,
+      "size_bytes": 826130
+    },
+    {
+      "class": "Healthy",
+      "relative_path": "Healthy/Healthy936.png",
+      "sha256": "7e47c298dbd297720d3e4cc50404fd4920c0c4c89297fca384c2cbaacaca61a1",
+      "phash": "da88c935ffcf0482",
+      "width": 567,
+      "height": 756,
+      "size_bytes": 767277
+    },
+    {
+      "class": "Healthy",
+      "relative_path": "Healthy/Healthy972.png",
+      "sha256": "30a950223ce01cbee2ffce7346506c85a8756ee77141bfb0cd41a07d1a02356c",
+      "phash": "8ee9f36cc185813b",
+      "width": 567,
+      "height": 756,
+      "size_bytes": 781822
+    },
+    {
+      "class": "Yellow_rust",
+      "relative_path": "Yellow_rust/YellowRust1003.png",
+      "sha256": "5dec021b8b3b56b72f98d9babb093836fd355ef892a55c89da015a35cf498944",
+      "phash": "e0d1da0b94bc9b53",
+      "width": 709,
+      "height": 945,
+      "size_bytes": 1272032
+    },
+    {
+      "class": "Yellow_rust",
+      "relative_path": "Yellow_rust/YellowRust1010.png",
+      "sha256": "e6a4e3078d351d929d1d1bc8485c6281d10c5b6a8fbad208885524d216a02e7b",
+      "phash": "8a9cd427c7ccb5a8",
+      "width": 709,
+      "height": 945,
+      "size_bytes": 1353961
+    },
+    {
+      "class": "Yellow_rust",
+      "relative_path": "Yellow_rust/YellowRust1046.png",
+      "sha256": "9d432cd27294ddcd86d09bfb84d8d89a3002596d07f44191723c58eb69eb13ea",
+      "phash": "bf1ec6219091b87e",
+      "width": 709,
+      "height": 945,
+      "size_bytes": 1389877
+    },
+    {
+      "class": "Yellow_rust",
+      "relative_path": "Yellow_rust/YellowRust1067.png",
+      "sha256": "1ec437b50f78737b0c28882a4f082738646ac532d6d5e50dd09ea7e1768604cd",
+      "phash": "db1b12ec1999d386",
+      "width": 709,
+      "height": 945,
+      "size_bytes": 1355697
+    },
+    {
+      "class": "Yellow_rust",
+      "relative_path": "Yellow_rust/YellowRust1068.png",
+      "sha256": "46160c257cae476987e03d20997c27733997eafed8f19c1353bb1fb953e6418a",
+      "phash": "b832a74ac03b371f",
+      "width": 709,
+      "height": 945,
+      "size_bytes": 1377255
+    },
+    {
+      "class": "Yellow_rust",
+      "relative_path": "Yellow_rust/YellowRust1089.png",
+      "sha256": "22b85e61787944205c85977fd52d4b08415340be4aeeb502add72d1d19a7479f",
+      "phash": "fbb88c065725cb19",
+      "width": 709,
+      "height": 945,
+      "size_bytes": 1219796
+    },
+    {
+      "class": "Yellow_rust",
+      "relative_path": "Yellow_rust/YellowRust1095.png",
+      "sha256": "472756f2fa29a74032bdcb89629ed334a0c8f8d56d2669426668ac17fda8d8eb",
+      "phash": "99f3fff073415010",
+      "width": 709,
+      "height": 945,
+      "size_bytes": 1540737
+    },
+    {
+      "class": "Yellow_rust",
+      "relative_path": "Yellow_rust/YellowRust1110.png",
+      "sha256": "a057b4e7aaa6daeb52726c2f2dc353817eea4aa5fa9df1ede81bcf1326b913da",
+      "phash": "b4d7522b1c12caed",
+      "width": 709,
+      "height": 945,
+      "size_bytes": 1437136
+    },
+    {
+      "class": "Yellow_rust",
+      "relative_path": "Yellow_rust/YellowRust1118.png",
+      "sha256": "1ca79d2d932b5678e166bca38f6abff943337533224c49e23769b60dfbea3cc3",
+      "phash": "ccda236e4a607e99",
+      "width": 709,
+      "height": 945,
+      "size_bytes": 1355263
+    },
+    {
+      "class": "Yellow_rust",
+      "relative_path": "Yellow_rust/YellowRust113.png",
+      "sha256": "b466868a6a7bef89bdd1d89c8c8b5dc0f73a98255a4cab235772d1f71b1815de",
+      "phash": "e3710fbab5c0592a",
+      "width": 709,
+      "height": 945,
+      "size_bytes": 1262819
+    },
+    {
+      "class": "Yellow_rust",
+      "relative_path": "Yellow_rust/YellowRust114.png",
+      "sha256": "2d7a264324f5edc942b9009853c020ce772f89e8b31884c9152d4b12168e90cf",
+      "phash": "d97330e5e9cb4342",
+      "width": 709,
+      "height": 945,
+      "size_bytes": 1304822
+    },
+    {
+      "class": "Yellow_rust",
+      "relative_path": "Yellow_rust/YellowRust1145.png",
+      "sha256": "05042640f203d4767c18344d4e4ce538bd345cb5fce7201487d1d827f623cf8c",
+      "phash": "f58e6532990d6633",
+      "width": 709,
+      "height": 471,
+      "size_bytes": 637243
+    },
+    {
+      "class": "Yellow_rust",
+      "relative_path": "Yellow_rust/YellowRust1175.png",
+      "sha256": "121d653db727674834ab097465149d2adec41cc8b8748539e298528e08b1f06b",
+      "phash": "d9a42b4bb334353c",
+      "width": 709,
+      "height": 471,
+      "size_bytes": 688672
+    },
+    {
+      "class": "Yellow_rust",
+      "relative_path": "Yellow_rust/YellowRust1200.png",
+      "sha256": "305100dbcc34ebeb9e3220682ba207b32601e0e14b15cb895f9e48a8d8089123",
+      "phash": "cbf306bc7ce0092d",
+      "width": 709,
+      "height": 471,
+      "size_bytes": 738984
+    },
+    {
+      "class": "Yellow_rust",
+      "relative_path": "Yellow_rust/YellowRust1237.png",
+      "sha256": "cd1f3c6ed79ee6108721c225d916738a693266ce54f93210233e715e4682155c",
+      "phash": "98bfa0a2eafa1aa2",
+      "width": 709,
+      "height": 471,
+      "size_bytes": 737795
+    },
+    {
+      "class": "Yellow_rust",
+      "relative_path": "Yellow_rust/YellowRust127.png",
+      "sha256": "32027aa812091c45cd7f10a85c3eec49d3ae750ac8c20fcb8cfcc8fc35662b13",
+      "phash": "db7aa64da93e0852",
+      "width": 709,
+      "height": 945,
+      "size_bytes": 1304087
+    },
+    {
+      "class": "Yellow_rust",
+      "relative_path": "Yellow_rust/YellowRust1287.png",
+      "sha256": "4ed00844d638930f6449c471ce2de699a357e89b6d29162d8d15e29a6f544cc1",
+      "phash": "8b196296b87bd591",
+      "width": 709,
+      "height": 471,
+      "size_bytes": 633672
+    },
+    {
+      "class": "Yellow_rust",
+      "relative_path": "Yellow_rust/YellowRust1295.png",
+      "sha256": "02539998575b62bc50c00e311a99ab6f4485a27e1c248fe3d291f91b883a318b",
+      "phash": "e291aaae54fd50a5",
+      "width": 709,
+      "height": 471,
+      "size_bytes": 814332
+    },
+    {
+      "class": "Yellow_rust",
+      "relative_path": "Yellow_rust/YellowRust132.png",
+      "sha256": "050bee7f078ee60836796c1228f83a12b85b3aa1f98ecc98b146aae1ca00f7ad",
+      "phash": "8c56c63773cb8c25",
+      "width": 709,
+      "height": 945,
+      "size_bytes": 1294715
+    },
+    {
+      "class": "Yellow_rust",
+      "relative_path": "Yellow_rust/YellowRust1329.png",
+      "sha256": "b81b1530819b98cb3ea8b11382f5ca917b079fadbfa9781e7269181be222c67f",
+      "phash": "e1979032ee85f18e",
+      "width": 709,
+      "height": 471,
+      "size_bytes": 737579
+    },
+    {
+      "class": "Yellow_rust",
+      "relative_path": "Yellow_rust/YellowRust1365.png",
+      "sha256": "eaafe406a1ec997449d2f1e9ce19adc96f2a6189a23e9fcf138827cd8d02419a",
+      "phash": "e91a5566b35b4c31",
+      "width": 709,
+      "height": 471,
+      "size_bytes": 644244
+    },
+    {
+      "class": "Yellow_rust",
+      "relative_path": "Yellow_rust/YellowRust1371.png",
+      "sha256": "2a6a5bdca2f077273838deab79007012ac938e53800633b8d778c364ddfa6d25",
+      "phash": "f783c838fc11f186",
+      "width": 709,
+      "height": 471,
+      "size_bytes": 664134
+    },
+    {
+      "class": "Yellow_rust",
+      "relative_path": "Yellow_rust/YellowRust1386.png",
+      "sha256": "836c84b5f4f05707e1a84aae5d6554d8d457aadaa2b01c1e196b544afe05806f",
+      "phash": "e3a906a1d85d37ac",
+      "width": 709,
+      "height": 471,
+      "size_bytes": 796571
+    },
+    {
+      "class": "Yellow_rust",
+      "relative_path": "Yellow_rust/YellowRust1395.png",
+      "sha256": "153d09a6f67b9ef90a37f3c8849af7ec21588f38f0021d9f5b24f25b10ea5128",
+      "phash": "f23198cef18341ed",
+      "width": 709,
+      "height": 471,
+      "size_bytes": 648802
+    },
+    {
+      "class": "Yellow_rust",
+      "relative_path": "Yellow_rust/YellowRust1402.png",
+      "sha256": "a219191ac912d2eabf223e1f1e7aa4eba2d18585ca0852a91a487f14c03dc93d",
+      "phash": "dc126c147a05f5bb",
+      "width": 709,
+      "height": 471,
+      "size_bytes": 559822
+    },
+    {
+      "class": "Yellow_rust",
+      "relative_path": "Yellow_rust/YellowRust1423.png",
+      "sha256": "4fd5fb6c7d7a9709db5b57e4984df0642ae42f31df14e7e1973b0b93d1b37a2c",
+      "phash": "8f8df98626390b3a",
+      "width": 709,
+      "height": 471,
+      "size_bytes": 631934
+    },
+    {
+      "class": "Yellow_rust",
+      "relative_path": "Yellow_rust/YellowRust1433.png",
+      "sha256": "d9fbc91fb8b13ed8b731c49f152b045c2a390fbb52a10be488f646159d297380",
+      "phash": "d719ac86e28be435",
+      "width": 709,
+      "height": 471,
+      "size_bytes": 685337
+    },
+    {
+      "class": "Yellow_rust",
+      "relative_path": "Yellow_rust/YellowRust1443.png",
+      "sha256": "3e6883f0360a1eebcbb6b93bf39f8f884b4eb430663b99a9ad2394bc9e4a2bc7",
+      "phash": "c2d275973cae3390",
+      "width": 709,
+      "height": 471,
+      "size_bytes": 760861
+    },
+    {
+      "class": "Yellow_rust",
+      "relative_path": "Yellow_rust/YellowRust1455.png",
+      "sha256": "83eef37c65b71bb690b875f5137142bbca0fce2d6e93a7eb91cab75bbf74db6c",
+      "phash": "d1c9e7fcf180b214",
+      "width": 709,
+      "height": 471,
+      "size_bytes": 630132
+    },
+    {
+      "class": "Yellow_rust",
+      "relative_path": "Yellow_rust/YellowRust1464.png",
+      "sha256": "c41cfd27575e34f06ce6c880ea1ff0b0eea3d654dabc1f2e0c260713562bc6c4",
+      "phash": "ea98f390d0b13f4c",
+      "width": 709,
+      "height": 471,
+      "size_bytes": 687787
+    },
+    {
+      "class": "Yellow_rust",
+      "relative_path": "Yellow_rust/YellowRust1493.png",
+      "sha256": "68bf59d1ece231ed372dad9ea6b6750f70479930a2885698d178832f2e44e838",
+      "phash": "ed43459b16ad69c2",
+      "width": 709,
+      "height": 471,
+      "size_bytes": 643000
+    },
+    {
+      "class": "Yellow_rust",
+      "relative_path": "Yellow_rust/YellowRust1521.png",
+      "sha256": "f013b397ea9a9c99666a695cbdfc5035c72d411a45829f647077528ac01e5d14",
+      "phash": "968c3e4dd9b5614c",
+      "width": 709,
+      "height": 471,
+      "size_bytes": 677867
+    },
+    {
+      "class": "Yellow_rust",
+      "relative_path": "Yellow_rust/YellowRust1558.png",
+      "sha256": "6b9b85655c9149eb23c6c0b40f0bc75abfcae604f3b40d98bc2544790c389f7e",
+      "phash": "a4b4ff505b398d0c",
+      "width": 709,
+      "height": 471,
+      "size_bytes": 640791
+    },
+    {
+      "class": "Yellow_rust",
+      "relative_path": "Yellow_rust/YellowRust1579.png",
+      "sha256": "3577895c0c5126738c6006f5a12af80175bdae069649eb340051ebc3bcd94211",
+      "phash": "c21522fe5df8b344",
+      "width": 709,
+      "height": 1065,
+      "size_bytes": 1483119
+    },
+    {
+      "class": "Yellow_rust",
+      "relative_path": "Yellow_rust/YellowRust1600.png",
+      "sha256": "2722c0de84258e078ea5627b0b351e215df5e96cc58ad35b1aae05199797d3d2",
+      "phash": "b41c015f6faae730",
+      "width": 709,
+      "height": 1065,
+      "size_bytes": 1342970
+    },
+    {
+      "class": "Yellow_rust",
+      "relative_path": "Yellow_rust/YellowRust1627.png",
+      "sha256": "457735359000d88dc2fa9f479b98ce1ca7bbb67bd9b431a5f8ef141954dfdef5",
+      "phash": "e1e2d3c8291d8e8f",
+      "width": 709,
+      "height": 471,
+      "size_bytes": 552572
+    },
+    {
+      "class": "Yellow_rust",
+      "relative_path": "Yellow_rust/YellowRust1639.png",
+      "sha256": "90bebbe81cdb837c640d4a5e59493e859f4f3385c2b6a6ab9f652fbb1c5b8c8d",
+      "phash": "e6bf0ec603c0fc07",
+      "width": 709,
+      "height": 471,
+      "size_bytes": 635603
+    },
+    {
+      "class": "Yellow_rust",
+      "relative_path": "Yellow_rust/YellowRust1651.png",
+      "sha256": "b4f5a07692110898be82698e8f5b9c984e4e95541272c2fd2404e9429ee9ecf8",
+      "phash": "aaf7440b3e39c05e",
+      "width": 709,
+      "height": 471,
+      "size_bytes": 661825
+    },
+    {
+      "class": "Yellow_rust",
+      "relative_path": "Yellow_rust/YellowRust1677.png",
+      "sha256": "53bffe871fd61a8f0d641dc325f5d722baf7cdd4608380bb74d162b37693eef4",
+      "phash": "f00a7e4d1db0f169",
+      "width": 709,
+      "height": 471,
+      "size_bytes": 693178
+    },
+    {
+      "class": "Yellow_rust",
+      "relative_path": "Yellow_rust/YellowRust1688.png",
+      "sha256": "40328ae5742411eb4ca669f13182cd8cc73bb13c3607fde52c59a89e4010e509",
+      "phash": "e5ed46050de6fa84",
+      "width": 709,
+      "height": 471,
+      "size_bytes": 697300
+    },
+    {
+      "class": "Yellow_rust",
+      "relative_path": "Yellow_rust/YellowRust1721.png",
+      "sha256": "ed8cc22ac3d75bcf197d72a89943c240246c4fb7090590745997bcb47dc1c1b6",
+      "phash": "ecf13a4f85ee2310",
+      "width": 709,
+      "height": 471,
+      "size_bytes": 628000
+    },
+    {
+      "class": "Yellow_rust",
+      "relative_path": "Yellow_rust/YellowRust173.png",
+      "sha256": "e3e13201b0c97e0a3d65e318bdbbb26084f1ef311a431d10a562d6a0dced205f",
+      "phash": "ab8632e50e7ed087",
+      "width": 709,
+      "height": 945,
+      "size_bytes": 1360630
+    },
+    {
+      "class": "Yellow_rust",
+      "relative_path": "Yellow_rust/YellowRust1744.png",
+      "sha256": "18bcd68f34762b2618a2942839279ce1a141d93fac093faa1e7ef6d0f47de3c6",
+      "phash": "8a325ab754f835c5",
+      "width": 709,
+      "height": 1065,
+      "size_bytes": 1418829
+    },
+    {
+      "class": "Yellow_rust",
+      "relative_path": "Yellow_rust/YellowRust1753.png",
+      "sha256": "734f5136550189426ffec5f692f10e89d943d09cce93c6c29f5683f2c9631de4",
+      "phash": "964927d71ff7010a",
+      "width": 709,
+      "height": 1065,
+      "size_bytes": 1261436
+    },
+    {
+      "class": "Yellow_rust",
+      "relative_path": "Yellow_rust/YellowRust1769.png",
+      "sha256": "a371ff67783a1c96c9c803d0a90e91b92fadf20ffa71e33deb24ebe05320ae05",
+      "phash": "c604e56d393a9baa",
+      "width": 709,
+      "height": 1065,
+      "size_bytes": 1420502
+    },
+    {
+      "class": "Yellow_rust",
+      "relative_path": "Yellow_rust/YellowRust1798.png",
+      "sha256": "fc163a703b3290dc5d266efb62c2ad75e055822eeb50b8f2a4a192e11fbfad2c",
+      "phash": "813be74e39636649",
+      "width": 709,
+      "height": 471,
+      "size_bytes": 699561
+    },
+    {
+      "class": "Yellow_rust",
+      "relative_path": "Yellow_rust/YellowRust1809.png",
+      "sha256": "9076900cc67661053876c91bd66632617a34e56a907254f70459cff3b7b483d1",
+      "phash": "857839c7fd10a2e5",
+      "width": 709,
+      "height": 399,
+      "size_bytes": 518948
+    },
+    {
+      "class": "Yellow_rust",
+      "relative_path": "Yellow_rust/YellowRust1810.png",
+      "sha256": "18a4e26b5fc784ae41303e8b374d23083b4fb19e38da3c33b6fac7bde8c4a7b6",
+      "phash": "d328359c6c96dc63",
+      "width": 709,
+      "height": 399,
+      "size_bytes": 502942
+    },
+    {
+      "class": "Yellow_rust",
+      "relative_path": "Yellow_rust/YellowRust1834.png",
+      "sha256": "1c15743aad0547e134a4796ae19576801e15a4578fcd6221e6aeeda542de18c4",
+      "phash": "87cf3cda546d6b00",
+      "width": 709,
+      "height": 945,
+      "size_bytes": 1362521
+    },
+    {
+      "class": "Yellow_rust",
+      "relative_path": "Yellow_rust/YellowRust1878.png",
+      "sha256": "e074d21580c062c530665b771ea7a816219220c07b88f987dc8fc47d6e9420c3",
+      "phash": "eaba0864fe8e3313",
+      "width": 709,
+      "height": 945,
+      "size_bytes": 1406415
+    },
+    {
+      "class": "Yellow_rust",
+      "relative_path": "Yellow_rust/YellowRust1897.png",
+      "sha256": "e4f44d4bada80045436b7617f9cf152fd74b895deef4ea5fb5d9f2451cad3546",
+      "phash": "9f1b2cf1620c5967",
+      "width": 709,
+      "height": 945,
+      "size_bytes": 1414009
+    },
+    {
+      "class": "Yellow_rust",
+      "relative_path": "Yellow_rust/YellowRust1899.png",
+      "sha256": "0da66b34fd94323224b64afadada6f1831fd8a278f36f89776bd56f9d848cb30",
+      "phash": "dbd361870df302cc",
+      "width": 709,
+      "height": 945,
+      "size_bytes": 1263425
+    },
+    {
+      "class": "Yellow_rust",
+      "relative_path": "Yellow_rust/YellowRust1915.png",
+      "sha256": "736fac106ccc90fde248747083d64ba9fa3d68c6b0f4e7a2b8bdc8714c052cbf",
+      "phash": "fab30aeb61577003",
+      "width": 709,
+      "height": 945,
+      "size_bytes": 1223651
+    },
+    {
+      "class": "Yellow_rust",
+      "relative_path": "Yellow_rust/YellowRust1923.png",
+      "sha256": "99e2c17d6e152f7df6ba95e70d8a8fad8a765317cb022b820bcc24ec9a648d2d",
+      "phash": "aa96dfd1d1a19688",
+      "width": 709,
+      "height": 531,
+      "size_bytes": 726179
+    },
+    {
+      "class": "Yellow_rust",
+      "relative_path": "Yellow_rust/YellowRust1928.png",
+      "sha256": "d11fb24ef6cb9f3b6fc16251393002037828e6eb1b4fc73c06dda5d6f01c2d62",
+      "phash": "acaf2ad52d475438",
+      "width": 709,
+      "height": 945,
+      "size_bytes": 1335691
+    },
+    {
+      "class": "Yellow_rust",
+      "relative_path": "Yellow_rust/YellowRust1929.png",
+      "sha256": "b3c329e7fc7974d9496bbcd6ea099f3f5ea8956e8b1615c3b71fbbafe3529a52",
+      "phash": "d14a0e33bdd68371",
+      "width": 709,
+      "height": 945,
+      "size_bytes": 1305615
+    },
+    {
+      "class": "Yellow_rust",
+      "relative_path": "Yellow_rust/YellowRust196.png",
+      "sha256": "93327bea996e06f6a84b6f3d6d1f858377033a0b785000206b4cd57ce78e4068",
+      "phash": "a97b9991e31e5a03",
+      "width": 709,
+      "height": 945,
+      "size_bytes": 1309998
+    },
+    {
+      "class": "Yellow_rust",
+      "relative_path": "Yellow_rust/YellowRust198.png",
+      "sha256": "0af29e867f51e276c24b13c1e9d4e17b1b4898134a917200a68438d3a357b386",
+      "phash": "a859b113ffe03e03",
+      "width": 709,
+      "height": 945,
+      "size_bytes": 1407328
+    },
+    {
+      "class": "Yellow_rust",
+      "relative_path": "Yellow_rust/YellowRust1990.png",
+      "sha256": "e99fcb34ba419c4ccab7bfc08ae7c3b6a7e4ac431ed15ad2de5abf1fb7cfc3b7",
+      "phash": "fbd81ce561f5a084",
+      "width": 709,
+      "height": 945,
+      "size_bytes": 1272202
+    },
+    {
+      "class": "Yellow_rust",
+      "relative_path": "Yellow_rust/YellowRust1993.png",
+      "sha256": "53b2770f429b97f7fc771b1c2b4d3634e985b638c1db2a50acef5acfe4a75693",
+      "phash": "b9a444c5269b376d",
+      "width": 709,
+      "height": 945,
+      "size_bytes": 1389461
+    },
+    {
+      "class": "Yellow_rust",
+      "relative_path": "Yellow_rust/YellowRust201.png",
+      "sha256": "214afcda81881945f0e246c0cc3fa2e7ebcb0c36e13e8df2baa87c44c09a722e",
+      "phash": "9a1a92f7198437dc",
+      "width": 709,
+      "height": 945,
+      "size_bytes": 1177706
+    },
+    {
+      "class": "Yellow_rust",
+      "relative_path": "Yellow_rust/YellowRust2026.png",
+      "sha256": "40ecf280eab50ea39d29595ce0303a7493661884d71af27fa30fd98199dc8c0c",
+      "phash": "80b43882c19f3ff7",
+      "width": 709,
+      "height": 945,
+      "size_bytes": 1365561
+    },
+    {
+      "class": "Yellow_rust",
+      "relative_path": "Yellow_rust/YellowRust2042.png",
+      "sha256": "cde9747c302a776e837ffee02e88bb6b905faccba6c37f57fe5e4ff37fa368ce",
+      "phash": "f3cd80f3bbb09c04",
+      "width": 709,
+      "height": 945,
+      "size_bytes": 1351702
+    },
+    {
+      "class": "Yellow_rust",
+      "relative_path": "Yellow_rust/YellowRust2058.png",
+      "sha256": "0a9ca23fe537bc849c1b0e03655570315884eb6a352a7a039fa5bb99f264f050",
+      "phash": "cbec2af5a5552458",
+      "width": 709,
+      "height": 945,
+      "size_bytes": 1352644
+    },
+    {
+      "class": "Yellow_rust",
+      "relative_path": "Yellow_rust/YellowRust2083.png",
+      "sha256": "8059d8c754c46d870002c3f0c9896c9648b15e8bfe49fe90c942252b35ef007b",
+      "phash": "8af816a19087ed6f",
+      "width": 709,
+      "height": 945,
+      "size_bytes": 1323095
+    },
+    {
+      "class": "Yellow_rust",
+      "relative_path": "Yellow_rust/YellowRust2087.png",
+      "sha256": "e4909efef0c750d1685a3b2bb48c49eb6b7caa0c4adb5de54aad02924a1d13f8",
+      "phash": "b8e8ac69c9cd7990",
+      "width": 709,
+      "height": 945,
+      "size_bytes": 1246235
+    },
+    {
+      "class": "Yellow_rust",
+      "relative_path": "Yellow_rust/YellowRust2114.png",
+      "sha256": "a4683e47c1750acc72fb7ff6eb9f8e182597a1c9c882d947060dca2b88ae4801",
+      "phash": "e1b7567b110ea985",
+      "width": 709,
+      "height": 945,
+      "size_bytes": 1523580
+    },
+    {
+      "class": "Yellow_rust",
+      "relative_path": "Yellow_rust/YellowRust2123.png",
+      "sha256": "0fa0fca950d3d626abfa026454e543a0f3797e3303a21801e24b99ea4f5ef28c",
+      "phash": "f2cd463cbb922558",
+      "width": 709,
+      "height": 945,
+      "size_bytes": 1446829
+    },
+    {
+      "class": "Yellow_rust",
+      "relative_path": "Yellow_rust/YellowRust2134.png",
+      "sha256": "41b5acb406d7b704a4e0c81dbef6f794b8d319e3ec3ef3b63cab52b7f980e6c3",
+      "phash": "d4307a99ec4e32ce",
+      "width": 709,
+      "height": 945,
+      "size_bytes": 1488972
+    },
+    {
+      "class": "Yellow_rust",
+      "relative_path": "Yellow_rust/YellowRust214.png",
+      "sha256": "4a90d418519dfb0b8bec2cfd3e47f42b93102aa261db93ea2982147a1555ebfc",
+      "phash": "997e03ca7c812ead",
+      "width": 709,
+      "height": 945,
+      "size_bytes": 1237703
+    },
+    {
+      "class": "Yellow_rust",
+      "relative_path": "Yellow_rust/YellowRust2167.png",
+      "sha256": "a8d85318b32905196823c51d843e6ffdda71ad6ccd1816851cbc9774fd680eb6",
+      "phash": "aa4e1c376a6e2b58",
+      "width": 709,
+      "height": 945,
+      "size_bytes": 1385676
+    },
+    {
+      "class": "Yellow_rust",
+      "relative_path": "Yellow_rust/YellowRust2187.png",
+      "sha256": "aaedadd121a93c5195a3e319324566e147bee6d460eea8fa317c178ff8dbb72b",
+      "phash": "b13ea9a92e068af9",
+      "width": 709,
+      "height": 945,
+      "size_bytes": 1407266
+    },
+    {
+      "class": "Yellow_rust",
+      "relative_path": "Yellow_rust/YellowRust2201.png",
+      "sha256": "18e1e9777bfb36439dd6dd9dba36a6c8027a9a99daae5e9c4e463cc7f13128e5",
+      "phash": "c06cb03f87267c7a",
+      "width": 709,
+      "height": 945,
+      "size_bytes": 1514202
+    },
+    {
+      "class": "Yellow_rust",
+      "relative_path": "Yellow_rust/YellowRust2215.png",
+      "sha256": "fd7cf840df82f241381b11de8341ab1f7f3dc505c105ca7e5a600d77fe19645b",
+      "phash": "e1be864b43e2b8e4",
+      "width": 709,
+      "height": 945,
+      "size_bytes": 1354315
+    },
+    {
+      "class": "Yellow_rust",
+      "relative_path": "Yellow_rust/YellowRust2220.png",
+      "sha256": "485347b313bb49fb006549d8b4ba9a380077e46cfca9a1173b825d57ff6fba8c",
+      "phash": "eb979838484c4df3",
+      "width": 709,
+      "height": 945,
+      "size_bytes": 1255308
+    },
+    {
+      "class": "Yellow_rust",
+      "relative_path": "Yellow_rust/YellowRust2222.png",
+      "sha256": "9ac9d4745ae80ae84a3ce320f2d5a35ed6b7877c41c9c603fe5d9f01b4a692f4",
+      "phash": "fe10c6122d5b71ea",
+      "width": 709,
+      "height": 945,
+      "size_bytes": 1608595
+    },
+    {
+      "class": "Yellow_rust",
+      "relative_path": "Yellow_rust/YellowRust2226.png",
+      "sha256": "5460c3c1a0d0d5a380571e2043be73cd0ad43dfa49718012f884ffc8a04c025a",
+      "phash": "bb5b006e346b52cd",
+      "width": 709,
+      "height": 945,
+      "size_bytes": 1541864
+    },
+    {
+      "class": "Yellow_rust",
+      "relative_path": "Yellow_rust/YellowRust2249.png",
+      "sha256": "f035a46b7d524634ef3ce504db09c69dbaa7bb54fdc08b61bb030603caa5fa79",
+      "phash": "a2c095d7d9c9c8e9",
+      "width": 709,
+      "height": 945,
+      "size_bytes": 1291454
+    },
+    {
+      "class": "Yellow_rust",
+      "relative_path": "Yellow_rust/YellowRust227.png",
+      "sha256": "2c0f5f2a8166c35d1427aae25cfa69c4a1b1536856226352d536050995bc0afa",
+      "phash": "f808f6339486979d",
+      "width": 709,
+      "height": 945,
+      "size_bytes": 1264578
+    },
+    {
+      "class": "Yellow_rust",
+      "relative_path": "Yellow_rust/YellowRust2280.png",
+      "sha256": "e7972ac1ad96fb31ca88d9e2e1f119aceb7abbb5ebea960c776e4ca9ee0d631a",
+      "phash": "b5548d7294fea41a",
+      "width": 709,
+      "height": 945,
+      "size_bytes": 1498839
+    },
+    {
+      "class": "Yellow_rust",
+      "relative_path": "Yellow_rust/YellowRust2291.png",
+      "sha256": "32cd00c27e835ba0d0fbd6cab9f7fd61ca3668942133df55ae6f5a74920bd667",
+      "phash": "b31ed3616ca66d24",
+      "width": 709,
+      "height": 945,
+      "size_bytes": 1376583
+    },
+    {
+      "class": "Yellow_rust",
+      "relative_path": "Yellow_rust/YellowRust2292.png",
+      "sha256": "b6dac5524d8fbd236156e4c5d86844d6a5f817de0045d8fff1072935656419b7",
+      "phash": "ea619394f8f1c8c9",
+      "width": 709,
+      "height": 945,
+      "size_bytes": 1406049
+    },
+    {
+      "class": "Yellow_rust",
+      "relative_path": "Yellow_rust/YellowRust2324.png",
+      "sha256": "7e1368b07c365c03d4d62f12931d6495bfdcb425b842c277ca15798b3b465b8a",
+      "phash": "e905265316def958",
+      "width": 709,
+      "height": 945,
+      "size_bytes": 1510442
+    },
+    {
+      "class": "Yellow_rust",
+      "relative_path": "Yellow_rust/YellowRust2351.png",
+      "sha256": "328579d461c0f19416bc41171886c88a03c539324c5d5dc9fa179341dd74f144",
+      "phash": "dc4c813ecf07eb06",
+      "width": 709,
+      "height": 471,
+      "size_bytes": 726491
+    },
+    {
+      "class": "Yellow_rust",
+      "relative_path": "Yellow_rust/YellowRust2370.png",
+      "sha256": "ba589d9dd384a8a93dfcd5477ef325ef7ea455a721ae35c3994a95dc224977eb",
+      "phash": "af81fcde16691322",
+      "width": 709,
+      "height": 471,
+      "size_bytes": 684298
+    },
+    {
+      "class": "Yellow_rust",
+      "relative_path": "Yellow_rust/YellowRust2385.png",
+      "sha256": "2965cc712b2ee36f2e3b82e56f84bcb61fe97b8b0a0363cd445c5ba0f0b8ed77",
+      "phash": "fda3421186e067fc",
+      "width": 709,
+      "height": 471,
+      "size_bytes": 737744
+    },
+    {
+      "class": "Yellow_rust",
+      "relative_path": "Yellow_rust/YellowRust240.png",
+      "sha256": "5979d334a0dbbe26d984771e49276cdf2014a910641ab94b4d1c9632edfbb958",
+      "phash": "adcc11f3270cfc15",
+      "width": 709,
+      "height": 945,
+      "size_bytes": 1375483
+    },
+    {
+      "class": "Yellow_rust",
+      "relative_path": "Yellow_rust/YellowRust2405.png",
+      "sha256": "a1cda3d32a44f9df6b0b1a77fd24622aa53b7463394ba44a7952fd3636551568",
+      "phash": "d782eae3f4334056",
+      "width": 709,
+      "height": 471,
+      "size_bytes": 726763
+    },
+    {
+      "class": "Yellow_rust",
+      "relative_path": "Yellow_rust/YellowRust2430.png",
+      "sha256": "2fe10125613b39d658ec0df59321c6170ab834addc6cb64326ec562d0bf65a53",
+      "phash": "8bc8787ca6567364",
+      "width": 709,
+      "height": 471,
+      "size_bytes": 756622
+    },
+    {
+      "class": "Yellow_rust",
+      "relative_path": "Yellow_rust/YellowRust2440.png",
+      "sha256": "caea5ae38dddbf505d8948b11f6874996a93026fcb718c99f45df2fdd0d118b1",
+      "phash": "91f015ff2b859272",
+      "width": 709,
+      "height": 471,
+      "size_bytes": 700379
+    },
+    {
+      "class": "Yellow_rust",
+      "relative_path": "Yellow_rust/YellowRust2468.png",
+      "sha256": "97b5293d8e6e5b91fe0bd50aa20a086b0d3d286407e6f638c5ad93e6530d6511",
+      "phash": "b1c8eda7f3cd0890",
+      "width": 709,
+      "height": 471,
+      "size_bytes": 837578
+    },
+    {
+      "class": "Yellow_rust",
+      "relative_path": "Yellow_rust/YellowRust2502.png",
+      "sha256": "9f7791b0e6bd0b11ef5eb23013500bf7cd0c630cf7d978ef1eecf137532eddd6",
+      "phash": "aac2d7be38658c61",
+      "width": 709,
+      "height": 471,
+      "size_bytes": 756321
+    },
+    {
+      "class": "Yellow_rust",
+      "relative_path": "Yellow_rust/YellowRust2512.png",
+      "sha256": "ac51827268f364ded113456507e03aef9289ccdb72b8fc67c7331e5f4c641f4d",
+      "phash": "990f3210fc67ac57",
+      "width": 709,
+      "height": 471,
+      "size_bytes": 790709
+    },
+    {
+      "class": "Yellow_rust",
+      "relative_path": "Yellow_rust/YellowRust2513.png",
+      "sha256": "0e9d87f0eec95e1d09620c8161ccb3789e7d220c2b3e79a509ef7d5998aeb57c",
+      "phash": "a9707d8db2141d6e",
+      "width": 709,
+      "height": 471,
+      "size_bytes": 744753
+    },
+    {
+      "class": "Yellow_rust",
+      "relative_path": "Yellow_rust/YellowRust253.png",
+      "sha256": "fbffaa42ffbbf5c6f61d61c2775e536fc4aa7dc8de39163dfae9fd3de6d4d511",
+      "phash": "ccdd29a306267a3e",
+      "width": 709,
+      "height": 945,
+      "size_bytes": 1305677
+    },
+    {
+      "class": "Yellow_rust",
+      "relative_path": "Yellow_rust/YellowRust2542.png",
+      "sha256": "17aa01e37c0dab859d7742238ae0343b88a6bc8cee69f128bc1e49bbf5dcc606",
+      "phash": "b89645fb9298354d",
+      "width": 709,
+      "height": 471,
+      "size_bytes": 829586
+    },
+    {
+      "class": "Yellow_rust",
+      "relative_path": "Yellow_rust/YellowRust2560.png",
+      "sha256": "5fc5ce26b827b5f67a0da500c1bd923e8b70fe9d223331a71729170e6afaefac",
+      "phash": "99c34a52f53fcc30",
+      "width": 709,
+      "height": 471,
+      "size_bytes": 799757
+    },
+    {
+      "class": "Yellow_rust",
+      "relative_path": "Yellow_rust/YellowRust2593.png",
+      "sha256": "56599542edcd2ee960ba93bd48ba0342e00ca572a8ad501db9f09ef6e074ece8",
+      "phash": "90f1218d2ff22d6b",
+      "width": 709,
+      "height": 471,
+      "size_bytes": 753061
+    },
+    {
+      "class": "Yellow_rust",
+      "relative_path": "Yellow_rust/YellowRust2606.png",
+      "sha256": "4f24d377d4293195f9bb70296aef1e055428cd0c54aa7fa203fd134b172810f9",
+      "phash": "b7f18ec670e007b4",
+      "width": 709,
+      "height": 471,
+      "size_bytes": 763772
+    },
+    {
+      "class": "Yellow_rust",
+      "relative_path": "Yellow_rust/YellowRust2626.png",
+      "sha256": "42d61599e9770e8062d375566fdb2ac37a596a33e38611b5c45c7c1e53a94045",
+      "phash": "f01b05bd2fbdad00",
+      "width": 709,
+      "height": 471,
+      "size_bytes": 804934
+    },
+    {
+      "class": "Yellow_rust",
+      "relative_path": "Yellow_rust/YellowRust2657.png",
+      "sha256": "3d3951f2ca4f62b5647b8731e7ffd51528c68a590579753100177068ab53fd19",
+      "phash": "8a6aae8235b94bba",
+      "width": 709,
+      "height": 471,
+      "size_bytes": 725873
+    },
+    {
+      "class": "Yellow_rust",
+      "relative_path": "Yellow_rust/YellowRust2661.png",
+      "sha256": "781c6211d9222d3643fbffcae721d1be1125e52e48c043d030ddf07ea8ef47b0",
+      "phash": "d6e825a34934dcd9",
+      "width": 709,
+      "height": 471,
+      "size_bytes": 828391
+    },
+    {
+      "class": "Yellow_rust",
+      "relative_path": "Yellow_rust/YellowRust2663.png",
+      "sha256": "1aff3102a472e771c380d6242bcd4250c098f57d8dfa636d902e56cb8ef154f0",
+      "phash": "d5d869a7532c3991",
+      "width": 709,
+      "height": 471,
+      "size_bytes": 797560
+    },
+    {
+      "class": "Yellow_rust",
+      "relative_path": "Yellow_rust/YellowRust2668.png",
+      "sha256": "1ddc1df3fab724d31629cf1d249844e3b46d07afc1395056bfdbff634badcb69",
+      "phash": "eca7c032ff6406b8",
+      "width": 709,
+      "height": 471,
+      "size_bytes": 738191
+    },
+    {
+      "class": "Yellow_rust",
+      "relative_path": "Yellow_rust/YellowRust2700.png",
+      "sha256": "22ad218337cd3b2f4494ba66fba7cdff6bf5e213602429183563b58e825e1cf7",
+      "phash": "b6cb60f3c480f783",
+      "width": 709,
+      "height": 471,
+      "size_bytes": 764812
+    },
+    {
+      "class": "Yellow_rust",
+      "relative_path": "Yellow_rust/YellowRust2719.png",
+      "sha256": "29f5b4130ccd7525a89e4d41e7504e6d309a9aa2fc19918dfec9a4196b92f090",
+      "phash": "a5cb57b4964e681c",
+      "width": 709,
+      "height": 471,
+      "size_bytes": 765899
+    },
+    {
+      "class": "Yellow_rust",
+      "relative_path": "Yellow_rust/YellowRust2744.png",
+      "sha256": "5977f1713ec3b0ff6c0bc6428ea6fd73715226609e7934d18c21032ac82f5d53",
+      "phash": "d6a05a5a5c52e6b5",
+      "width": 709,
+      "height": 471,
+      "size_bytes": 809989
+    },
+    {
+      "class": "Yellow_rust",
+      "relative_path": "Yellow_rust/YellowRust2757.png",
+      "sha256": "9b68d2f521a6a01d43637d4218b85bdaed701d2ef6c1ef4536d0f9aa40b42f5b",
+      "phash": "c1d27679a948647b",
+      "width": 709,
+      "height": 471,
+      "size_bytes": 721136
+    },
+    {
+      "class": "Yellow_rust",
+      "relative_path": "Yellow_rust/YellowRust2777.png",
+      "sha256": "13db5d6b3c89338ec629e5f6bcb2b709bb389a78670ffb5287286e9fe769865d",
+      "phash": "f84e00b0db4aa7f3",
+      "width": 709,
+      "height": 471,
+      "size_bytes": 618820
+    },
+    {
+      "class": "Yellow_rust",
+      "relative_path": "Yellow_rust/YellowRust2786.png",
+      "sha256": "e6556da69b37c109d68db4be7aa756d79c21d30808df319f4733e1324f9b8cac",
+      "phash": "d559759fccc209c4",
+      "width": 709,
+      "height": 471,
+      "size_bytes": 655401
+    },
+    {
+      "class": "Yellow_rust",
+      "relative_path": "Yellow_rust/YellowRust2799.png",
+      "sha256": "4fa6638dde02fd478a117a218188dbcc37615f30a417e0f503269d1c2fbbdda8",
+      "phash": "a9d802f08875f7d9",
+      "width": 709,
+      "height": 471,
+      "size_bytes": 804145
+    },
+    {
+      "class": "Yellow_rust",
+      "relative_path": "Yellow_rust/YellowRust2840.png",
+      "sha256": "93ab39f5f72f29f35c844239ee98d0f26c8fd5985e9fff1e5c8098741c7c0eca",
+      "phash": "aeedb88220d59877",
+      "width": 709,
+      "height": 1065,
+      "size_bytes": 1575975
+    },
+    {
+      "class": "Yellow_rust",
+      "relative_path": "Yellow_rust/YellowRust2877.png",
+      "sha256": "635cdcb4061603f3f71096dd58599a5ca42155b812534639649a2bf2c9fce2a0",
+      "phash": "93df199ba130e472",
+      "width": 709,
+      "height": 471,
+      "size_bytes": 695601
+    },
+    {
+      "class": "Yellow_rust",
+      "relative_path": "Yellow_rust/YellowRust2878.png",
+      "sha256": "6b7a7c5345abd221bd9b328c3757726b741eb8da452affd612a5b09ff3f98ad7",
+      "phash": "ece6e321129aa9e9",
+      "width": 709,
+      "height": 471,
+      "size_bytes": 729869
+    },
+    {
+      "class": "Yellow_rust",
+      "relative_path": "Yellow_rust/YellowRust2899.png",
+      "sha256": "87120722725ef604e3582c6b0ddb9574ef331434a8e733305c9d8bc5f9484331",
+      "phash": "ced3a0aca778c98c",
+      "width": 709,
+      "height": 471,
+      "size_bytes": 729016
+    },
+    {
+      "class": "Yellow_rust",
+      "relative_path": "Yellow_rust/YellowRust2912.png",
+      "sha256": "b0b375a9a0cdf0d7b08eecb9fe2556529a91dc707932e8aab13164d2f958a082",
+      "phash": "cecbe424b3087597",
+      "width": 709,
+      "height": 471,
+      "size_bytes": 751323
+    },
+    {
+      "class": "Yellow_rust",
+      "relative_path": "Yellow_rust/YellowRust2938.png",
+      "sha256": "b5bd7c3f3841cb9a469315e00c326a8e45b90363df2655528e6eab6d0fb09045",
+      "phash": "afee96891896a1d2",
+      "width": 709,
+      "height": 471,
+      "size_bytes": 766478
+    },
+    {
+      "class": "Yellow_rust",
+      "relative_path": "Yellow_rust/YellowRust2940.png",
+      "sha256": "b06db8b14c9583fa52e8f541f001d17982bdd210c05baecfedc07eb016fd4fee",
+      "phash": "d0f874fe8c407d0d",
+      "width": 709,
+      "height": 471,
+      "size_bytes": 716460
+    },
+    {
+      "class": "Yellow_rust",
+      "relative_path": "Yellow_rust/YellowRust2962.png",
+      "sha256": "3a74a7f4a1843b7d333906fb334cef218230c29f7893142ba826d0429748b239",
+      "phash": "959c41aa9f87e833",
+      "width": 709,
+      "height": 471,
+      "size_bytes": 811607
+    },
+    {
+      "class": "Yellow_rust",
+      "relative_path": "Yellow_rust/YellowRust297.png",
+      "sha256": "495017d73a16c4a665089248c5a38873a63af1af8c411b2a661a64f30bb61b0d",
+      "phash": "e9751ec5ce4325a2",
+      "width": 709,
+      "height": 945,
+      "size_bytes": 1297026
+    },
+    {
+      "class": "Yellow_rust",
+      "relative_path": "Yellow_rust/YellowRust2999.png",
+      "sha256": "5e10e502d8e781234091509badbc5b59a42133661c564de2b751fee9abe55531",
+      "phash": "dd9972869aa06f98",
+      "width": 709,
+      "height": 471,
+      "size_bytes": 754738
+    },
+    {
+      "class": "Yellow_rust",
+      "relative_path": "Yellow_rust/YellowRust300.png",
+      "sha256": "102af4bbea24651e351612a919728f1c23405a54eb630c6812aa47a1f62f54d3",
+      "phash": "a8b03d7b02e3a0fe",
+      "width": 709,
+      "height": 945,
+      "size_bytes": 1446720
+    },
+    {
+      "class": "Yellow_rust",
+      "relative_path": "Yellow_rust/YellowRust3004.png",
+      "sha256": "138e11c6561a9da9e25ba137aa6b1edb6981491b0dd8d8861ff79f3a9a8a97d5",
+      "phash": "a1fa6ccc9a3e2f80",
+      "width": 709,
+      "height": 471,
+      "size_bytes": 754489
+    },
+    {
+      "class": "Yellow_rust",
+      "relative_path": "Yellow_rust/YellowRust3011.png",
+      "sha256": "b71c6a442cadf71a2dd3f656a0b09e11d4b08eb75d23193b60746ed80a8d7f6d",
+      "phash": "ff97a4c449a21e49",
+      "width": 709,
+      "height": 471,
+      "size_bytes": 673452
+    },
+    {
+      "class": "Yellow_rust",
+      "relative_path": "Yellow_rust/YellowRust3034.png",
+      "sha256": "473f4c84392158c8c412b2a820f8d1ad9ee4c1ddff18ba53617785a7b3f66551",
+      "phash": "e0de61198dd2d653",
+      "width": 709,
+      "height": 1065,
+      "size_bytes": 1403154
+    },
+    {
+      "class": "Yellow_rust",
+      "relative_path": "Yellow_rust/YellowRust3037.png",
+      "sha256": "1169e8b75ed739c1d72fa319c3d65a9b618e7c9fb7980cccf0409e99f862b61d",
+      "phash": "dcbeaa522b4e5286",
+      "width": 709,
+      "height": 471,
+      "size_bytes": 679742
+    },
+    {
+      "class": "Yellow_rust",
+      "relative_path": "Yellow_rust/YellowRust3042.png",
+      "sha256": "24645e96c55430f7e763f80380683d495fe05895bd065ea702a4552020898965",
+      "phash": "f6a17a95fc059036",
+      "width": 709,
+      "height": 471,
+      "size_bytes": 733099
+    },
+    {
+      "class": "Yellow_rust",
+      "relative_path": "Yellow_rust/YellowRust3061.png",
+      "sha256": "5605388ce8bdb21341c3788a4937311d5a4cb14e373e3b80631c1dff768ada67",
+      "phash": "da77b394598aa415",
+      "width": 709,
+      "height": 471,
+      "size_bytes": 784917
+    },
+    {
+      "class": "Yellow_rust",
+      "relative_path": "Yellow_rust/YellowRust3063.png",
+      "sha256": "e637554829da10f257fdfad517820c847c26e7207c75ec5e14c22d87f0a3111d",
+      "phash": "948fcb3a95d26a26",
+      "width": 709,
+      "height": 471,
+      "size_bytes": 695221
+    },
+    {
+      "class": "Yellow_rust",
+      "relative_path": "Yellow_rust/YellowRust3075.png",
+      "sha256": "f1e430da14b7ead914f234eff961eb9619373041b62e78f9b518fcb93b2f659e",
+      "phash": "99ee06bc819350f7",
+      "width": 709,
+      "height": 471,
+      "size_bytes": 664935
+    },
+    {
+      "class": "Yellow_rust",
+      "relative_path": "Yellow_rust/YellowRust3089.png",
+      "sha256": "52e6d2eb755ff755f3b1a7c5813b8d99687bcdc353750b0ff594efdce9ac6fee",
+      "phash": "ca72415a75b724e9",
+      "width": 709,
+      "height": 471,
+      "size_bytes": 546914
+    },
+    {
+      "class": "Yellow_rust",
+      "relative_path": "Yellow_rust/YellowRust3104.png",
+      "sha256": "f1cb4d633a3f8f0a7ee97a5ae561126741a68fb86a831eebe3b68e0dd4d19347",
+      "phash": "e6b9f8f794a01aa0",
+      "width": 709,
+      "height": 471,
+      "size_bytes": 834671
+    },
+    {
+      "class": "Yellow_rust",
+      "relative_path": "Yellow_rust/YellowRust3125.png",
+      "sha256": "68f66d84d89d139d2c9b066619cfb2dd0e4de44b53edd1464b4a4d8d036cda6c",
+      "phash": "d0f73771ca1c8c32",
+      "width": 709,
+      "height": 471,
+      "size_bytes": 686482
+    },
+    {
+      "class": "Yellow_rust",
+      "relative_path": "Yellow_rust/YellowRust3137.png",
+      "sha256": "4e608d11215b449933d95fd59243fb0ffcf5a0fa43833a865b33b2a0c47a3b8b",
+      "phash": "d51862cc59d39477",
+      "width": 709,
+      "height": 471,
+      "size_bytes": 639520
+    },
+    {
+      "class": "Yellow_rust",
+      "relative_path": "Yellow_rust/YellowRust3152.png",
+      "sha256": "550a96b2a68637b0597ecc4e8a6cbaad5b01aad3a4a3e435ac9188a3e476b13e",
+      "phash": "f68cf6f481f41069",
+      "width": 709,
+      "height": 1065,
+      "size_bytes": 1769433
+    },
+    {
+      "class": "Yellow_rust",
+      "relative_path": "Yellow_rust/YellowRust3165.png",
+      "sha256": "9f32aff432213567aeb9b2343e5ea16a9819cab18aa8d2670c69a3c858125788",
+      "phash": "d4816fb2c9f5905a",
+      "width": 709,
+      "height": 471,
+      "size_bytes": 688508
+    },
+    {
+      "class": "Yellow_rust",
+      "relative_path": "Yellow_rust/YellowRust3192.png",
+      "sha256": "c2a8a75d9c969742364809d4d8fb9fd6fa59cc43b4fe445d3b89f87791c88ede",
+      "phash": "f6c088825f1cf7ac",
+      "width": 709,
+      "height": 471,
+      "size_bytes": 755604
+    },
+    {
+      "class": "Yellow_rust",
+      "relative_path": "Yellow_rust/YellowRust3203.png",
+      "sha256": "d5202efbc95b0094c9bc12564830e8c7d368454f640d9ec8cc81a5666f89e5b9",
+      "phash": "cbd0bfb4c436460b",
+      "width": 709,
+      "height": 471,
+      "size_bytes": 632585
+    },
+    {
+      "class": "Yellow_rust",
+      "relative_path": "Yellow_rust/YellowRust3210.png",
+      "sha256": "60b9ef756c02507f2fe19433fd63d28faec1563d6fae0c3e6efabfa09a634df9",
+      "phash": "837e8d4db814d2ba",
+      "width": 709,
+      "height": 1065,
+      "size_bytes": 1296012
+    },
+    {
+      "class": "Yellow_rust",
+      "relative_path": "Yellow_rust/YellowRust3250.png",
+      "sha256": "39ea54ee12926a61e55ee10f5a717312161561dfb4480a1d82e61d7ca3665564",
+      "phash": "ea83118a9ed6aa6b",
+      "width": 709,
+      "height": 471,
+      "size_bytes": 703200
+    },
+    {
+      "class": "Yellow_rust",
+      "relative_path": "Yellow_rust/YellowRust3259.png",
+      "sha256": "a80a73d2f57100a4a0f7edd5341875e761571df3cbee4d28c491fd10207a690d",
+      "phash": "fef3090a0c03e7f1",
+      "width": 709,
+      "height": 471,
+      "size_bytes": 635814
+    },
+    {
+      "class": "Yellow_rust",
+      "relative_path": "Yellow_rust/YellowRust3273.png",
+      "sha256": "d3b7c7df6b583b8e30d3100128106396479eb11b4283b388d1b52407f2df0032",
+      "phash": "84f8dad6b99249ca",
+      "width": 709,
+      "height": 471,
+      "size_bytes": 615777
+    },
+    {
+      "class": "Yellow_rust",
+      "relative_path": "Yellow_rust/YellowRust3298.png",
+      "sha256": "94496194235392553c08c8fdf04c75e820376d23acfa8b54962437dcf1281bfc",
+      "phash": "aca81373550e687f",
+      "width": 709,
+      "height": 1065,
+      "size_bytes": 1420171
+    },
+    {
+      "class": "Yellow_rust",
+      "relative_path": "Yellow_rust/YellowRust3325.png",
+      "sha256": "1f9958da2f82cc65440da8600e9a124487488876698f2a4b55eec1580f57ac02",
+      "phash": "abb4918e6a5ec9a2",
+      "width": 709,
+      "height": 471,
+      "size_bytes": 599396
+    },
+    {
+      "class": "Yellow_rust",
+      "relative_path": "Yellow_rust/YellowRust3333.png",
+      "sha256": "f90fba05853eaef47493a61e33fb1d69d6020d33714ffa9cf64db6d77cb781eb",
+      "phash": "8dcd25f51132f478",
+      "width": 709,
+      "height": 945,
+      "size_bytes": 1171596
+    },
+    {
+      "class": "Yellow_rust",
+      "relative_path": "Yellow_rust/YellowRust3359.png",
+      "sha256": "db53879c99110702700688526db6e638e660c5d8fc4849dd625e0fca6e570b14",
+      "phash": "9ae1276bdadc2261",
+      "width": 709,
+      "height": 945,
+      "size_bytes": 1192226
+    },
+    {
+      "class": "Yellow_rust",
+      "relative_path": "Yellow_rust/YellowRust3383.png",
+      "sha256": "3db51ffdfbf6e115091f8eb853fa56e74f5a6d02668500d36a56b60b105f7b25",
+      "phash": "ab41d1db4a68b2b3",
+      "width": 709,
+      "height": 945,
+      "size_bytes": 1410366
+    },
+    {
+      "class": "Yellow_rust",
+      "relative_path": "Yellow_rust/YellowRust3397.png",
+      "sha256": "5c1ae21ad67459cfa82142177108f7f0d01fbf4506a2d9a443da006d71bf165c",
+      "phash": "9e8c7470e4a77970",
+      "width": 709,
+      "height": 945,
+      "size_bytes": 1194548
+    },
+    {
+      "class": "Yellow_rust",
+      "relative_path": "Yellow_rust/YellowRust3404.png",
+      "sha256": "d68c0cbb560c7c310741c75b006fb6e567253f688ea90b78688f4aeab93ea837",
+      "phash": "a7ad2d20c1b1f91b",
+      "width": 709,
+      "height": 945,
+      "size_bytes": 1225970
+    },
+    {
+      "class": "Yellow_rust",
+      "relative_path": "Yellow_rust/YellowRust342.png",
+      "sha256": "50e0c209b7ded1eddeb3e7e29172d7ad6e274d476bb94834bf74f4ee5217287a",
+      "phash": "fe9a70ac5ab60499",
+      "width": 709,
+      "height": 945,
+      "size_bytes": 1499199
+    },
+    {
+      "class": "Yellow_rust",
+      "relative_path": "Yellow_rust/YellowRust3421.png",
+      "sha256": "a3189bb06ccfdd007763e667b520b7453ab4571f246c5cdb184bb5f35a2f353e",
+      "phash": "f1bc87e14aa873c2",
+      "width": 709,
+      "height": 945,
+      "size_bytes": 1236977
+    },
+    {
+      "class": "Yellow_rust",
+      "relative_path": "Yellow_rust/YellowRust3422.png",
+      "sha256": "74eee49097e4a8a7e79eff8cd76d533f16023132860cd32701a59aee551cf841",
+      "phash": "8cbfcc4c6b247436",
+      "width": 709,
+      "height": 531,
+      "size_bytes": 598718
+    },
+    {
+      "class": "Yellow_rust",
+      "relative_path": "Yellow_rust/YellowRust3447.png",
+      "sha256": "5b40b5f06c25c0e75c15545e7ad7e18699af4f2b1144229fcdf276dabe2fc693",
+      "phash": "da1d6285ced85666",
+      "width": 709,
+      "height": 945,
+      "size_bytes": 1094529
+    },
+    {
+      "class": "Yellow_rust",
+      "relative_path": "Yellow_rust/YellowRust3464.png",
+      "sha256": "385d19aae029aed1206875aa5e5d9ed5f75119af4c2dccd1a92abf283ffe75b4",
+      "phash": "ee491a3989e33339",
+      "width": 709,
+      "height": 945,
+      "size_bytes": 1382759
+    },
+    {
+      "class": "Yellow_rust",
+      "relative_path": "Yellow_rust/YellowRust3483.png",
+      "sha256": "a3c31fc91c0abcb6bef8c9c169388916e9ca083f86a9a721d9f46d2b9742ff18",
+      "phash": "c7834d687bcd0ae4",
+      "width": 709,
+      "height": 945,
+      "size_bytes": 1458189
+    },
+    {
+      "class": "Yellow_rust",
+      "relative_path": "Yellow_rust/YellowRust3516.png",
+      "sha256": "c814d7e39c3cecec70aa919355574a91fdc0c82260010e293ad292f6d1f98b91",
+      "phash": "ad7c7773144100fe",
+      "width": 709,
+      "height": 945,
+      "size_bytes": 1268295
+    },
+    {
+      "class": "Yellow_rust",
+      "relative_path": "Yellow_rust/YellowRust3518.png",
+      "sha256": "d68980a3e23cb73b6b7d223e6695077254a5617ee56f7b738af87498b67f7b44",
+      "phash": "f5c5c496da9a5858",
+      "width": 709,
+      "height": 945,
+      "size_bytes": 1367051
+    },
+    {
+      "class": "Yellow_rust",
+      "relative_path": "Yellow_rust/YellowRust3523.png",
+      "sha256": "0f537b7bd74de2d3c3cdf22a94475ba2d234c7d59e00e3a9a9a0d68ef4281317",
+      "phash": "ace57496f3d90b20",
+      "width": 709,
+      "height": 531,
+      "size_bytes": 862911
+    },
+    {
+      "class": "Yellow_rust",
+      "relative_path": "Yellow_rust/YellowRust3531.png",
+      "sha256": "673c029f538994acd64abb8fc8e71941a52bc13fd60360964c81d0e18a30b957",
+      "phash": "9696052cedcb0e67",
+      "width": 709,
+      "height": 531,
+      "size_bytes": 893631
+    },
+    {
+      "class": "Yellow_rust",
+      "relative_path": "Yellow_rust/YellowRust3539.png",
+      "sha256": "61fd7035158565e63a19fedefedb5efe0469d877334c6bf54f759892636ba5b7",
+      "phash": "c80e36fe81ec3bd0",
+      "width": 709,
+      "height": 945,
+      "size_bytes": 1629243
+    },
+    {
+      "class": "Yellow_rust",
+      "relative_path": "Yellow_rust/YellowRust3541.png",
+      "sha256": "3b9f2f313db5dedaa371e0571596261b72cdee2db5d9af74cfb23e22f9159c17",
+      "phash": "c3b13d46163bb8b4",
+      "width": 709,
+      "height": 531,
+      "size_bytes": 713686
+    },
+    {
+      "class": "Yellow_rust",
+      "relative_path": "Yellow_rust/YellowRust3552.png",
+      "sha256": "246fc6529086c0093a9c4ab88aa34c0a50c06399d5676b9b7e4265faf31b8fab",
+      "phash": "cef8619eb2c59825",
+      "width": 709,
+      "height": 945,
+      "size_bytes": 1354267
+    },
+    {
+      "class": "Yellow_rust",
+      "relative_path": "Yellow_rust/YellowRust3575.png",
+      "sha256": "38d5691c00f36b4280c3b293826e018703426f7434ceefa036feab8fe07847d2",
+      "phash": "883c7dd920f1f10f",
+      "width": 709,
+      "height": 945,
+      "size_bytes": 1327075
+    },
+    {
+      "class": "Yellow_rust",
+      "relative_path": "Yellow_rust/YellowRust3610.png",
+      "sha256": "e6bfd43aafbe9b2e81c04c5a3edf5c94e9b482411f3a4a27f3b5f6cc2d2ecd20",
+      "phash": "d8af98a6e39a8643",
+      "width": 709,
+      "height": 945,
+      "size_bytes": 1346531
+    },
+    {
+      "class": "Yellow_rust",
+      "relative_path": "Yellow_rust/YellowRust3621.png",
+      "sha256": "b9634f767b47bf4907d24d5d3af21db19e0af4bdc1c7ab333443bdac95bc8fc1",
+      "phash": "d8f2a4c953dec2b0",
+      "width": 709,
+      "height": 945,
+      "size_bytes": 1340392
+    },
+    {
+      "class": "Yellow_rust",
+      "relative_path": "Yellow_rust/YellowRust3656.png",
+      "sha256": "f8f7574eff15d3406bc02289ef0955256a3168bbc922c3848b18d2f89a3ec10b",
+      "phash": "cde1b19999aa4c59",
+      "width": 709,
+      "height": 945,
+      "size_bytes": 1342512
+    },
+    {
+      "class": "Yellow_rust",
+      "relative_path": "Yellow_rust/YellowRust3658.png",
+      "sha256": "16e76fd320ecfe7af31c011435c39fc562c1bcbf0408a77b180c112dceb78a9f",
+      "phash": "bed464b5112ba770",
+      "width": 709,
+      "height": 945,
+      "size_bytes": 1277960
+    },
+    {
+      "class": "Yellow_rust",
+      "relative_path": "Yellow_rust/YellowRust3665.png",
+      "sha256": "ad680b35aa2ba1bf086a1aa9e6c75a5692a7e29e60c1f5d1159defbb1024eaee",
+      "phash": "8c86b5abc6ad03ba",
+      "width": 709,
+      "height": 945,
+      "size_bytes": 1333065
+    },
+    {
+      "class": "Yellow_rust",
+      "relative_path": "Yellow_rust/YellowRust3703.png",
+      "sha256": "5ae60270de4dde1c5b3f28c9031a6c34e9b6190883dc18c81257a1605818f215",
+      "phash": "b2d24d85b1cb8799",
+      "width": 709,
+      "height": 945,
+      "size_bytes": 1351730
+    },
+    {
+      "class": "Yellow_rust",
+      "relative_path": "Yellow_rust/YellowRust3716.png",
+      "sha256": "8cc8997d0ca14e87c26bbfe41ec3cab9fc6e8d95953062d58f4ceaf589491d20",
+      "phash": "eab6ca6985b5a292",
+      "width": 709,
+      "height": 945,
+      "size_bytes": 1237762
+    },
+    {
+      "class": "Yellow_rust",
+      "relative_path": "Yellow_rust/YellowRust3742.png",
+      "sha256": "7e8142e9d495a48d77c8c5aaf04da28df01261f0b142cf43a6fee79d6cbbcef2",
+      "phash": "fcb6c5b2817d3092",
+      "width": 709,
+      "height": 945,
+      "size_bytes": 1357258
+    },
+    {
+      "class": "Yellow_rust",
+      "relative_path": "Yellow_rust/YellowRust3750.png",
+      "sha256": "1b81069a34dad4ea5a997c2598c1257a398cc22fd6e953aad411b18c2e750e95",
+      "phash": "d0a7e433c9c0dad6",
+      "width": 709,
+      "height": 945,
+      "size_bytes": 1384879
+    },
+    {
+      "class": "Yellow_rust",
+      "relative_path": "Yellow_rust/YellowRust3752.png",
+      "sha256": "bf8e0093d9da1be55a0792aca4d5abbfa2fb85422061d6192b1e49b3f54f5e91",
+      "phash": "bc80fb5103ff324c",
+      "width": 709,
+      "height": 945,
+      "size_bytes": 1349760
+    },
+    {
+      "class": "Yellow_rust",
+      "relative_path": "Yellow_rust/YellowRust3759.png",
+      "sha256": "9383bad48442b72ec79c54df886353105384be8323d7dd9fef26454ba0e07193",
+      "phash": "fc9eacad892b0874",
+      "width": 709,
+      "height": 945,
+      "size_bytes": 1371537
+    },
+    {
+      "class": "Yellow_rust",
+      "relative_path": "Yellow_rust/YellowRust38.png",
+      "sha256": "e6bff2a51c8951421d98f5d8ba9dc3e82692e20685c8be79b1c4d4b3d96d980d",
+      "phash": "fecdc281de01a85b",
+      "width": 709,
+      "height": 945,
+      "size_bytes": 1411802
+    },
+    {
+      "class": "Yellow_rust",
+      "relative_path": "Yellow_rust/YellowRust3800.png",
+      "sha256": "36be725b87168374198ff3a648be8bfdcaa133a3a0e117984d65a6af4e4cdb4e",
+      "phash": "99f1d4ad08d523f2",
+      "width": 709,
+      "height": 945,
+      "size_bytes": 1389522
+    },
+    {
+      "class": "Yellow_rust",
+      "relative_path": "Yellow_rust/YellowRust3817.png",
+      "sha256": "ced2f053635edcbf0223104a7e643548853fcd1a2b82779e8839536802f71ad7",
+      "phash": "fa6b169527452b98",
+      "width": 709,
+      "height": 945,
+      "size_bytes": 1263311
+    },
+    {
+      "class": "Yellow_rust",
+      "relative_path": "Yellow_rust/YellowRust3821.png",
+      "sha256": "17217c28bf52f1af0289925f7d1db810ddf29df7bba5dea6638e18a4447dceae",
+      "phash": "e78b287b1f8ac780",
+      "width": 709,
+      "height": 945,
+      "size_bytes": 1304339
+    },
+    {
+      "class": "Yellow_rust",
+      "relative_path": "Yellow_rust/YellowRust3835.png",
+      "sha256": "32dc4a35f34889ad89cb6cbdc0081dffd09444f4cef5140024d3d455a88f00e2",
+      "phash": "efff7e8040388d21",
+      "width": 709,
+      "height": 945,
+      "size_bytes": 1336797
+    },
+    {
+      "class": "Yellow_rust",
+      "relative_path": "Yellow_rust/YellowRust3841.png",
+      "sha256": "38f4578053e02403c1d0ab49026cb4d837e5da0e9e511cf68f1ce0cc4170df74",
+      "phash": "fa72369c9992544d",
+      "width": 709,
+      "height": 945,
+      "size_bytes": 1196619
+    },
+    {
+      "class": "Yellow_rust",
+      "relative_path": "Yellow_rust/YellowRust3856.png",
+      "sha256": "24907cb9233a6c9f5a0c1210eb01e223cfe712c52126aad38079c4c065ff6a02",
+      "phash": "adf9c49c21abd285",
+      "width": 709,
+      "height": 945,
+      "size_bytes": 1341147
+    },
+    {
+      "class": "Yellow_rust",
+      "relative_path": "Yellow_rust/YellowRust3885.png",
+      "sha256": "49f5d5ff21aa173b94afabdf4f45395533c791978c0ce25e8295c991cb9665b6",
+      "phash": "fefc0f0f0da19049",
+      "width": 709,
+      "height": 945,
+      "size_bytes": 1356177
+    },
+    {
+      "class": "Yellow_rust",
+      "relative_path": "Yellow_rust/YellowRust3896.png",
+      "sha256": "030bee80b916f4d423b17de6c4f129e24956c0a1226a273e2c831d26081fc6c0",
+      "phash": "c61b2e8bc661b29b",
+      "width": 709,
+      "height": 945,
+      "size_bytes": 1267734
+    },
+    {
+      "class": "Yellow_rust",
+      "relative_path": "Yellow_rust/YellowRust3917.png",
+      "sha256": "5d9779772165bc82cfdd39f612e5ecc915465aafb8a605a84424f362c65d3933",
+      "phash": "f5b4256cc3d42665",
+      "width": 709,
+      "height": 945,
+      "size_bytes": 1238319
+    },
+    {
+      "class": "Yellow_rust",
+      "relative_path": "Yellow_rust/YellowRust3947.png",
+      "sha256": "ad6559aabb711bab5eb93f2c7e3362a7ee5b200562de2a7d96bd7f82f2ca2b23",
+      "phash": "f6258558dbc625d1",
+      "width": 709,
+      "height": 945,
+      "size_bytes": 1243280
+    },
+    {
+      "class": "Yellow_rust",
+      "relative_path": "Yellow_rust/YellowRust3951.png",
+      "sha256": "3e07b21ea461ee4b601edff938e25d89e6acf65e5c720bd03e3a862f7ccecf6d",
+      "phash": "d56e308a9ec73b03",
+      "width": 709,
+      "height": 945,
+      "size_bytes": 1217735
+    },
+    {
+      "class": "Yellow_rust",
+      "relative_path": "Yellow_rust/YellowRust3952.png",
+      "sha256": "663227c8e606b77043fe1890aaa569a568f773c43ca459f42aa3df1f9bb6fa23",
+      "phash": "f575269e0b266e41",
+      "width": 709,
+      "height": 945,
+      "size_bytes": 1337207
+    },
+    {
+      "class": "Yellow_rust",
+      "relative_path": "Yellow_rust/YellowRust3966.png",
+      "sha256": "f2d97e88bb68f0426e18b6db1b16193eab9fa0af0e05a57fbf4743ea194910c0",
+      "phash": "d0fc1d801ff800ff",
+      "width": 709,
+      "height": 945,
+      "size_bytes": 1270447
+    },
+    {
+      "class": "Yellow_rust",
+      "relative_path": "Yellow_rust/YellowRust40.png",
+      "sha256": "63e5c9f12befd73bc3caead93267f9576108dce99e709cc9948d19fd1d5fabfa",
+      "phash": "a9d734fc8646b138",
+      "width": 709,
+      "height": 945,
+      "size_bytes": 1357474
+    },
+    {
+      "class": "Yellow_rust",
+      "relative_path": "Yellow_rust/YellowRust4014.png",
+      "sha256": "2ffb1067048dc169e91db672492ccf23297a8dee0bb473c3d5edd6c6d7c01de8",
+      "phash": "b9db898ad6a1a255",
+      "width": 709,
+      "height": 945,
+      "size_bytes": 1332865
+    },
+    {
+      "class": "Yellow_rust",
+      "relative_path": "Yellow_rust/YellowRust4019.png",
+      "sha256": "495f639dedf92d27d70a53073a1b4cb4d39872cf060cc60a474aa50841cfef5b",
+      "phash": "a9e4ce19dbc16c49",
+      "width": 709,
+      "height": 945,
+      "size_bytes": 1241321
+    },
+    {
+      "class": "Yellow_rust",
+      "relative_path": "Yellow_rust/YellowRust4053.png",
+      "sha256": "55e52f7e0e8c6e84dbd04f640446becd8ecb8abdbc83f884aca8ca9797c3a292",
+      "phash": "eca884c7035f9e2e",
+      "width": 709,
+      "height": 945,
+      "size_bytes": 1301384
+    },
+    {
+      "class": "Yellow_rust",
+      "relative_path": "Yellow_rust/YellowRust4056.png",
+      "sha256": "9fa1078646c7efe480706b9a341cbc22aa55302d29cd35be37612d2fa52cef43",
+      "phash": "ad8dc2b3a9ba9251",
+      "width": 709,
+      "height": 945,
+      "size_bytes": 1305886
+    },
+    {
+      "class": "Yellow_rust",
+      "relative_path": "Yellow_rust/YellowRust4085.png",
+      "sha256": "bca84bbe3580ed2e49d340489dab3c88b193a41a1acd699f20925e018d0d388d",
+      "phash": "accb1e9bfc6810cc",
+      "width": 709,
+      "height": 945,
+      "size_bytes": 1295779
+    },
+    {
+      "class": "Yellow_rust",
+      "relative_path": "Yellow_rust/YellowRust4087.png",
+      "sha256": "0996017bfe38e01787738e5e20668665bf5e86ed8715edb227a4d992b6b17701",
+      "phash": "eda54e4b42709e0f",
+      "width": 709,
+      "height": 531,
+      "size_bytes": 782348
+    },
+    {
+      "class": "Yellow_rust",
+      "relative_path": "Yellow_rust/YellowRust4128.png",
+      "sha256": "dda76a26dde43a17109227dbb17aee2382399fb95392bf4ccc0de3f0125fb232",
+      "phash": "b993cafd1bc52940",
+      "width": 709,
+      "height": 945,
+      "size_bytes": 1279012
+    },
+    {
+      "class": "Yellow_rust",
+      "relative_path": "Yellow_rust/YellowRust4139.png",
+      "sha256": "c8517558aff5c41f4f5b23787ebd83d690944401ff136d3dc033d6bc7e141c2c",
+      "phash": "b27ef5da0b465310",
+      "width": 709,
+      "height": 945,
+      "size_bytes": 1185717
+    },
+    {
+      "class": "Yellow_rust",
+      "relative_path": "Yellow_rust/YellowRust4143.png",
+      "sha256": "9b85a9625c0a88cf76d5a1ef82a683b26ad53cfcae48b54ec64416e39ffca3a0",
+      "phash": "a373338bc0c1fcd8",
+      "width": 709,
+      "height": 945,
+      "size_bytes": 1273089
+    },
+    {
+      "class": "Yellow_rust",
+      "relative_path": "Yellow_rust/YellowRust4177.png",
+      "sha256": "baabb4db869ffabb2de8f58655c4b4e98d17c58002bf0d3d4ef5e9489bda0bfb",
+      "phash": "e787798ec7522914",
+      "width": 709,
+      "height": 945,
+      "size_bytes": 1319067
+    },
+    {
+      "class": "Yellow_rust",
+      "relative_path": "Yellow_rust/YellowRust4193.png",
+      "sha256": "f7839121e56d9182b683f320e197614fb5233aafc8af1f8b87fb9b01b68974ac",
+      "phash": "a96be9a14c956578",
+      "width": 709,
+      "height": 945,
+      "size_bytes": 1291382
+    },
+    {
+      "class": "Yellow_rust",
+      "relative_path": "Yellow_rust/YellowRust4203.png",
+      "sha256": "2e5ab2faee6e7043a50beb756000e465979be164621a44b8eba9243d9fc59373",
+      "phash": "b97c92b62ec03ce2",
+      "width": 709,
+      "height": 945,
+      "size_bytes": 1230668
+    },
+    {
+      "class": "Yellow_rust",
+      "relative_path": "Yellow_rust/YellowRust4205.png",
+      "sha256": "b5545d28d72e770a6ad1deef470da2c5ea0925936b7c0dde097269c3f15d48c4",
+      "phash": "e993cbec1a39a10e",
+      "width": 709,
+      "height": 945,
+      "size_bytes": 1293555
+    },
+    {
+      "class": "Yellow_rust",
+      "relative_path": "Yellow_rust/YellowRust4229.png",
+      "sha256": "35a7f6bf1ec23f67c9faf3b0e4eadbbf49a0577ebb78507493f53e54c1bca223",
+      "phash": "af990c8860bacfa7",
+      "width": 709,
+      "height": 945,
+      "size_bytes": 1215897
+    },
+    {
+      "class": "Yellow_rust",
+      "relative_path": "Yellow_rust/YellowRust4243.png",
+      "sha256": "5b30fd5cac08133eb15400fb950f05c4ae2294d5f68b21b43af1fdf2b5c0afdb",
+      "phash": "a0c3ced956297a5c",
+      "width": 709,
+      "height": 945,
+      "size_bytes": 1212431
+    },
+    {
+      "class": "Yellow_rust",
+      "relative_path": "Yellow_rust/YellowRust4248.png",
+      "sha256": "fbd37bffc0382e404cedfafc6f13ba7fc212ff2f9122dab58bb7f78b195f92e8",
+      "phash": "8c8fbdf8b9430354",
+      "width": 709,
+      "height": 945,
+      "size_bytes": 1265405
+    },
+    {
+      "class": "Yellow_rust",
+      "relative_path": "Yellow_rust/YellowRust4264.png",
+      "sha256": "332ceb64d38631cd1120118cf92f025ffe4c1e40cf85fc38b29ac8a6b375b973",
+      "phash": "db0aa565d23764e1",
+      "width": 709,
+      "height": 945,
+      "size_bytes": 1334925
+    },
+    {
+      "class": "Yellow_rust",
+      "relative_path": "Yellow_rust/YellowRust4311.png",
+      "sha256": "f667ef4ba92a1edd8bcbc8d4fba26fd38bece81c5ce00914e4d98d3bbab88237",
+      "phash": "f074610912c7bdeb",
+      "width": 709,
+      "height": 945,
+      "size_bytes": 1327699
+    },
+    {
+      "class": "Yellow_rust",
+      "relative_path": "Yellow_rust/YellowRust4336.png",
+      "sha256": "be00a02ddc081fca32992bda51ee5683d6fe91f71039919ed4b2fc25e8f664e8",
+      "phash": "aed70761c0a6d14f",
+      "width": 709,
+      "height": 945,
+      "size_bytes": 1324186
+    },
+    {
+      "class": "Yellow_rust",
+      "relative_path": "Yellow_rust/YellowRust4353.png",
+      "sha256": "2f862b02c8a8553f14f018c01dceb83cf9d635c7458336ef58c6a48687413b21",
+      "phash": "a1c22bda9ab45397",
+      "width": 709,
+      "height": 945,
+      "size_bytes": 1264894
+    },
+    {
+      "class": "Yellow_rust",
+      "relative_path": "Yellow_rust/YellowRust4356.png",
+      "sha256": "e98a141f6d2457616ff73b3acac35cb814eb4dcd4ca2525d8b4fc202bb06c319",
+      "phash": "cdd4a11fdce00d1e",
+      "width": 709,
+      "height": 945,
+      "size_bytes": 1365365
+    },
+    {
+      "class": "Yellow_rust",
+      "relative_path": "Yellow_rust/YellowRust4359.png",
+      "sha256": "bafe648d646134d971a7cca563251e4b07de0a346f848fa51b816d84cbc33da3",
+      "phash": "ccc63059cc97d92d",
+      "width": 709,
+      "height": 945,
+      "size_bytes": 1197482
+    },
+    {
+      "class": "Yellow_rust",
+      "relative_path": "Yellow_rust/YellowRust4383.png",
+      "sha256": "b416139fc7d942cf5d91440e4146a211cd8a1ef1ae242d6a6b96e91c533482a2",
+      "phash": "e4a66dad4b531664",
+      "width": 709,
+      "height": 945,
+      "size_bytes": 1241813
+    },
+    {
+      "class": "Yellow_rust",
+      "relative_path": "Yellow_rust/YellowRust44.png",
+      "sha256": "535728762e8c8961b7fa4cac70713c0829cb106812354145b60efd20a7c2e364",
+      "phash": "8bc3e4c988795756",
+      "width": 709,
+      "height": 945,
+      "size_bytes": 1338619
+    },
+    {
+      "class": "Yellow_rust",
+      "relative_path": "Yellow_rust/YellowRust464.png",
+      "sha256": "df94acaffdbf9d452e264a646c3e164900cd0a63b657cb878bbd7c334152e02b",
+      "phash": "c040bf998cf339dc",
+      "width": 709,
+      "height": 945,
+      "size_bytes": 1208741
+    },
+    {
+      "class": "Yellow_rust",
+      "relative_path": "Yellow_rust/YellowRust476.png",
+      "sha256": "c63f3f83ae32e8dd97200a828c06dade644d70e6286ea5c300e38b44b1ee61a0",
+      "phash": "c8da92a2ae2c297f",
+      "width": 709,
+      "height": 945,
+      "size_bytes": 1236581
+    },
+    {
+      "class": "Yellow_rust",
+      "relative_path": "Yellow_rust/YellowRust478.png",
+      "sha256": "9f158dbf5e76d2269e9d32d165ef307e9a7e50800af3e22e36052ed4a4bc83d2",
+      "phash": "ffb2f63e86038160",
+      "width": 709,
+      "height": 945,
+      "size_bytes": 1296660
+    },
+    {
+      "class": "Yellow_rust",
+      "relative_path": "Yellow_rust/YellowRust482.png",
+      "sha256": "6b77ceb2ee0d2af0ad0d4e0fc9c5886ef6e2f982b1ea41387c901aa34e24ea19",
+      "phash": "ad1e31ed02c7cf28",
+      "width": 709,
+      "height": 945,
+      "size_bytes": 1271924
+    },
+    {
+      "class": "Yellow_rust",
+      "relative_path": "Yellow_rust/YellowRust502.png",
+      "sha256": "36be1e0e738cb641305124d1e6dca96234768556bea66a3306b646d2f108e38d",
+      "phash": "dc7414efc58e7822",
+      "width": 709,
+      "height": 945,
+      "size_bytes": 1297736
+    },
+    {
+      "class": "Yellow_rust",
+      "relative_path": "Yellow_rust/YellowRust504.png",
+      "sha256": "5807a3d2bfb7bafc3d1d1824236c9d7ae5d4f64d982e3497f5a57cbff800042c",
+      "phash": "f52f0533d095a956",
+      "width": 709,
+      "height": 945,
+      "size_bytes": 1234466
+    },
+    {
+      "class": "Yellow_rust",
+      "relative_path": "Yellow_rust/YellowRust532.png",
+      "sha256": "8d7c3eb4b4e228baefdfd23eca3f65471b15cbd259c0ec7f7bb5d5856f9a23dd",
+      "phash": "e8e21e1215772d67",
+      "width": 709,
+      "height": 945,
+      "size_bytes": 1326359
+    },
+    {
+      "class": "Yellow_rust",
+      "relative_path": "Yellow_rust/YellowRust535.png",
+      "sha256": "cd59166512c07951bf91f35003ffc5ca0706f47ce8e3cd39642b0b2627b5e251",
+      "phash": "dbdb5a862a523534",
+      "width": 709,
+      "height": 945,
+      "size_bytes": 1123128
+    },
+    {
+      "class": "Yellow_rust",
+      "relative_path": "Yellow_rust/YellowRust561.png",
+      "sha256": "82dbd138792f29219490e7f2fb49bd1b761683b2d510425cb1accd075b8975b6",
+      "phash": "f4f195993372b288",
+      "width": 709,
+      "height": 945,
+      "size_bytes": 1324027
+    },
+    {
+      "class": "Yellow_rust",
+      "relative_path": "Yellow_rust/YellowRust58.png",
+      "sha256": "16973fcb6acaa646e03fb4b2e60103bf0e6fdf4650ac8ff1e8eac5ed3a32a52c",
+      "phash": "c44f193316b66eb4",
+      "width": 709,
+      "height": 945,
+      "size_bytes": 1518074
+    },
+    {
+      "class": "Yellow_rust",
+      "relative_path": "Yellow_rust/YellowRust621.png",
+      "sha256": "c041bd5b4b6ae3e71f047b2fc92002130988e66a07e68c38c9e3ec54086078ca",
+      "phash": "c8693337ee2ab829",
+      "width": 709,
+      "height": 945,
+      "size_bytes": 1191912
+    },
+    {
+      "class": "Yellow_rust",
+      "relative_path": "Yellow_rust/YellowRust626.png",
+      "sha256": "e0699f4ff1fc36bd67fbae51abfa8b0adfc0f553065526d6308a876df17e3b5d",
+      "phash": "b35bb564469cb065",
+      "width": 709,
+      "height": 945,
+      "size_bytes": 1296479
+    },
+    {
+      "class": "Yellow_rust",
+      "relative_path": "Yellow_rust/YellowRust630.png",
+      "sha256": "22b7317859273c11722a14229c5b74a47320de29b2bec34a0153cd5c7f6de9bb",
+      "phash": "fdfb14a15403e94a",
+      "width": 709,
+      "height": 945,
+      "size_bytes": 1410240
+    },
+    {
+      "class": "Yellow_rust",
+      "relative_path": "Yellow_rust/YellowRust679.png",
+      "sha256": "6fa0552e65b7c3e90b863ee769a7623915fbb6ff384d4dca171264cc6a982173",
+      "phash": "aeb46290e72dd907",
+      "width": 709,
+      "height": 945,
+      "size_bytes": 1443472
+    },
+    {
+      "class": "Yellow_rust",
+      "relative_path": "Yellow_rust/YellowRust693.png",
+      "sha256": "3562a8a712ac4b1b7faef85135075848302337c4ab341be4a8a4f831a18e627b",
+      "phash": "8c4cb66333b36d38",
+      "width": 709,
+      "height": 531,
+      "size_bytes": 749468
+    },
+    {
+      "class": "Yellow_rust",
+      "relative_path": "Yellow_rust/YellowRust72.png",
+      "sha256": "92e7d4aa755c5e098eeb06de26e74f51aec2c79e908edae5a33c882e5b60e787",
+      "phash": "e9db9d0ec6221237",
+      "width": 709,
+      "height": 945,
+      "size_bytes": 1467084
+    },
+    {
+      "class": "Yellow_rust",
+      "relative_path": "Yellow_rust/YellowRust738.png",
+      "sha256": "6999e4ce9748baee41552af601c60f989b3bc9a5b738da6407bff564d5ea9e86",
+      "phash": "a6bc058fa3ee5a88",
+      "width": 709,
+      "height": 945,
+      "size_bytes": 1397351
+    },
+    {
+      "class": "Yellow_rust",
+      "relative_path": "Yellow_rust/YellowRust76.png",
+      "sha256": "bf32f23014b25e6f512df2035c2b3cbe26dde63ebc60136026d86a310dbaefd5",
+      "phash": "b27e409c7993b266",
+      "width": 709,
+      "height": 945,
+      "size_bytes": 1330272
+    },
+    {
+      "class": "Yellow_rust",
+      "relative_path": "Yellow_rust/YellowRust782.png",
+      "sha256": "e60db66e04fbb926bcf7fe7ec04769090b59bdc68182f76176fdd83ffd5922cd",
+      "phash": "96c5a25a4f90e47d",
+      "width": 709,
+      "height": 945,
+      "size_bytes": 1380544
+    },
+    {
+      "class": "Yellow_rust",
+      "relative_path": "Yellow_rust/YellowRust806.png",
+      "sha256": "6122d5f332362a1c7eb3d97660d4a2361d7fe6dd938fef30a2c68000a46002b0",
+      "phash": "9b1192c2ac8c56ff",
+      "width": 709,
+      "height": 945,
+      "size_bytes": 1285158
+    },
+    {
+      "class": "Yellow_rust",
+      "relative_path": "Yellow_rust/YellowRust829.png",
+      "sha256": "81355d2b4167201d7b4ac755dfec1c8afcf8f7c4d556043e62ec9baea2370c1c",
+      "phash": "c6876551e923e3aa",
+      "width": 709,
+      "height": 945,
+      "size_bytes": 1410712
+    },
+    {
+      "class": "Yellow_rust",
+      "relative_path": "Yellow_rust/YellowRust835.png",
+      "sha256": "29dfc819e9df55ede1c5a9fee167563e1601e73a8851c5e8fe8fa885c2c42b5a",
+      "phash": "b62d2e6b9e3a04a5",
+      "width": 709,
+      "height": 945,
+      "size_bytes": 1496841
+    },
+    {
+      "class": "Yellow_rust",
+      "relative_path": "Yellow_rust/YellowRust865.png",
+      "sha256": "2ef54dc41ae59834d25bf800ee3049ca2189a59b5d5c67bcff7bdd3a12c1c768",
+      "phash": "a0ad85467bfa8d43",
+      "width": 709,
+      "height": 945,
+      "size_bytes": 1355081
+    },
+    {
+      "class": "Yellow_rust",
+      "relative_path": "Yellow_rust/YellowRust957.png",
+      "sha256": "b4a0c352353335549e1a427b0c66798348d3b07e540ce7831f1af9c3827f4f18",
+      "phash": "fa65d198a673a930",
+      "width": 709,
+      "height": 945,
+      "size_bytes": 1436145
+    },
+    {
+      "class": "Yellow_rust",
+      "relative_path": "Yellow_rust/YellowRust972.png",
+      "sha256": "903dc8a37008e3e7c0cae866f68c93ef527ae96a9ffb3905f56630d50a6c86c2",
+      "phash": "8266bbc85f9606f4",
+      "width": 709,
+      "height": 945,
+      "size_bytes": 1318713
+    },
+    {
+      "class": "Yellow_rust",
+      "relative_path": "Yellow_rust/YellowRust989.png",
+      "sha256": "ccc416b79a073f614ba0999f198a65560d5d1b06390b9194cc7db2637dc9aa3f",
+      "phash": "fedec0b0897082af",
+      "width": 709,
+      "height": 945,
+      "size_bytes": 1425617
+    }
+  ]
+}

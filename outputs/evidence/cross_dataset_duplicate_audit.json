@@ -1,0 +1,12 @@
+{
+  "original_images_checked": 3679,
+  "external_images_checked": 489,
+  "original_corrupt_files": [],
+  "external_corrupt_files": [],
+  "exact_cross_dataset_duplicate_count": 0,
+  "exact_cross_dataset_pairs": [],
+  "phash_algorithm": "ImageHash pHash",
+  "phash_hamming_threshold": 5,
+  "near_duplicate_count": 0,
+  "near_duplicate_pairs": []
+}
