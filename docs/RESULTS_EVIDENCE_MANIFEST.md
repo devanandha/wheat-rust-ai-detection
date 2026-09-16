@@ -5,7 +5,7 @@ Status labels: **verified** = machine-readable evidence is committed; **document
 | ID | Result or artifact | Status | Current evidence / required action |
 |---|---|---|---|
 | E01 | MobileNetV2 internal result | verified | `outputs/classifier/classification_report.json`, `confusion_matrix.csv`, `training_history.json` |
-| E02 | Autoencoder anomaly result | verified | `outputs/anomaly/anomaly_report.json` and `outputs/anomaly_v2/anomaly_report.json` |
+| E02 | Leakage-controlled autoencoder anomaly result | verified | `outputs/anomaly_v2/anomaly_report.json` |
 | E03 | Original dataset counts and split | verified | `outputs/dataset_audit.json` records all train/validation class counts, corrupt-file checks and exact-duplicate groups |
 | E04 | External dataset inventory and class mapping | verified | `outputs/evidence/external_dataset_inventory.json` records the DOI, inclusion/exclusion mapping, 489 relative filenames, dimensions, sizes, SHA-256 and pHash values |
 | E05 | MobileNetV2 external predictions/report | verified | `outputs/external_validation/` contains the report, confusion matrix, summary and sanitised misclassification rows |

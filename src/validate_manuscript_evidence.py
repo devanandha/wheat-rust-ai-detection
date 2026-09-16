@@ -7,7 +7,7 @@ ROOT = Path(__file__).resolve().parents[1]
 
 REQUIRED = {
     "E01 MobileNetV2 internal classification report": "outputs/classifier/classification_report.json",
-    "E02 Autoencoder anomaly report": "outputs/anomaly/anomaly_report.json",
+    "E02 Leakage-controlled autoencoder anomaly report": "outputs/anomaly_v2/anomaly_report.json",
     "E03 Original dataset inventory": "outputs/dataset_audit.json",
     "E04 External dataset inventory": "outputs/evidence/external_dataset_inventory.json",
     "E05 MobileNetV2 external report": "outputs/external_validation/classification_report.json",
