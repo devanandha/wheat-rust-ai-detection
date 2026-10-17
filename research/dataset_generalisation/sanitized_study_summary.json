@@ -1,0 +1,649 @@
+{
+  "version": "2026-10-17",
+  "description": "Path-sanitized aggregate based on user-supplied study and staging manifests; excludes image filenames/absolute filesystem paths.",
+  "class_order": [
+    "Brown_rust",
+    "Healthy",
+    "Yellow_rust"
+  ],
+  "train_source_counts_before_filter": {
+    "primary": {
+      "Brown_rust": 902,
+      "Healthy": 1116,
+      "Yellow_rust": 924
+    },
+    "iari": {
+      "Brown_rust": 238,
+      "Healthy": 279,
+      "Yellow_rust": 0
+    },
+    "ethiopia": {
+      "Brown_rust": 0,
+      "Healthy": 81,
+      "Yellow_rust": 166
+    }
+  },
+  "train_source_counts_after_filter": {
+    "primary": {
+      "Brown_rust": 902,
+      "Healthy": 1115,
+      "Yellow_rust": 924
+    },
+    "iari": {
+      "Brown_rust": 238,
+      "Healthy": 279,
+      "Yellow_rust": 0
+    },
+    "ethiopia": {
+      "Brown_rust": 0,
+      "Healthy": 81,
+      "Yellow_rust": 166
+    }
+  },
+  "staged_additional_source_counts": {
+    "iari": {
+      "Brown_rust": 238,
+      "Healthy": 279,
+      "Yellow_rust": 0
+    },
+    "ethiopia": {
+      "Brown_rust": 0,
+      "Healthy": 81,
+      "Yellow_rust": 166
+    }
+  },
+  "ethiopia_holdout_counts": {
+    "Healthy": 20,
+    "Yellow_rust": 41
+  },
+  "iari_original_test_counts": {
+    "Brown_rust": 55,
+    "Healthy": 74
+  },
+  "safeguards": {
+    "sha256_exact_hash": true,
+    "perceptual_phash_threshold": 5,
+    "staging_duplicate_group_members_excluded": 2,
+    "staging_candidates_excluded_for_holdout_similarity": 63,
+    "staging_candidates_excluded_for_train_similarity": 21,
+    "additional_primary_candidates_excluded_in_mixture": 1
+  },
+  "mixed_condition_counts": [
+    {
+      "condition": "n150_mix025_seed42",
+      "train_images": 450,
+      "per_class": 150,
+      "share_nominal": 0.25,
+      "counts_by_source": {
+        "ethiopia": 57,
+        "iari": 57,
+        "primary": 336
+      },
+      "counts_by_source_class": [
+        {
+          "source": "ethiopia",
+          "class": "Healthy",
+          "count": 19
+        },
+        {
+          "source": "ethiopia",
+          "class": "Yellow_rust",
+          "count": 38
+        },
+        {
+          "source": "iari",
+          "class": "Brown_rust",
+          "count": 38
+        },
+        {
+          "source": "iari",
+          "class": "Healthy",
+          "count": 19
+        },
+        {
+          "source": "primary",
+          "class": "Brown_rust",
+          "count": 112
+        },
+        {
+          "source": "primary",
+          "class": "Healthy",
+          "count": 112
+        },
+        {
+          "source": "primary",
+          "class": "Yellow_rust",
+          "count": 112
+        }
+      ]
+    },
+    {
+      "condition": "n150_mix025_seed43",
+      "train_images": 450,
+      "per_class": 150,
+      "share_nominal": 0.25,
+      "counts_by_source": {
+        "ethiopia": 57,
+        "iari": 57,
+        "primary": 336
+      },
+      "counts_by_source_class": [
+        {
+          "source": "ethiopia",
+          "class": "Healthy",
+          "count": 19
+        },
+        {
+          "source": "ethiopia",
+          "class": "Yellow_rust",
+          "count": 38
+        },
+        {
+          "source": "iari",
+          "class": "Brown_rust",
+          "count": 38
+        },
+        {
+          "source": "iari",
+          "class": "Healthy",
+          "count": 19
+        },
+        {
+          "source": "primary",
+          "class": "Brown_rust",
+          "count": 112
+        },
+        {
+          "source": "primary",
+          "class": "Healthy",
+          "count": 112
+        },
+        {
+          "source": "primary",
+          "class": "Yellow_rust",
+          "count": 112
+        }
+      ]
+    },
+    {
+      "condition": "n150_mix025_seed44",
+      "train_images": 450,
+      "per_class": 150,
+      "share_nominal": 0.25,
+      "counts_by_source": {
+        "ethiopia": 57,
+        "iari": 57,
+        "primary": 336
+      },
+      "counts_by_source_class": [
+        {
+          "source": "ethiopia",
+          "class": "Healthy",
+          "count": 19
+        },
+        {
+          "source": "ethiopia",
+          "class": "Yellow_rust",
+          "count": 38
+        },
+        {
+          "source": "iari",
+          "class": "Brown_rust",
+          "count": 38
+        },
+        {
+          "source": "iari",
+          "class": "Healthy",
+          "count": 19
+        },
+        {
+          "source": "primary",
+          "class": "Brown_rust",
+          "count": 112
+        },
+        {
+          "source": "primary",
+          "class": "Healthy",
+          "count": 112
+        },
+        {
+          "source": "primary",
+          "class": "Yellow_rust",
+          "count": 112
+        }
+      ]
+    },
+    {
+      "condition": "n150_mix050_seed42",
+      "train_images": 450,
+      "per_class": 150,
+      "share_nominal": 0.5,
+      "counts_by_source": {
+        "ethiopia": 113,
+        "iari": 112,
+        "primary": 225
+      },
+      "counts_by_source_class": [
+        {
+          "source": "ethiopia",
+          "class": "Healthy",
+          "count": 38
+        },
+        {
+          "source": "ethiopia",
+          "class": "Yellow_rust",
+          "count": 75
+        },
+        {
+          "source": "iari",
+          "class": "Brown_rust",
+          "count": 75
+        },
+        {
+          "source": "iari",
+          "class": "Healthy",
+          "count": 37
+        },
+        {
+          "source": "primary",
+          "class": "Brown_rust",
+          "count": 75
+        },
+        {
+          "source": "primary",
+          "class": "Healthy",
+          "count": 75
+        },
+        {
+          "source": "primary",
+          "class": "Yellow_rust",
+          "count": 75
+        }
+      ]
+    },
+    {
+      "condition": "n150_mix050_seed43",
+      "train_images": 450,
+      "per_class": 150,
+      "share_nominal": 0.5,
+      "counts_by_source": {
+        "ethiopia": 113,
+        "iari": 112,
+        "primary": 225
+      },
+      "counts_by_source_class": [
+        {
+          "source": "ethiopia",
+          "class": "Healthy",
+          "count": 38
+        },
+        {
+          "source": "ethiopia",
+          "class": "Yellow_rust",
+          "count": 75
+        },
+        {
+          "source": "iari",
+          "class": "Brown_rust",
+          "count": 75
+        },
+        {
+          "source": "iari",
+          "class": "Healthy",
+          "count": 37
+        },
+        {
+          "source": "primary",
+          "class": "Brown_rust",
+          "count": 75
+        },
+        {
+          "source": "primary",
+          "class": "Healthy",
+          "count": 75
+        },
+        {
+          "source": "primary",
+          "class": "Yellow_rust",
+          "count": 75
+        }
+      ]
+    },
+    {
+      "condition": "n150_mix050_seed44",
+      "train_images": 450,
+      "per_class": 150,
+      "share_nominal": 0.5,
+      "counts_by_source": {
+        "ethiopia": 113,
+        "iari": 112,
+        "primary": 225
+      },
+      "counts_by_source_class": [
+        {
+          "source": "ethiopia",
+          "class": "Healthy",
+          "count": 38
+        },
+        {
+          "source": "ethiopia",
+          "class": "Yellow_rust",
+          "count": 75
+        },
+        {
+          "source": "iari",
+          "class": "Brown_rust",
+          "count": 75
+        },
+        {
+          "source": "iari",
+          "class": "Healthy",
+          "count": 37
+        },
+        {
+          "source": "primary",
+          "class": "Brown_rust",
+          "count": 75
+        },
+        {
+          "source": "primary",
+          "class": "Healthy",
+          "count": 75
+        },
+        {
+          "source": "primary",
+          "class": "Yellow_rust",
+          "count": 75
+        }
+      ]
+    },
+    {
+      "condition": "n300_mix025_seed42",
+      "train_images": 900,
+      "per_class": 300,
+      "share_nominal": 0.25,
+      "counts_by_source": {
+        "ethiopia": 113,
+        "iari": 112,
+        "primary": 675
+      },
+      "counts_by_source_class": [
+        {
+          "source": "ethiopia",
+          "class": "Healthy",
+          "count": 38
+        },
+        {
+          "source": "ethiopia",
+          "class": "Yellow_rust",
+          "count": 75
+        },
+        {
+          "source": "iari",
+          "class": "Brown_rust",
+          "count": 75
+        },
+        {
+          "source": "iari",
+          "class": "Healthy",
+          "count": 37
+        },
+        {
+          "source": "primary",
+          "class": "Brown_rust",
+          "count": 225
+        },
+        {
+          "source": "primary",
+          "class": "Healthy",
+          "count": 225
+        },
+        {
+          "source": "primary",
+          "class": "Yellow_rust",
+          "count": 225
+        }
+      ]
+    },
+    {
+      "condition": "n300_mix025_seed43",
+      "train_images": 900,
+      "per_class": 300,
+      "share_nominal": 0.25,
+      "counts_by_source": {
+        "ethiopia": 113,
+        "iari": 112,
+        "primary": 675
+      },
+      "counts_by_source_class": [
+        {
+          "source": "ethiopia",
+          "class": "Healthy",
+          "count": 38
+        },
+        {
+          "source": "ethiopia",
+          "class": "Yellow_rust",
+          "count": 75
+        },
+        {
+          "source": "iari",
+          "class": "Brown_rust",
+          "count": 75
+        },
+        {
+          "source": "iari",
+          "class": "Healthy",
+          "count": 37
+        },
+        {
+          "source": "primary",
+          "class": "Brown_rust",
+          "count": 225
+        },
+        {
+          "source": "primary",
+          "class": "Healthy",
+          "count": 225
+        },
+        {
+          "source": "primary",
+          "class": "Yellow_rust",
+          "count": 225
+        }
+      ]
+    },
+    {
+      "condition": "n300_mix025_seed44",
+      "train_images": 900,
+      "per_class": 300,
+      "share_nominal": 0.25,
+      "counts_by_source": {
+        "ethiopia": 113,
+        "iari": 112,
+        "primary": 675
+      },
+      "counts_by_source_class": [
+        {
+          "source": "ethiopia",
+          "class": "Healthy",
+          "count": 38
+        },
+        {
+          "source": "ethiopia",
+          "class": "Yellow_rust",
+          "count": 75
+        },
+        {
+          "source": "iari",
+          "class": "Brown_rust",
+          "count": 75
+        },
+        {
+          "source": "iari",
+          "class": "Healthy",
+          "count": 37
+        },
+        {
+          "source": "primary",
+          "class": "Brown_rust",
+          "count": 225
+        },
+        {
+          "source": "primary",
+          "class": "Healthy",
+          "count": 225
+        },
+        {
+          "source": "primary",
+          "class": "Yellow_rust",
+          "count": 225
+        }
+      ]
+    },
+    {
+      "condition": "n300_mix050_seed42",
+      "train_images": 900,
+      "per_class": 300,
+      "share_nominal": 0.5,
+      "counts_by_source": {
+        "ethiopia": 225,
+        "iari": 225,
+        "primary": 450
+      },
+      "counts_by_source_class": [
+        {
+          "source": "ethiopia",
+          "class": "Healthy",
+          "count": 75
+        },
+        {
+          "source": "ethiopia",
+          "class": "Yellow_rust",
+          "count": 150
+        },
+        {
+          "source": "iari",
+          "class": "Brown_rust",
+          "count": 150
+        },
+        {
+          "source": "iari",
+          "class": "Healthy",
+          "count": 75
+        },
+        {
+          "source": "primary",
+          "class": "Brown_rust",
+          "count": 150
+        },
+        {
+          "source": "primary",
+          "class": "Healthy",
+          "count": 150
+        },
+        {
+          "source": "primary",
+          "class": "Yellow_rust",
+          "count": 150
+        }
+      ]
+    },
+    {
+      "condition": "n300_mix050_seed43",
+      "train_images": 900,
+      "per_class": 300,
+      "share_nominal": 0.5,
+      "counts_by_source": {
+        "ethiopia": 225,
+        "iari": 225,
+        "primary": 450
+      },
+      "counts_by_source_class": [
+        {
+          "source": "ethiopia",
+          "class": "Healthy",
+          "count": 75
+        },
+        {
+          "source": "ethiopia",
+          "class": "Yellow_rust",
+          "count": 150
+        },
+        {
+          "source": "iari",
+          "class": "Brown_rust",
+          "count": 150
+        },
+        {
+          "source": "iari",
+          "class": "Healthy",
+          "count": 75
+        },
+        {
+          "source": "primary",
+          "class": "Brown_rust",
+          "count": 150
+        },
+        {
+          "source": "primary",
+          "class": "Healthy",
+          "count": 150
+        },
+        {
+          "source": "primary",
+          "class": "Yellow_rust",
+          "count": 150
+        }
+      ]
+    },
+    {
+      "condition": "n300_mix050_seed44",
+      "train_images": 900,
+      "per_class": 300,
+      "share_nominal": 0.5,
+      "counts_by_source": {
+        "ethiopia": 225,
+        "iari": 225,
+        "primary": 450
+      },
+      "counts_by_source_class": [
+        {
+          "source": "ethiopia",
+          "class": "Healthy",
+          "count": 75
+        },
+        {
+          "source": "ethiopia",
+          "class": "Yellow_rust",
+          "count": 150
+        },
+        {
+          "source": "iari",
+          "class": "Brown_rust",
+          "count": 150
+        },
+        {
+          "source": "iari",
+          "class": "Healthy",
+          "count": 75
+        },
+        {
+          "source": "primary",
+          "class": "Brown_rust",
+          "count": 150
+        },
+        {
+          "source": "primary",
+          "class": "Healthy",
+          "count": 150
+        },
+        {
+          "source": "primary",
+          "class": "Yellow_rust",
+          "count": 150
+        }
+      ]
+    }
+  ]
+}
