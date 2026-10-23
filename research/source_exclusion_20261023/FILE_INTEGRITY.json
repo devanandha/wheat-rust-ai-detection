@@ -1,0 +1,777 @@
+[
+  {
+    "path": "experiments/baseline_selected_audit_20261023_075815/similarity_flags.csv",
+    "original_sha256": "d76dfc06172e1ce9ff09fc3abe912519f6c3bef47426740d0b40ef04a45241ec",
+    "published_sha256": "d76dfc06172e1ce9ff09fc3abe912519f6c3bef47426740d0b40ef04a45241ec"
+  },
+  {
+    "path": "experiments/baseline_selected_audit_20261023_075815/summary.json",
+    "original_sha256": "5e30f265e2e4237f36a48ecdf394a42f1a21d311d251a48e7d674868c7142196",
+    "published_sha256": "fd5aa31391ae3775620af6dd8d767c8a13b0787f78ba79b170bab7584ea9c143"
+  },
+  {
+    "path": "experiments/source_excluded_20261022_153351/add_ethiopia_exclude_iari/n150_mix025_seed42/results/external/classification_report.json",
+    "original_sha256": "191b6cb77b08fc646dfb7f3711d9705c0f41eebfb197b6c31b928a4b42b61630",
+    "published_sha256": "096c0205f5954dbdc028640ee6dcafd17a650957bc8ff4fcd41a4ee6f51929e8"
+  },
+  {
+    "path": "experiments/source_excluded_20261022_153351/add_ethiopia_exclude_iari/n150_mix025_seed42/results/external/confusion_matrix.csv",
+    "original_sha256": "8b9ea618e357c2a8131c80a5f3ac3b99e6bf854998bf18d832a3976bf2c6742c",
+    "published_sha256": "8b9ea618e357c2a8131c80a5f3ac3b99e6bf854998bf18d832a3976bf2c6742c"
+  },
+  {
+    "path": "experiments/source_excluded_20261022_153351/add_ethiopia_exclude_iari/n150_mix025_seed42/results/external/predictions.csv",
+    "original_sha256": "e3ed170dcfbfc15897bb90276ad23006acf33d3502f26dbb343789bf78a26fbf",
+    "published_sha256": "e3ed170dcfbfc15897bb90276ad23006acf33d3502f26dbb343789bf78a26fbf"
+  },
+  {
+    "path": "experiments/source_excluded_20261022_153351/add_ethiopia_exclude_iari/n150_mix025_seed42/results/internal/classification_report.json",
+    "original_sha256": "560b0185e43b4ce2e3c7ab81eea8d6f45e455a0a3d5fabe28b4e2554e3d66080",
+    "published_sha256": "255ee6571334b3ac83ef15e3fd629978359e0e1645569b87579e6f8a4bd40fd7"
+  },
+  {
+    "path": "experiments/source_excluded_20261022_153351/add_ethiopia_exclude_iari/n150_mix025_seed42/results/internal/confusion_matrix.csv",
+    "original_sha256": "af549797f998432d600f6e911aebab663e5e7a17836f9bee14055bc2d319fb1b",
+    "published_sha256": "af549797f998432d600f6e911aebab663e5e7a17836f9bee14055bc2d319fb1b"
+  },
+  {
+    "path": "experiments/source_excluded_20261022_153351/add_ethiopia_exclude_iari/n150_mix025_seed42/results/internal/predictions.csv",
+    "original_sha256": "79ab542cd51f7d7e82cf9b3aa688096f81eabee5cb494e2862d42475b807dec9",
+    "published_sha256": "79ab542cd51f7d7e82cf9b3aa688096f81eabee5cb494e2862d42475b807dec9"
+  },
+  {
+    "path": "experiments/source_excluded_20261022_153351/add_ethiopia_exclude_iari/n150_mix025_seed42/results/run_metadata.json",
+    "original_sha256": "7abc4f92ee41eee22d187d708ef3d95c922574ba4f02965093867941dca39335",
+    "published_sha256": "9d39c17a2cbe8abf792c61231a82137cee583a5e4062a5277b8f29dd785e050c"
+  },
+  {
+    "path": "experiments/source_excluded_20261022_153351/add_ethiopia_exclude_iari/n150_mix025_seed42/results/training_history.json",
+    "original_sha256": "933b8999c3463ebf74710bff6e011b5c5d8c99de7b9365a8ee242691c7174c5f",
+    "published_sha256": "d82fb3b5671333993e8190812f91c6cfd93625f5d2f43672fce16268272e3f69"
+  },
+  {
+    "path": "experiments/source_excluded_20261022_153351/add_ethiopia_exclude_iari/n150_mix025_seed42/selected_images.json",
+    "original_sha256": "359fcae00b887a36c272fa4a0730de7fb693ef14ebabfafed78aebed737027fa",
+    "published_sha256": "58391ca0cca71659e9bfcc16c594dfd420c8a5955309116f3f5e10b93808d48f"
+  },
+  {
+    "path": "experiments/source_excluded_20261022_153351/add_ethiopia_exclude_iari/n150_mix025_seed43/results/external/classification_report.json",
+    "original_sha256": "64a372e24a95fb5f401ab1ab798941f7c1b08aa17be967710ca6af4b825ad9cd",
+    "published_sha256": "965ce9abadb2ae0f68ae202b809863be33cf478533263b8a5dc45041646f21d8"
+  },
+  {
+    "path": "experiments/source_excluded_20261022_153351/add_ethiopia_exclude_iari/n150_mix025_seed43/results/external/confusion_matrix.csv",
+    "original_sha256": "bb41b3bacdb98ddfbea71dd7723ca75ac459f5db5a65f677937876bbed5999f2",
+    "published_sha256": "bb41b3bacdb98ddfbea71dd7723ca75ac459f5db5a65f677937876bbed5999f2"
+  },
+  {
+    "path": "experiments/source_excluded_20261022_153351/add_ethiopia_exclude_iari/n150_mix025_seed43/results/external/predictions.csv",
+    "original_sha256": "58aaf0f0e8b0c09cc7eebc9551cf390a7660a857da8b3c7a1aca5392f0e91b94",
+    "published_sha256": "58aaf0f0e8b0c09cc7eebc9551cf390a7660a857da8b3c7a1aca5392f0e91b94"
+  },
+  {
+    "path": "experiments/source_excluded_20261022_153351/add_ethiopia_exclude_iari/n150_mix025_seed43/results/internal/classification_report.json",
+    "original_sha256": "75634f409ced0424da4934a0a61abd58b3a1128bfdc8c2033608053d4258ac34",
+    "published_sha256": "052b96af2fc262d06079e6984b15719a7e797cc0a37d4746c9ba63a75faab7a6"
+  },
+  {
+    "path": "experiments/source_excluded_20261022_153351/add_ethiopia_exclude_iari/n150_mix025_seed43/results/internal/confusion_matrix.csv",
+    "original_sha256": "5ed0ae06ae46e1350b165eb365486b5ce02c2b5f750cc0fc5db38d47c0aa90e2",
+    "published_sha256": "5ed0ae06ae46e1350b165eb365486b5ce02c2b5f750cc0fc5db38d47c0aa90e2"
+  },
+  {
+    "path": "experiments/source_excluded_20261022_153351/add_ethiopia_exclude_iari/n150_mix025_seed43/results/internal/predictions.csv",
+    "original_sha256": "ec306fabc767b38c65102bf00a383b8bcff7ab34f4cebdae03a5639aeb73d71e",
+    "published_sha256": "ec306fabc767b38c65102bf00a383b8bcff7ab34f4cebdae03a5639aeb73d71e"
+  },
+  {
+    "path": "experiments/source_excluded_20261022_153351/add_ethiopia_exclude_iari/n150_mix025_seed43/results/run_metadata.json",
+    "original_sha256": "9ab042687ce63c7b1fe9cb2a21ad3ddf49b531be585bc0e9db513c1fbc60b3b8",
+    "published_sha256": "3eb83801b185edbc31ff72404a21f684e43f2ba2415e082ef5a37cb61775e360"
+  },
+  {
+    "path": "experiments/source_excluded_20261022_153351/add_ethiopia_exclude_iari/n150_mix025_seed43/results/training_history.json",
+    "original_sha256": "7d53a5238598287fe5019c78725fc2f096aa23b319ccf2a62e4d2e7c9f4eed2c",
+    "published_sha256": "c1d5f8c05fff41819fc8c30ea1000cf22a444c26f78ba477046e8c5a994aed2d"
+  },
+  {
+    "path": "experiments/source_excluded_20261022_153351/add_ethiopia_exclude_iari/n150_mix025_seed43/selected_images.json",
+    "original_sha256": "0150e035b57cbc3a27ae24bd5bddafe715ccf3af198990a8062e45d16f7ebd30",
+    "published_sha256": "a6952ef72d31389b08c0875f46b63fa1bf4cb6ac3255f8e69e5d267aae776293"
+  },
+  {
+    "path": "experiments/source_excluded_20261022_153351/add_ethiopia_exclude_iari/n150_mix025_seed44/results/external/classification_report.json",
+    "original_sha256": "8c535a00d4b5152121a47455c9d7e01a47ba7195726e294a41cc4fa8a91f34bd",
+    "published_sha256": "11e209406b2d1444501d433993a6aa560818d334f6db5691d66ae8c88625ef91"
+  },
+  {
+    "path": "experiments/source_excluded_20261022_153351/add_ethiopia_exclude_iari/n150_mix025_seed44/results/external/confusion_matrix.csv",
+    "original_sha256": "e88c8405b259547591867960c7493d6dffdd522aebfc65dc8fefff9576654d43",
+    "published_sha256": "e88c8405b259547591867960c7493d6dffdd522aebfc65dc8fefff9576654d43"
+  },
+  {
+    "path": "experiments/source_excluded_20261022_153351/add_ethiopia_exclude_iari/n150_mix025_seed44/results/external/predictions.csv",
+    "original_sha256": "d7ce16cf0a37ec4d8328f9568fa850b8f32c05fd32852c2f260cb6e11bcb3403",
+    "published_sha256": "d7ce16cf0a37ec4d8328f9568fa850b8f32c05fd32852c2f260cb6e11bcb3403"
+  },
+  {
+    "path": "experiments/source_excluded_20261022_153351/add_ethiopia_exclude_iari/n150_mix025_seed44/results/internal/classification_report.json",
+    "original_sha256": "b5102342ca6f7444ef4efc8e345926e972f95dd329d8fbddb2492a92d144afc4",
+    "published_sha256": "ea821525c0c6d8d422099274958fa98b61814f94912891f3e4e791df0fea45a0"
+  },
+  {
+    "path": "experiments/source_excluded_20261022_153351/add_ethiopia_exclude_iari/n150_mix025_seed44/results/internal/confusion_matrix.csv",
+    "original_sha256": "3403cf5b7ebb36c34e50a6ee588940890e89e9c7b6310b62446e781bcf718b49",
+    "published_sha256": "3403cf5b7ebb36c34e50a6ee588940890e89e9c7b6310b62446e781bcf718b49"
+  },
+  {
+    "path": "experiments/source_excluded_20261022_153351/add_ethiopia_exclude_iari/n150_mix025_seed44/results/internal/predictions.csv",
+    "original_sha256": "39572eb5578c183cb41cc5bb87d0ecd06e646b3dedc897a33137b07461af96a0",
+    "published_sha256": "39572eb5578c183cb41cc5bb87d0ecd06e646b3dedc897a33137b07461af96a0"
+  },
+  {
+    "path": "experiments/source_excluded_20261022_153351/add_ethiopia_exclude_iari/n150_mix025_seed44/results/run_metadata.json",
+    "original_sha256": "b93787a15f7a41ebb8d655f82534e2ed3c43b59290be00f013d6c2e78e7c855a",
+    "published_sha256": "391377af4fd7746f73f70acb54e809336a97ecaee1f123f08d612f7e08391e7d"
+  },
+  {
+    "path": "experiments/source_excluded_20261022_153351/add_ethiopia_exclude_iari/n150_mix025_seed44/results/training_history.json",
+    "original_sha256": "ff724fdd1c27d9928d7f263258acb9b1141133b24d3031d74a846637c6bcf488",
+    "published_sha256": "c4c7799e5115f5503382e7ef03a9298fd0ac0f07594120438503f89ed9c2a4df"
+  },
+  {
+    "path": "experiments/source_excluded_20261022_153351/add_ethiopia_exclude_iari/n150_mix025_seed44/selected_images.json",
+    "original_sha256": "223105475fc65b10157afa33aba6a9a6f8c2f4ab40924e220da3199d50abb679",
+    "published_sha256": "b209ab634f41bf36932fc52e9b755e9a5a8929013b7728cbd5c87f3b6fb8655e"
+  },
+  {
+    "path": "experiments/source_excluded_20261022_153351/add_ethiopia_exclude_iari/study_manifest.json",
+    "original_sha256": "c53cdcf095e3958cc50e86dd38b93c8e3c8c9f5731e1f83848e8d0222187dbbb",
+    "published_sha256": "76da930305dc6bc2e3ad6dd6eb85d85a9fbb4cc474b0bfe931ff811ce6c3b0b9"
+  },
+  {
+    "path": "experiments/source_excluded_20261022_153351/add_iari_exclude_ethiopia/n150_mix025_seed42/results/external/classification_report.json",
+    "original_sha256": "b981e273f8b61e9e10f7b5b6499ee751db51a7973f97b85bedabc6653e0f387c",
+    "published_sha256": "d2adda0d3244a23ef7ea71976bd6a3b8056ffb0e9962c02177ef441cdfcfc39b"
+  },
+  {
+    "path": "experiments/source_excluded_20261022_153351/add_iari_exclude_ethiopia/n150_mix025_seed42/results/external/confusion_matrix.csv",
+    "original_sha256": "c0e6685ea9be583895aec0f1aca4311e3ba6f0ff108ed2aaa5f1d49f39bf1d6a",
+    "published_sha256": "c0e6685ea9be583895aec0f1aca4311e3ba6f0ff108ed2aaa5f1d49f39bf1d6a"
+  },
+  {
+    "path": "experiments/source_excluded_20261022_153351/add_iari_exclude_ethiopia/n150_mix025_seed42/results/external/predictions.csv",
+    "original_sha256": "5221902e51a968299e26db2df8b151200f71311c0b396347a27a73bb8ab957c5",
+    "published_sha256": "5221902e51a968299e26db2df8b151200f71311c0b396347a27a73bb8ab957c5"
+  },
+  {
+    "path": "experiments/source_excluded_20261022_153351/add_iari_exclude_ethiopia/n150_mix025_seed42/results/internal/classification_report.json",
+    "original_sha256": "5f6113e59f85e3a701770b689b31a1cdb503eef45fd85228ca0d5f03f9844eb4",
+    "published_sha256": "fa2937564eff0f3181b559f13d8575a7ad3098b3057d57795443041e8d90ad82"
+  },
+  {
+    "path": "experiments/source_excluded_20261022_153351/add_iari_exclude_ethiopia/n150_mix025_seed42/results/internal/confusion_matrix.csv",
+    "original_sha256": "1bd8f82c652ac849a27e7cca9e084f9204d75de29c373d0754123380589f06f1",
+    "published_sha256": "1bd8f82c652ac849a27e7cca9e084f9204d75de29c373d0754123380589f06f1"
+  },
+  {
+    "path": "experiments/source_excluded_20261022_153351/add_iari_exclude_ethiopia/n150_mix025_seed42/results/internal/predictions.csv",
+    "original_sha256": "a23d6c1e498a6fe10e189230e78caf06d5e195f7d033c98a3df1d5a39a0cb421",
+    "published_sha256": "a23d6c1e498a6fe10e189230e78caf06d5e195f7d033c98a3df1d5a39a0cb421"
+  },
+  {
+    "path": "experiments/source_excluded_20261022_153351/add_iari_exclude_ethiopia/n150_mix025_seed42/results/run_metadata.json",
+    "original_sha256": "7085489dff3c4e80f826f2dc8406b77d4a9f0d183dea6586df4d7995ea9acd32",
+    "published_sha256": "d07e5f33a6c5c81cecc787614a4d0139588de94708f533e31f41bffdef2863e6"
+  },
+  {
+    "path": "experiments/source_excluded_20261022_153351/add_iari_exclude_ethiopia/n150_mix025_seed42/results/training_history.json",
+    "original_sha256": "613533c50fc2fd2f8ed21f464d5f97ee88933eb10233294eafee0c7e56f6a3df",
+    "published_sha256": "606bbdf6e1e9b25ef04d273be88c3f3ff59ed94a10b7c542f68434b0017b6d58"
+  },
+  {
+    "path": "experiments/source_excluded_20261022_153351/add_iari_exclude_ethiopia/n150_mix025_seed42/selected_images.json",
+    "original_sha256": "3d6ea21c9bc97f8b56c1dcd53be1d22fa71f49dbbf0f80a8c6cce2034dcb1812",
+    "published_sha256": "ed908eb89210779ff8c23bfa46c20d2a70e7052fcb800ad24ea6a9b04482e831"
+  },
+  {
+    "path": "experiments/source_excluded_20261022_153351/add_iari_exclude_ethiopia/n150_mix025_seed43/results/external/classification_report.json",
+    "original_sha256": "eb856653c561b38014250223b1f566fb86d212318fb8b95f6253d0bf50be9ad0",
+    "published_sha256": "a1a31d6081850585996991ad274182b3982af3138737322f797e0f65e590eb92"
+  },
+  {
+    "path": "experiments/source_excluded_20261022_153351/add_iari_exclude_ethiopia/n150_mix025_seed43/results/external/confusion_matrix.csv",
+    "original_sha256": "fbba2634e407fdb1c47ad5c685e5dd35645b0b57aeb68c93031f1ffde7353b27",
+    "published_sha256": "fbba2634e407fdb1c47ad5c685e5dd35645b0b57aeb68c93031f1ffde7353b27"
+  },
+  {
+    "path": "experiments/source_excluded_20261022_153351/add_iari_exclude_ethiopia/n150_mix025_seed43/results/external/predictions.csv",
+    "original_sha256": "56f9c4143972c3043006d0d161150eccd1140c3eb1ac3bd03817463e8ca84eaf",
+    "published_sha256": "56f9c4143972c3043006d0d161150eccd1140c3eb1ac3bd03817463e8ca84eaf"
+  },
+  {
+    "path": "experiments/source_excluded_20261022_153351/add_iari_exclude_ethiopia/n150_mix025_seed43/results/internal/classification_report.json",
+    "original_sha256": "90019820d8a56f32a3416d529ea1ceb59d2b06a0b8c8e1f03acd482fb80607f2",
+    "published_sha256": "411b84cf7cdea0d60a2ba5b892c182f69b985785373bc1386d8f932e1470913a"
+  },
+  {
+    "path": "experiments/source_excluded_20261022_153351/add_iari_exclude_ethiopia/n150_mix025_seed43/results/internal/confusion_matrix.csv",
+    "original_sha256": "8e06a55565af7a9e120168afc46bfccfce1910e1b4c21fdad52c3b60c0d59b6c",
+    "published_sha256": "8e06a55565af7a9e120168afc46bfccfce1910e1b4c21fdad52c3b60c0d59b6c"
+  },
+  {
+    "path": "experiments/source_excluded_20261022_153351/add_iari_exclude_ethiopia/n150_mix025_seed43/results/internal/predictions.csv",
+    "original_sha256": "4d5a11a9dd0ecf0a0e7c43c8fd35b1456b0e0f1997ba6855e383d22764ebe74d",
+    "published_sha256": "4d5a11a9dd0ecf0a0e7c43c8fd35b1456b0e0f1997ba6855e383d22764ebe74d"
+  },
+  {
+    "path": "experiments/source_excluded_20261022_153351/add_iari_exclude_ethiopia/n150_mix025_seed43/results/run_metadata.json",
+    "original_sha256": "7ec6ec569d6a4d3849eca59228b3573166c9abaf1ca9229dc5864b329824992c",
+    "published_sha256": "09b17d97647b182baec44aa915b7945643aabbef848044e5ec26d84682d60970"
+  },
+  {
+    "path": "experiments/source_excluded_20261022_153351/add_iari_exclude_ethiopia/n150_mix025_seed43/results/training_history.json",
+    "original_sha256": "ed227962dd6a930b1fdd3ec476cef7b39812623b77bbe9a7fae4022f8a3e75d2",
+    "published_sha256": "b5a9f3c73b193c3c6743cbe25debbb7bfaeaeccb9251c4b67a983ce5f213548e"
+  },
+  {
+    "path": "experiments/source_excluded_20261022_153351/add_iari_exclude_ethiopia/n150_mix025_seed43/selected_images.json",
+    "original_sha256": "ff81e3483db2b24d37596a1975efa4cab4f5b039af70bd29706690bfcb9c9914",
+    "published_sha256": "e7aaf1daebf457290ba09ae11ffb5440dab8f4866cb499d3a316973e1ac268f8"
+  },
+  {
+    "path": "experiments/source_excluded_20261022_153351/add_iari_exclude_ethiopia/n150_mix025_seed44/results/external/classification_report.json",
+    "original_sha256": "4b4704ae0c848d9d6196688a6f8897af7e5b1ffc808c613b39b12e67fb0f46af",
+    "published_sha256": "ca73bfe06f15544da23e9d7446bd3034a843a0bb4aeb2c10ea2e80a9af54ebb7"
+  },
+  {
+    "path": "experiments/source_excluded_20261022_153351/add_iari_exclude_ethiopia/n150_mix025_seed44/results/external/confusion_matrix.csv",
+    "original_sha256": "d7076e442057eadacb75eacaa432edd422a26b72c2ccd4766969b02f89745b6b",
+    "published_sha256": "d7076e442057eadacb75eacaa432edd422a26b72c2ccd4766969b02f89745b6b"
+  },
+  {
+    "path": "experiments/source_excluded_20261022_153351/add_iari_exclude_ethiopia/n150_mix025_seed44/results/external/predictions.csv",
+    "original_sha256": "6d2c642b1098e0c0bc39a751e84f02140e421ec173b4cfbeba28b6bf5216a8d3",
+    "published_sha256": "6d2c642b1098e0c0bc39a751e84f02140e421ec173b4cfbeba28b6bf5216a8d3"
+  },
+  {
+    "path": "experiments/source_excluded_20261022_153351/add_iari_exclude_ethiopia/n150_mix025_seed44/results/internal/classification_report.json",
+    "original_sha256": "2c2b69c06b8aa67853364d4daf9fc83f56663ac0b1d7112d071f88fed39ce164",
+    "published_sha256": "ea3c731ba4074eab7a42198f9bfe6972d168c18d5baf709192f0cf2fcf84ca9f"
+  },
+  {
+    "path": "experiments/source_excluded_20261022_153351/add_iari_exclude_ethiopia/n150_mix025_seed44/results/internal/confusion_matrix.csv",
+    "original_sha256": "c6f0167a1d3b223f321e17968a2619797c6d9c485d70f88bdc78eee609b898b3",
+    "published_sha256": "c6f0167a1d3b223f321e17968a2619797c6d9c485d70f88bdc78eee609b898b3"
+  },
+  {
+    "path": "experiments/source_excluded_20261022_153351/add_iari_exclude_ethiopia/n150_mix025_seed44/results/internal/predictions.csv",
+    "original_sha256": "051bf9175cafd0df98a38a9d4390f301168235617d03407da1e9668dd34b78ec",
+    "published_sha256": "051bf9175cafd0df98a38a9d4390f301168235617d03407da1e9668dd34b78ec"
+  },
+  {
+    "path": "experiments/source_excluded_20261022_153351/add_iari_exclude_ethiopia/n150_mix025_seed44/results/run_metadata.json",
+    "original_sha256": "6e19366ac444dcc91e824e1be4a929c153ed7fbfbfd7758536de0fd2feccd37f",
+    "published_sha256": "c689f45fe97ee9cd39efb02a97e61587522e5e0d22cf654ba01a9e74fd28e167"
+  },
+  {
+    "path": "experiments/source_excluded_20261022_153351/add_iari_exclude_ethiopia/n150_mix025_seed44/results/training_history.json",
+    "original_sha256": "779e803a270186ab59cf90e418ed9d8d1f8a933b5b22e41995a0872e66ac0ef7",
+    "published_sha256": "04b249355e7feb8c7034a8b862daf8ab1f283873a82b1dc904366657b6fc0a95"
+  },
+  {
+    "path": "experiments/source_excluded_20261022_153351/add_iari_exclude_ethiopia/n150_mix025_seed44/selected_images.json",
+    "original_sha256": "91d7ebc884c0cf64b70335be15ddf3d6bc16bb89c450bc3f6147e2637601d581",
+    "published_sha256": "5b73c3b704dfa41c55c321bd8768557311ddb18811d6f39cedf67eb3b873492c"
+  },
+  {
+    "path": "experiments/source_excluded_20261022_153351/add_iari_exclude_ethiopia/study_manifest.json",
+    "original_sha256": "ba380b6caa0bb22d14b89744e9c3b0704e816e58b5e0dca26f07e98cbb0c5066",
+    "published_sha256": "3b2e4a97ff26f5fdf1f97eb41bf4534be99fd2801c2bd75b752e8b15c9aace41"
+  },
+  {
+    "path": "experiments/source_excluded_holdout_eval_20261022_170954/add_ethiopia_exclude_iari/n150_mix025_seed42/ethiopia_holdout/classification_report.json",
+    "original_sha256": "ff49886ec25e40fa292bb01f9067b2fa55478fe05021c8636ee68ec0c5eac2ba",
+    "published_sha256": "a7da2b875f27560e2fa9e872a514b8680a167443cb748ce7cf4c0a18bd5f3c4e"
+  },
+  {
+    "path": "experiments/source_excluded_holdout_eval_20261022_170954/add_ethiopia_exclude_iari/n150_mix025_seed42/ethiopia_holdout/confusion_matrix.csv",
+    "original_sha256": "ead0f458ce7aff52070bc5b05a65c25f2b1834bdaac5351ba3b14f18d55db67f",
+    "published_sha256": "ead0f458ce7aff52070bc5b05a65c25f2b1834bdaac5351ba3b14f18d55db67f"
+  },
+  {
+    "path": "experiments/source_excluded_holdout_eval_20261022_170954/add_ethiopia_exclude_iari/n150_mix025_seed42/ethiopia_holdout/predictions.csv",
+    "original_sha256": "ab7a86d4c04097d1ab0bd0e5550fbb4c289658124f9e6b431f05b1ae06763403",
+    "published_sha256": "ab7a86d4c04097d1ab0bd0e5550fbb4c289658124f9e6b431f05b1ae06763403"
+  },
+  {
+    "path": "experiments/source_excluded_holdout_eval_20261022_170954/add_ethiopia_exclude_iari/n150_mix025_seed42/iari_test/classification_report.json",
+    "original_sha256": "b7cf799a81e37b1764a8cefa91f644e99b8e7e50ad386fcd4ba37072627e8f27",
+    "published_sha256": "d601ac085441bd58405f1b8833ac263ae2523ef279def38f7a919fbcbe3d5157"
+  },
+  {
+    "path": "experiments/source_excluded_holdout_eval_20261022_170954/add_ethiopia_exclude_iari/n150_mix025_seed42/iari_test/confusion_matrix.csv",
+    "original_sha256": "e125187a846fa06554f29b4ec120566a0115c22c23ad106eb0ea6719df55fc45",
+    "published_sha256": "e125187a846fa06554f29b4ec120566a0115c22c23ad106eb0ea6719df55fc45"
+  },
+  {
+    "path": "experiments/source_excluded_holdout_eval_20261022_170954/add_ethiopia_exclude_iari/n150_mix025_seed42/iari_test/predictions.csv",
+    "original_sha256": "d726fc5c43cdda77b6eee555701bfbcfd465d4ada97cd79dec88f8e0530540d5",
+    "published_sha256": "d726fc5c43cdda77b6eee555701bfbcfd465d4ada97cd79dec88f8e0530540d5"
+  },
+  {
+    "path": "experiments/source_excluded_holdout_eval_20261022_170954/add_ethiopia_exclude_iari/n150_mix025_seed42/summary.json",
+    "original_sha256": "a8087e3c9f8f57ad2f236651d2ec5562659a9d2ed56cc293f07642f79610b8d3",
+    "published_sha256": "11f5eb7154322bcc6bf62df13872f4aa1c87bd232580d15fd083fe552d949ac9"
+  },
+  {
+    "path": "experiments/source_excluded_holdout_eval_20261022_170954/add_ethiopia_exclude_iari/n150_mix025_seed43/ethiopia_holdout/classification_report.json",
+    "original_sha256": "7d68a77235c7045f5bd822da1f02216bd3aa188e71df7353975b5226ae4efd5c",
+    "published_sha256": "2f4ed068cb77eba133e6db8e855e85380c864a5695f0b691fbdd182da1cb48c1"
+  },
+  {
+    "path": "experiments/source_excluded_holdout_eval_20261022_170954/add_ethiopia_exclude_iari/n150_mix025_seed43/ethiopia_holdout/confusion_matrix.csv",
+    "original_sha256": "f9e7ff872bdd4996c0bc8ce57f6c9f820b1ba46b09c2568d2dcf59933a113cc4",
+    "published_sha256": "f9e7ff872bdd4996c0bc8ce57f6c9f820b1ba46b09c2568d2dcf59933a113cc4"
+  },
+  {
+    "path": "experiments/source_excluded_holdout_eval_20261022_170954/add_ethiopia_exclude_iari/n150_mix025_seed43/ethiopia_holdout/predictions.csv",
+    "original_sha256": "9f0b4102cf8a6567193fe66eb78b57e32cfab7abd908f7c2e7cb998deee2f49e",
+    "published_sha256": "9f0b4102cf8a6567193fe66eb78b57e32cfab7abd908f7c2e7cb998deee2f49e"
+  },
+  {
+    "path": "experiments/source_excluded_holdout_eval_20261022_170954/add_ethiopia_exclude_iari/n150_mix025_seed43/iari_test/classification_report.json",
+    "original_sha256": "f1b19ad8c4438bab5236a78b807d773cceb669babbbdde7d7a6df1e12abecd66",
+    "published_sha256": "7125a53f7ea861ed157890e1dfe2c94243fa7eefbbbc33b04c5438404afeee1f"
+  },
+  {
+    "path": "experiments/source_excluded_holdout_eval_20261022_170954/add_ethiopia_exclude_iari/n150_mix025_seed43/iari_test/confusion_matrix.csv",
+    "original_sha256": "b978ed85ec23c5829ac80e179f14cda0c392b0b32e05e2555a30c9e47a5ac211",
+    "published_sha256": "b978ed85ec23c5829ac80e179f14cda0c392b0b32e05e2555a30c9e47a5ac211"
+  },
+  {
+    "path": "experiments/source_excluded_holdout_eval_20261022_170954/add_ethiopia_exclude_iari/n150_mix025_seed43/iari_test/predictions.csv",
+    "original_sha256": "91346a26d437b3373e20ecb42f369f54e62f43c96806f0b030f18189617a5588",
+    "published_sha256": "91346a26d437b3373e20ecb42f369f54e62f43c96806f0b030f18189617a5588"
+  },
+  {
+    "path": "experiments/source_excluded_holdout_eval_20261022_170954/add_ethiopia_exclude_iari/n150_mix025_seed43/summary.json",
+    "original_sha256": "fd7dadecbc797fe4789ff8b7329e68bfd29144041b6067d7876c1fbcdd058664",
+    "published_sha256": "58ec96372a778cba6c69344abee3719e62975633404ea3a5ba66f81b08258dca"
+  },
+  {
+    "path": "experiments/source_excluded_holdout_eval_20261022_170954/add_ethiopia_exclude_iari/n150_mix025_seed44/ethiopia_holdout/classification_report.json",
+    "original_sha256": "cf8b8c7bbeb8f30fdcb20429b85290569462357e358d839c14b9a9b70e09a280",
+    "published_sha256": "c8f16764ae5e77434d5ec8bb65727a13f3d42424578e6499d246d98da80a6510"
+  },
+  {
+    "path": "experiments/source_excluded_holdout_eval_20261022_170954/add_ethiopia_exclude_iari/n150_mix025_seed44/ethiopia_holdout/confusion_matrix.csv",
+    "original_sha256": "be4f148ceb0bb42b78e9788d9d43fa49ec8b6c896a0f8b7891619a42d34b3744",
+    "published_sha256": "be4f148ceb0bb42b78e9788d9d43fa49ec8b6c896a0f8b7891619a42d34b3744"
+  },
+  {
+    "path": "experiments/source_excluded_holdout_eval_20261022_170954/add_ethiopia_exclude_iari/n150_mix025_seed44/ethiopia_holdout/predictions.csv",
+    "original_sha256": "8f50620241363d949dc5213e604949c55e0358bbda08442595b451ed04f036b7",
+    "published_sha256": "8f50620241363d949dc5213e604949c55e0358bbda08442595b451ed04f036b7"
+  },
+  {
+    "path": "experiments/source_excluded_holdout_eval_20261022_170954/add_ethiopia_exclude_iari/n150_mix025_seed44/iari_test/classification_report.json",
+    "original_sha256": "e8f99beac00872ad2228256487efbeb08f53cfbabab5cd9f4a1f5cd32a1dd048",
+    "published_sha256": "697ac803c18962a09aa4fcd60e9ee63cd42274dd0b1ed3e26d2b026516fd59fa"
+  },
+  {
+    "path": "experiments/source_excluded_holdout_eval_20261022_170954/add_ethiopia_exclude_iari/n150_mix025_seed44/iari_test/confusion_matrix.csv",
+    "original_sha256": "b603bd509d3eea769f88e64bb92a472c39b790ce02c07b2d97c615a76f6302d7",
+    "published_sha256": "b603bd509d3eea769f88e64bb92a472c39b790ce02c07b2d97c615a76f6302d7"
+  },
+  {
+    "path": "experiments/source_excluded_holdout_eval_20261022_170954/add_ethiopia_exclude_iari/n150_mix025_seed44/iari_test/predictions.csv",
+    "original_sha256": "a5182ba79a295e16449f30165f651febc9879b2ffc8af48b830f064b0b4afbf6",
+    "published_sha256": "a5182ba79a295e16449f30165f651febc9879b2ffc8af48b830f064b0b4afbf6"
+  },
+  {
+    "path": "experiments/source_excluded_holdout_eval_20261022_170954/add_ethiopia_exclude_iari/n150_mix025_seed44/summary.json",
+    "original_sha256": "598ddc52ed7123939698393fadbc05c1c0dab673a5082c83bec1a15df0b052d6",
+    "published_sha256": "8eb7a29c730c98cc40e2ef286a09770fe2bc38042369974ecafe39903ecfcfe5"
+  },
+  {
+    "path": "experiments/source_excluded_holdout_eval_20261022_170954/add_iari_exclude_ethiopia/n150_mix025_seed42/ethiopia_holdout/classification_report.json",
+    "original_sha256": "a185b2a528eac9bbfc3d54ccf198a005ff1301cd0e6b30a036b215c55faf45b7",
+    "published_sha256": "415fc0d58f32bb3790a05f7741ddf851f0fe83334179d00d4e5c0322d26f3d27"
+  },
+  {
+    "path": "experiments/source_excluded_holdout_eval_20261022_170954/add_iari_exclude_ethiopia/n150_mix025_seed42/ethiopia_holdout/confusion_matrix.csv",
+    "original_sha256": "83c3a8c3504a085c363dcacad5e849b1671c8da912dac29ced44d47e510d5923",
+    "published_sha256": "83c3a8c3504a085c363dcacad5e849b1671c8da912dac29ced44d47e510d5923"
+  },
+  {
+    "path": "experiments/source_excluded_holdout_eval_20261022_170954/add_iari_exclude_ethiopia/n150_mix025_seed42/ethiopia_holdout/predictions.csv",
+    "original_sha256": "048917205b279a5434d22457c2c5b5184b2dfb5d6dfb622b6a7e717754f7724c",
+    "published_sha256": "048917205b279a5434d22457c2c5b5184b2dfb5d6dfb622b6a7e717754f7724c"
+  },
+  {
+    "path": "experiments/source_excluded_holdout_eval_20261022_170954/add_iari_exclude_ethiopia/n150_mix025_seed42/iari_test/classification_report.json",
+    "original_sha256": "897f0fd85ac2f96224f4e11525ca711f46232a661fb57231cb2c38ee5aa32eed",
+    "published_sha256": "1d5ded4ce661e831bd71eca056dce7665c410c74d5a183c6198d0b3996d87430"
+  },
+  {
+    "path": "experiments/source_excluded_holdout_eval_20261022_170954/add_iari_exclude_ethiopia/n150_mix025_seed42/iari_test/confusion_matrix.csv",
+    "original_sha256": "9335880ac15c6183ff47f7893c31bf98af5a2395a6644b461f3eb11ae43fa8b4",
+    "published_sha256": "9335880ac15c6183ff47f7893c31bf98af5a2395a6644b461f3eb11ae43fa8b4"
+  },
+  {
+    "path": "experiments/source_excluded_holdout_eval_20261022_170954/add_iari_exclude_ethiopia/n150_mix025_seed42/iari_test/predictions.csv",
+    "original_sha256": "6e6fce660a8a631e60fd05dbe36bcf03c9c1446d1f53723ecf8a48daf93ee48e",
+    "published_sha256": "6e6fce660a8a631e60fd05dbe36bcf03c9c1446d1f53723ecf8a48daf93ee48e"
+  },
+  {
+    "path": "experiments/source_excluded_holdout_eval_20261022_170954/add_iari_exclude_ethiopia/n150_mix025_seed42/summary.json",
+    "original_sha256": "4cfc93d77130a477abbe1b58335d9d88ffc998b1d1124d7478f470cebe81f80f",
+    "published_sha256": "e3258ef11b3f8bad2731798116df27b98eec46172b43944b121e131e840e4e1f"
+  },
+  {
+    "path": "experiments/source_excluded_holdout_eval_20261022_170954/add_iari_exclude_ethiopia/n150_mix025_seed43/ethiopia_holdout/classification_report.json",
+    "original_sha256": "efa6380a178abf51f05e01ddd0d168e7ac9652f1c1dda4e3a4beb5492df13356",
+    "published_sha256": "94fae917d468698bf320fcfe8fe46f6ccb48349e692cb118b4341f3ac9815434"
+  },
+  {
+    "path": "experiments/source_excluded_holdout_eval_20261022_170954/add_iari_exclude_ethiopia/n150_mix025_seed43/ethiopia_holdout/confusion_matrix.csv",
+    "original_sha256": "79296c5fd78b7192576bac3c184f3d308acf9d0a4f81ca87d50bd75a0aabd733",
+    "published_sha256": "79296c5fd78b7192576bac3c184f3d308acf9d0a4f81ca87d50bd75a0aabd733"
+  },
+  {
+    "path": "experiments/source_excluded_holdout_eval_20261022_170954/add_iari_exclude_ethiopia/n150_mix025_seed43/ethiopia_holdout/predictions.csv",
+    "original_sha256": "e5bce666193862cb730d8a2720dbe8144e4d1d9f09258b52a217650500d24263",
+    "published_sha256": "e5bce666193862cb730d8a2720dbe8144e4d1d9f09258b52a217650500d24263"
+  },
+  {
+    "path": "experiments/source_excluded_holdout_eval_20261022_170954/add_iari_exclude_ethiopia/n150_mix025_seed43/iari_test/classification_report.json",
+    "original_sha256": "1bc97acfd9c9587a30ef24e59f822253a52eeb3f9c9d98a17d35aa30f8f7c080",
+    "published_sha256": "f66e3f10726556db4df013409381fcbeccdf015d190762e82ef118636212e756"
+  },
+  {
+    "path": "experiments/source_excluded_holdout_eval_20261022_170954/add_iari_exclude_ethiopia/n150_mix025_seed43/iari_test/confusion_matrix.csv",
+    "original_sha256": "f4f404a97c097eb9b5a231c6bc58668b20b2072135d21d62a0d66c26c0c85603",
+    "published_sha256": "f4f404a97c097eb9b5a231c6bc58668b20b2072135d21d62a0d66c26c0c85603"
+  },
+  {
+    "path": "experiments/source_excluded_holdout_eval_20261022_170954/add_iari_exclude_ethiopia/n150_mix025_seed43/iari_test/predictions.csv",
+    "original_sha256": "bd52abb9da98144a6f384d3f364f59c722a117e6c38f356c410f93763756ca7f",
+    "published_sha256": "bd52abb9da98144a6f384d3f364f59c722a117e6c38f356c410f93763756ca7f"
+  },
+  {
+    "path": "experiments/source_excluded_holdout_eval_20261022_170954/add_iari_exclude_ethiopia/n150_mix025_seed43/summary.json",
+    "original_sha256": "da9f63285ba2b9fcf838f0144a1aac75ef9693b87a82333fdc7928895d495397",
+    "published_sha256": "7be87c2670a6f9ebc4ee9114629e34a6ae4f8306b57512a83a356a105fe00e2f"
+  },
+  {
+    "path": "experiments/source_excluded_holdout_eval_20261022_170954/add_iari_exclude_ethiopia/n150_mix025_seed44/ethiopia_holdout/classification_report.json",
+    "original_sha256": "a185b2a528eac9bbfc3d54ccf198a005ff1301cd0e6b30a036b215c55faf45b7",
+    "published_sha256": "415fc0d58f32bb3790a05f7741ddf851f0fe83334179d00d4e5c0322d26f3d27"
+  },
+  {
+    "path": "experiments/source_excluded_holdout_eval_20261022_170954/add_iari_exclude_ethiopia/n150_mix025_seed44/ethiopia_holdout/confusion_matrix.csv",
+    "original_sha256": "83c3a8c3504a085c363dcacad5e849b1671c8da912dac29ced44d47e510d5923",
+    "published_sha256": "83c3a8c3504a085c363dcacad5e849b1671c8da912dac29ced44d47e510d5923"
+  },
+  {
+    "path": "experiments/source_excluded_holdout_eval_20261022_170954/add_iari_exclude_ethiopia/n150_mix025_seed44/ethiopia_holdout/predictions.csv",
+    "original_sha256": "206d1069d426330e6e449c337cb97ec091fa35ebbf3891e6aef0e114ea04cf6d",
+    "published_sha256": "206d1069d426330e6e449c337cb97ec091fa35ebbf3891e6aef0e114ea04cf6d"
+  },
+  {
+    "path": "experiments/source_excluded_holdout_eval_20261022_170954/add_iari_exclude_ethiopia/n150_mix025_seed44/iari_test/classification_report.json",
+    "original_sha256": "20bb7a4d0a89dcc0266da6766e9ca48a2dc24aa53d9590fa11430223b65ab6ba",
+    "published_sha256": "f3fb87e19abbbd01db365c8dddd370d85138dc154581b507ae315f2dcb727e10"
+  },
+  {
+    "path": "experiments/source_excluded_holdout_eval_20261022_170954/add_iari_exclude_ethiopia/n150_mix025_seed44/iari_test/confusion_matrix.csv",
+    "original_sha256": "edf4f78f2d2483d49491cf014ed87e56e9684295685623c49f4023d52ca6d827",
+    "published_sha256": "edf4f78f2d2483d49491cf014ed87e56e9684295685623c49f4023d52ca6d827"
+  },
+  {
+    "path": "experiments/source_excluded_holdout_eval_20261022_170954/add_iari_exclude_ethiopia/n150_mix025_seed44/iari_test/predictions.csv",
+    "original_sha256": "fafd0cbfa6f0eaea5b121dd2cc850e5fc225ee8437c95102903b0ab19ec6b3f7",
+    "published_sha256": "fafd0cbfa6f0eaea5b121dd2cc850e5fc225ee8437c95102903b0ab19ec6b3f7"
+  },
+  {
+    "path": "experiments/source_excluded_holdout_eval_20261022_170954/add_iari_exclude_ethiopia/n150_mix025_seed44/summary.json",
+    "original_sha256": "45aad0eb9d80feebd95b8dbc899c06c9b10f23673b4a1688c63ddd4c88d5de2c",
+    "published_sha256": "f95d4347dea901fd98fd659efd7fcfcccaec09a11287425fed006a5acbdd47cb"
+  },
+  {
+    "path": "experiments/source_excluded_holdout_eval_20261022_170954/all_holdout_results.csv",
+    "original_sha256": "ab436776a986a78403a6acc4fe64f974fccd980481846348e01acc9745940f68",
+    "published_sha256": "ab436776a986a78403a6acc4fe64f974fccd980481846348e01acc9745940f68"
+  },
+  {
+    "path": "experiments/source_holdout_baseline_20261021_162210/n150_mix000_seed42/results/external/classification_report.json",
+    "original_sha256": "eac6b4c3c82555bcffa7468bb59cf447cd2512d0de0ad7e4a5fb049452901ce7",
+    "published_sha256": "086e6270f4753d4455b9d630620e8f067f794574445aca5b72e06e9b39e61ccf"
+  },
+  {
+    "path": "experiments/source_holdout_baseline_20261021_162210/n150_mix000_seed42/results/external/confusion_matrix.csv",
+    "original_sha256": "eb2dde64fe496d4a6abf7f504ef849780ed7a345414e6cdd7dd3951552b4aca8",
+    "published_sha256": "eb2dde64fe496d4a6abf7f504ef849780ed7a345414e6cdd7dd3951552b4aca8"
+  },
+  {
+    "path": "experiments/source_holdout_baseline_20261021_162210/n150_mix000_seed42/results/external/predictions.csv",
+    "original_sha256": "47ff7263810f74895753a0753ec35b37b92e8cf4eee7654fc099a7aa9b579a91",
+    "published_sha256": "47ff7263810f74895753a0753ec35b37b92e8cf4eee7654fc099a7aa9b579a91"
+  },
+  {
+    "path": "experiments/source_holdout_baseline_20261021_162210/n150_mix000_seed42/results/internal/classification_report.json",
+    "original_sha256": "bb525dede4ec877651b2d9b6f496a44baf8f641df99aec1698a4a95c7be39792",
+    "published_sha256": "e8a4df7473fb29ccd037660aeb9a3d209100c067968135e3960a04aa33dee42d"
+  },
+  {
+    "path": "experiments/source_holdout_baseline_20261021_162210/n150_mix000_seed42/results/internal/confusion_matrix.csv",
+    "original_sha256": "7a186e10ffae9ab513b5c22f2ceba51fd98b2e8c99beda834bf0651d7827a601",
+    "published_sha256": "7a186e10ffae9ab513b5c22f2ceba51fd98b2e8c99beda834bf0651d7827a601"
+  },
+  {
+    "path": "experiments/source_holdout_baseline_20261021_162210/n150_mix000_seed42/results/internal/predictions.csv",
+    "original_sha256": "7b8c7ad3fdb00052c5930f70a4206e6e12443c4c466b3670ece58c1ae741d2e6",
+    "published_sha256": "7b8c7ad3fdb00052c5930f70a4206e6e12443c4c466b3670ece58c1ae741d2e6"
+  },
+  {
+    "path": "experiments/source_holdout_baseline_20261021_162210/n150_mix000_seed42/results/run_metadata.json",
+    "original_sha256": "000ff8dfd7ff02d96baead7d866931490746fff51d749b8112815f2957174172",
+    "published_sha256": "526fb1672c5eb88a34a57459097b839165f3e8d0f6c2679d238477ce3622e555"
+  },
+  {
+    "path": "experiments/source_holdout_baseline_20261021_162210/n150_mix000_seed42/results/training_history.json",
+    "original_sha256": "9eadf3a8d943ec703e50949843c282e123171d83343f1f3966b60653711b9710",
+    "published_sha256": "c0c54cda90fcec624c4157eb6e827473b07d3550863f5215940033fb6c939ffb"
+  },
+  {
+    "path": "experiments/source_holdout_baseline_20261021_162210/n150_mix000_seed42/selected_images.json",
+    "original_sha256": "20765be8c39b36c0221ca668ff3242b7b8186a98c75d02bc6dce03ff969aaf78",
+    "published_sha256": "c0630f64b4547804382554e716e4e1b461ae0746ad5463d4a0680a1ff8fb814d"
+  },
+  {
+    "path": "experiments/source_holdout_baseline_20261021_162210/n150_mix000_seed43/results/external/classification_report.json",
+    "original_sha256": "5eded5667f37ace8253834e8817bdd807ff02a0162dd3cb0f6b95414a4cc49ca",
+    "published_sha256": "37e9b851b68361760ff05d0440298397b29457ea4c95a5b9dd310bd86d3adf9f"
+  },
+  {
+    "path": "experiments/source_holdout_baseline_20261021_162210/n150_mix000_seed43/results/external/confusion_matrix.csv",
+    "original_sha256": "760d63f96b106eda198c53b8834cc8ae51811bc510372623e60ab8f47b0ba134",
+    "published_sha256": "760d63f96b106eda198c53b8834cc8ae51811bc510372623e60ab8f47b0ba134"
+  },
+  {
+    "path": "experiments/source_holdout_baseline_20261021_162210/n150_mix000_seed43/results/external/predictions.csv",
+    "original_sha256": "0e49b2fcc97dcfb1fccacc3357f43cc64a440296b6064a5730cd44340e465493",
+    "published_sha256": "0e49b2fcc97dcfb1fccacc3357f43cc64a440296b6064a5730cd44340e465493"
+  },
+  {
+    "path": "experiments/source_holdout_baseline_20261021_162210/n150_mix000_seed43/results/internal/classification_report.json",
+    "original_sha256": "4bd8b5afd90c95d7990db526af27a7f04b06da23820ae0615adc6014dff76937",
+    "published_sha256": "7dee0fc380cc252b9a812b69bc7a97864f603d4d0461e2adae212cd84bacb7a0"
+  },
+  {
+    "path": "experiments/source_holdout_baseline_20261021_162210/n150_mix000_seed43/results/internal/confusion_matrix.csv",
+    "original_sha256": "3465b5b322a37fef4edcfa95ed1769cc36e6230300aa3ff2916c626b68a91964",
+    "published_sha256": "3465b5b322a37fef4edcfa95ed1769cc36e6230300aa3ff2916c626b68a91964"
+  },
+  {
+    "path": "experiments/source_holdout_baseline_20261021_162210/n150_mix000_seed43/results/internal/predictions.csv",
+    "original_sha256": "767855e4e40f71b424e7e7066cda54c155727fb9b3b7f512369a29a7401ba927",
+    "published_sha256": "767855e4e40f71b424e7e7066cda54c155727fb9b3b7f512369a29a7401ba927"
+  },
+  {
+    "path": "experiments/source_holdout_baseline_20261021_162210/n150_mix000_seed43/results/run_metadata.json",
+    "original_sha256": "bacebd26d7a7e9fdd1bd9fe5bb1f1f1bc7dd5f49f019bfb983942b6d8cfb72f7",
+    "published_sha256": "28b343749f32bbafeb0f8adf7770f748fb6c047c7e4cc6eb5247a6c894abb2ed"
+  },
+  {
+    "path": "experiments/source_holdout_baseline_20261021_162210/n150_mix000_seed43/results/training_history.json",
+    "original_sha256": "001558053602eba722c447543e7bf5d22f7dc5004fb5adb9e6b953f61c5ac92a",
+    "published_sha256": "fdf15d7af1c016426296dcc0da14fce0f25f0ec1eacf7a1c256e05b7f1a7d3c9"
+  },
+  {
+    "path": "experiments/source_holdout_baseline_20261021_162210/n150_mix000_seed43/selected_images.json",
+    "original_sha256": "0900507e7f3d6c7b62afdc8e736fbca3261ceed8ed784105a91be7b3712762f9",
+    "published_sha256": "0b5d3c751de7b1a0da966111fedbc363ca2862cebf975753aea15e0a9a35391b"
+  },
+  {
+    "path": "experiments/source_holdout_baseline_20261021_162210/n150_mix000_seed44/results/external/classification_report.json",
+    "original_sha256": "fb2f941b7b8c1326bc5517f29cb03cace71996063ae02ce7f1443128b541696e",
+    "published_sha256": "db1526a3e0ab0bb18e4304bd1d572f3054bd8758ea64d4a146a3db473a6dd40a"
+  },
+  {
+    "path": "experiments/source_holdout_baseline_20261021_162210/n150_mix000_seed44/results/external/confusion_matrix.csv",
+    "original_sha256": "cbf11851ffb9130cbbbb67471ca3137d6005c43061dafe95614f61f25b396381",
+    "published_sha256": "cbf11851ffb9130cbbbb67471ca3137d6005c43061dafe95614f61f25b396381"
+  },
+  {
+    "path": "experiments/source_holdout_baseline_20261021_162210/n150_mix000_seed44/results/external/predictions.csv",
+    "original_sha256": "f15a47488c405903b3bd4df5dcdae543fe2c897df15c3ad57e78b8633dbdc5b6",
+    "published_sha256": "f15a47488c405903b3bd4df5dcdae543fe2c897df15c3ad57e78b8633dbdc5b6"
+  },
+  {
+    "path": "experiments/source_holdout_baseline_20261021_162210/n150_mix000_seed44/results/internal/classification_report.json",
+    "original_sha256": "e9d9da876af71fe83391e592d6c584f1177d2aed4286e9dc84472722a36df418",
+    "published_sha256": "a3d5d626771e28935363f992dae587713f768064f7a9fe16ecd248ba7b0bb46d"
+  },
+  {
+    "path": "experiments/source_holdout_baseline_20261021_162210/n150_mix000_seed44/results/internal/confusion_matrix.csv",
+    "original_sha256": "e20959cb4f134bd7963a5065b074b21cea8cca3aa17ce7694a494e9478317cd3",
+    "published_sha256": "e20959cb4f134bd7963a5065b074b21cea8cca3aa17ce7694a494e9478317cd3"
+  },
+  {
+    "path": "experiments/source_holdout_baseline_20261021_162210/n150_mix000_seed44/results/internal/predictions.csv",
+    "original_sha256": "8a4a6b638492f19d2b5da0e4a23bc2ccade25aad53e4771f6115ce9cc8995ee1",
+    "published_sha256": "8a4a6b638492f19d2b5da0e4a23bc2ccade25aad53e4771f6115ce9cc8995ee1"
+  },
+  {
+    "path": "experiments/source_holdout_baseline_20261021_162210/n150_mix000_seed44/results/run_metadata.json",
+    "original_sha256": "0f3b80ef384ceaae8e6bc6eb42670d7494cf04b301ff91245facad6edd723f2d",
+    "published_sha256": "506b4448c3d026f632bd31afbcbeb8836f1d61405d572ee54f73d62b68c993ad"
+  },
+  {
+    "path": "experiments/source_holdout_baseline_20261021_162210/n150_mix000_seed44/results/training_history.json",
+    "original_sha256": "e23c276e664e0fbc91c9dbe0f50d900a545cb865d4b91a064e2f6f45bf6e9636",
+    "published_sha256": "5aa116c26c9016831bf44beaa183fb7387d9ca2624ffe39c351da347a7c55fdf"
+  },
+  {
+    "path": "experiments/source_holdout_baseline_20261021_162210/n150_mix000_seed44/selected_images.json",
+    "original_sha256": "195a302c67740a2637aca287fa902efc9ad79d2b4582b3bf897cf6b6b2bde5ae",
+    "published_sha256": "e69cd7c02bf1dd2ed2d54196a8466fba00178fcde0f85ccc360461f8390d7fca"
+  },
+  {
+    "path": "experiments/source_holdout_baseline_20261021_162210/study_manifest.json",
+    "original_sha256": "e0ef30cbbb37d950d38b891e2f9d86ec468c058301c25a249958b72d153a8432",
+    "published_sha256": "be84aacfe9d58b7f2625c089508dc6440b6841a1a39851493a95069751ad36d6"
+  },
+  {
+    "path": "experiments/source_holdout_baseline_eval_20261021_171534/all_holdout_results.csv",
+    "original_sha256": "b294d701b1b980a17d7fb178cba353b24bfe2230fad215bbda0f25b2e88f6cae",
+    "published_sha256": "b294d701b1b980a17d7fb178cba353b24bfe2230fad215bbda0f25b2e88f6cae"
+  },
+  {
+    "path": "experiments/source_holdout_baseline_eval_20261021_171534/source_holdout_baseline_20261021_162210/n150_mix000_seed42/ethiopia_holdout/classification_report.json",
+    "original_sha256": "0c2412719297278f1353d2f417de47635cbad2bcbd4f596b637710dae3d7587d",
+    "published_sha256": "92101883ebac78c0929b26e91a59bad9c1579fe6798dee82fe04feb0b17705ad"
+  },
+  {
+    "path": "experiments/source_holdout_baseline_eval_20261021_171534/source_holdout_baseline_20261021_162210/n150_mix000_seed42/ethiopia_holdout/confusion_matrix.csv",
+    "original_sha256": "b3dbc2810fcddd2790fcfbe777dfbc0bb596d9193a401eb2c9fc92ca17badaf8",
+    "published_sha256": "b3dbc2810fcddd2790fcfbe777dfbc0bb596d9193a401eb2c9fc92ca17badaf8"
+  },
+  {
+    "path": "experiments/source_holdout_baseline_eval_20261021_171534/source_holdout_baseline_20261021_162210/n150_mix000_seed42/ethiopia_holdout/predictions.csv",
+    "original_sha256": "fe95a806adb78cff242abd11c77d12ea30cce9e8e99153ba82e86c81902a0ff0",
+    "published_sha256": "fe95a806adb78cff242abd11c77d12ea30cce9e8e99153ba82e86c81902a0ff0"
+  },
+  {
+    "path": "experiments/source_holdout_baseline_eval_20261021_171534/source_holdout_baseline_20261021_162210/n150_mix000_seed42/iari_test/classification_report.json",
+    "original_sha256": "dafc77f844466f145152e86a82bdc1bc10770ed82228597acae90440e3869a76",
+    "published_sha256": "2238050ca31ebced7f354cc17394807ca040fc3196357734e57b53736e88fe64"
+  },
+  {
+    "path": "experiments/source_holdout_baseline_eval_20261021_171534/source_holdout_baseline_20261021_162210/n150_mix000_seed42/iari_test/confusion_matrix.csv",
+    "original_sha256": "8064719952f35e71d392829f47a6f6c78ccc22e1973e5d9a5033302c6ae464dd",
+    "published_sha256": "8064719952f35e71d392829f47a6f6c78ccc22e1973e5d9a5033302c6ae464dd"
+  },
+  {
+    "path": "experiments/source_holdout_baseline_eval_20261021_171534/source_holdout_baseline_20261021_162210/n150_mix000_seed42/iari_test/predictions.csv",
+    "original_sha256": "01fe4e48c493c3a38d2a35d5547d3eb8a15fb5a3ef2f2669e0b7a803f2cfe20d",
+    "published_sha256": "01fe4e48c493c3a38d2a35d5547d3eb8a15fb5a3ef2f2669e0b7a803f2cfe20d"
+  },
+  {
+    "path": "experiments/source_holdout_baseline_eval_20261021_171534/source_holdout_baseline_20261021_162210/n150_mix000_seed42/summary.json",
+    "original_sha256": "ad476c73b4e86c1092cc84cf9c9d09d8aaf69e14dbeb2507c4213b62d3382296",
+    "published_sha256": "960ad90d740f766e771de3513ac9e8cffc516c6f45b97d05ccafff4e8cb998d0"
+  },
+  {
+    "path": "experiments/source_holdout_baseline_eval_20261021_171534/source_holdout_baseline_20261021_162210/n150_mix000_seed43/ethiopia_holdout/classification_report.json",
+    "original_sha256": "f3a590eaf7fb985233bffa8fe33feea70e963a4fa230978077e162b250d31958",
+    "published_sha256": "2fcc9c44bf7fca715ad6032b88a586bb32179856c0c391a9f82e1f98c6104dfe"
+  },
+  {
+    "path": "experiments/source_holdout_baseline_eval_20261021_171534/source_holdout_baseline_20261021_162210/n150_mix000_seed43/ethiopia_holdout/confusion_matrix.csv",
+    "original_sha256": "4c87e809dcd29549ec5923215d295c3ebc240def93a27404cc5609535e23a339",
+    "published_sha256": "4c87e809dcd29549ec5923215d295c3ebc240def93a27404cc5609535e23a339"
+  },
+  {
+    "path": "experiments/source_holdout_baseline_eval_20261021_171534/source_holdout_baseline_20261021_162210/n150_mix000_seed43/ethiopia_holdout/predictions.csv",
+    "original_sha256": "f903d038ba0d1fc477df6c58aea4a1a1b71e2b8f301200d4e8ea92ed2dd9c070",
+    "published_sha256": "f903d038ba0d1fc477df6c58aea4a1a1b71e2b8f301200d4e8ea92ed2dd9c070"
+  },
+  {
+    "path": "experiments/source_holdout_baseline_eval_20261021_171534/source_holdout_baseline_20261021_162210/n150_mix000_seed43/iari_test/classification_report.json",
+    "original_sha256": "dafc77f844466f145152e86a82bdc1bc10770ed82228597acae90440e3869a76",
+    "published_sha256": "2238050ca31ebced7f354cc17394807ca040fc3196357734e57b53736e88fe64"
+  },
+  {
+    "path": "experiments/source_holdout_baseline_eval_20261021_171534/source_holdout_baseline_20261021_162210/n150_mix000_seed43/iari_test/confusion_matrix.csv",
+    "original_sha256": "8064719952f35e71d392829f47a6f6c78ccc22e1973e5d9a5033302c6ae464dd",
+    "published_sha256": "8064719952f35e71d392829f47a6f6c78ccc22e1973e5d9a5033302c6ae464dd"
+  },
+  {
+    "path": "experiments/source_holdout_baseline_eval_20261021_171534/source_holdout_baseline_20261021_162210/n150_mix000_seed43/iari_test/predictions.csv",
+    "original_sha256": "3e4ad244655b9270a7a7ed7eb484fc31cf5e1851bdecc1d0366e4b498a672a66",
+    "published_sha256": "3e4ad244655b9270a7a7ed7eb484fc31cf5e1851bdecc1d0366e4b498a672a66"
+  },
+  {
+    "path": "experiments/source_holdout_baseline_eval_20261021_171534/source_holdout_baseline_20261021_162210/n150_mix000_seed43/summary.json",
+    "original_sha256": "bb08e1385998974968a63adf4ecedbdc690b3d9a7bcbd329c8dc866beeb5cdf2",
+    "published_sha256": "bf3d8595edba3fd0d0615e1e19ba18919d2a2c08a71aabea9b62108d83b7434f"
+  },
+  {
+    "path": "experiments/source_holdout_baseline_eval_20261021_171534/source_holdout_baseline_20261021_162210/n150_mix000_seed44/ethiopia_holdout/classification_report.json",
+    "original_sha256": "4adbc273b26e24c6fe81460862e6f575627a190118b852667898149b20410307",
+    "published_sha256": "dc6abddeca38eec8e0b7a9fb837def0b16047dba2b5c6030b449fc500d479f7c"
+  },
+  {
+    "path": "experiments/source_holdout_baseline_eval_20261021_171534/source_holdout_baseline_20261021_162210/n150_mix000_seed44/ethiopia_holdout/confusion_matrix.csv",
+    "original_sha256": "d7a1a5d3314cc8b338940ca2a56da2b719a6b43d186594bbb4c844922ac6ae46",
+    "published_sha256": "d7a1a5d3314cc8b338940ca2a56da2b719a6b43d186594bbb4c844922ac6ae46"
+  },
+  {
+    "path": "experiments/source_holdout_baseline_eval_20261021_171534/source_holdout_baseline_20261021_162210/n150_mix000_seed44/ethiopia_holdout/predictions.csv",
+    "original_sha256": "7f38c311207aff234429024fce0ec53a3662488174c5f2ce40ac078bec063b27",
+    "published_sha256": "7f38c311207aff234429024fce0ec53a3662488174c5f2ce40ac078bec063b27"
+  },
+  {
+    "path": "experiments/source_holdout_baseline_eval_20261021_171534/source_holdout_baseline_20261021_162210/n150_mix000_seed44/iari_test/classification_report.json",
+    "original_sha256": "dafc77f844466f145152e86a82bdc1bc10770ed82228597acae90440e3869a76",
+    "published_sha256": "2238050ca31ebced7f354cc17394807ca040fc3196357734e57b53736e88fe64"
+  },
+  {
+    "path": "experiments/source_holdout_baseline_eval_20261021_171534/source_holdout_baseline_20261021_162210/n150_mix000_seed44/iari_test/confusion_matrix.csv",
+    "original_sha256": "8064719952f35e71d392829f47a6f6c78ccc22e1973e5d9a5033302c6ae464dd",
+    "published_sha256": "8064719952f35e71d392829f47a6f6c78ccc22e1973e5d9a5033302c6ae464dd"
+  },
+  {
+    "path": "experiments/source_holdout_baseline_eval_20261021_171534/source_holdout_baseline_20261021_162210/n150_mix000_seed44/iari_test/predictions.csv",
+    "original_sha256": "38c757b8ef8ca665481b5060c4ac936b7f335c7f242dae5963fc5898260e3659",
+    "published_sha256": "38c757b8ef8ca665481b5060c4ac936b7f335c7f242dae5963fc5898260e3659"
+  },
+  {
+    "path": "experiments/source_holdout_baseline_eval_20261021_171534/source_holdout_baseline_20261021_162210/n150_mix000_seed44/summary.json",
+    "original_sha256": "6ad406ef97bbba7bce8ed080f8e319cfcab823e5dc85c8b158735396e3714517",
+    "published_sha256": "9afec56b856179697216b06d11317495093a26214bfe9f99d35ec98467391120"
+  },
+  {
+    "path": "src/audit_wheat_cross_sources.py",
+    "original_sha256": "ceffc037a0d63f07753ed702ac53054b3ea26bba7597eddc9ba0ee795c31a688",
+    "published_sha256": "ceffc037a0d63f07753ed702ac53054b3ea26bba7597eddc9ba0ee795c31a688"
+  },
+  {
+    "path": "src/evaluate_wheat_holdouts.py",
+    "original_sha256": "d8e5ec96461a8966aaac9f25bf2504b810ce2d433a559562d3b149c86f276f92",
+    "published_sha256": "d8e5ec96461a8966aaac9f25bf2504b810ce2d433a559562d3b149c86f276f92"
+  },
+  {
+    "path": "src/prepare_generalisation_study.py",
+    "original_sha256": "f78ffc7f4428a3e4d736466327fa38c4ad1b2adf0acef366bde7bd54fba8bbac",
+    "published_sha256": "f78ffc7f4428a3e4d736466327fa38c4ad1b2adf0acef366bde7bd54fba8bbac"
+  },
+  {
+    "path": "src/run_generalisation_study.py",
+    "original_sha256": "c6bb4458b5a9e90aea915772456e4ec7acaef1a041d007755080047ba63c0656",
+    "published_sha256": "c6bb4458b5a9e90aea915772456e4ec7acaef1a041d007755080047ba63c0656"
+  }
+]

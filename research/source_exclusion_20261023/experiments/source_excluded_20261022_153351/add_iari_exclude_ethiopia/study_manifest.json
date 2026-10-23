@@ -1,0 +1,162 @@
+{
+  "protocol": "Exploratory source-excluded, class-balanced comparison",
+  "created_utc": "2026-10-22T14:35:59.195822+00:00",
+  "classes": [
+    "Brown_rust",
+    "Healthy",
+    "Yellow_rust"
+  ],
+  "train_primary": "${PROJECT_ROOT}\\Data\\train",
+  "train_additional": {
+    "iari": "${PROJECT_ROOT}\\experiments\\diversity_sources_20261016\\sources\\iari"
+  },
+  "internal_validation": "${PROJECT_ROOT}\\Data\\val",
+  "external_heldout_test": "${JIC_ROOT}\\val",
+  "overlap_screen": "SHA-256 and ImageHash pHash",
+  "phash_threshold": 5,
+  "source_counts_before_filter": {
+    "primary": {
+      "Brown_rust": 902,
+      "Healthy": 1116,
+      "Yellow_rust": 924
+    },
+    "iari": {
+      "Brown_rust": 238,
+      "Healthy": 279,
+      "Yellow_rust": 0
+    }
+  },
+  "source_counts_after_filter": {
+    "primary": {
+      "Brown_rust": 902,
+      "Healthy": 1115,
+      "Yellow_rust": 924
+    },
+    "iari": {
+      "Brown_rust": 238,
+      "Healthy": 279,
+      "Yellow_rust": 0
+    }
+  },
+  "filtered_candidates": [
+    {
+      "source": "primary",
+      "class": "Healthy",
+      "file": "Healthy203.jpg",
+      "reason": "perceptual_holdout_overlap",
+      "matched_holdout_file": "Healthy217.jpg",
+      "phash_distance": 2
+    }
+  ],
+  "conditions": [
+    {
+      "id": "n150_mix025_seed42",
+      "per_class": 150,
+      "mix": 0.25,
+      "seed": 42,
+      "train_dir": "${PROJECT_ROOT}\\experiments\\source_excluded_20261022_153351\\add_iari_exclude_ethiopia\\n150_mix025_seed42\\train",
+      "counts_by_source_class": [
+        {
+          "source": "iari",
+          "class": "Brown_rust",
+          "count": 38
+        },
+        {
+          "source": "iari",
+          "class": "Healthy",
+          "count": 38
+        },
+        {
+          "source": "primary",
+          "class": "Brown_rust",
+          "count": 112
+        },
+        {
+          "source": "primary",
+          "class": "Healthy",
+          "count": 112
+        },
+        {
+          "source": "primary",
+          "class": "Yellow_rust",
+          "count": 150
+        }
+      ]
+    },
+    {
+      "id": "n150_mix025_seed43",
+      "per_class": 150,
+      "mix": 0.25,
+      "seed": 43,
+      "train_dir": "${PROJECT_ROOT}\\experiments\\source_excluded_20261022_153351\\add_iari_exclude_ethiopia\\n150_mix025_seed43\\train",
+      "counts_by_source_class": [
+        {
+          "source": "iari",
+          "class": "Brown_rust",
+          "count": 38
+        },
+        {
+          "source": "iari",
+          "class": "Healthy",
+          "count": 38
+        },
+        {
+          "source": "primary",
+          "class": "Brown_rust",
+          "count": 112
+        },
+        {
+          "source": "primary",
+          "class": "Healthy",
+          "count": 112
+        },
+        {
+          "source": "primary",
+          "class": "Yellow_rust",
+          "count": 150
+        }
+      ]
+    },
+    {
+      "id": "n150_mix025_seed44",
+      "per_class": 150,
+      "mix": 0.25,
+      "seed": 44,
+      "train_dir": "${PROJECT_ROOT}\\experiments\\source_excluded_20261022_153351\\add_iari_exclude_ethiopia\\n150_mix025_seed44\\train",
+      "counts_by_source_class": [
+        {
+          "source": "iari",
+          "class": "Brown_rust",
+          "count": 38
+        },
+        {
+          "source": "iari",
+          "class": "Healthy",
+          "count": 38
+        },
+        {
+          "source": "primary",
+          "class": "Brown_rust",
+          "count": 112
+        },
+        {
+          "source": "primary",
+          "class": "Healthy",
+          "count": 112
+        },
+        {
+          "source": "primary",
+          "class": "Yellow_rust",
+          "count": 150
+        }
+      ]
+    }
+  ],
+  "excluded_training_source": "ethiopia",
+  "mix_policy": "38 additional and 112 primary per supported class; 150 primary for classes absent from the additional source.",
+  "additional_protected_sets": [
+    "${ADDITIONAL_DATA_ROOT}\\IARI\\WheatLeafRust\\WheatLeafRust\\val",
+    "${ADDITIONAL_DATA_ROOT}\\IARI\\WheatLeafRust\\WheatLeafRust\\test",
+    "experiments\\diversity_sources_20261016\\holdouts\\ethiopia"
+  ]
+}

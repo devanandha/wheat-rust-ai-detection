@@ -1,0 +1,113 @@
+{
+  "protocol": "fixed-class-balanced size/diversity ablation, external test never trained on",
+  "created_utc": "2026-10-21T15:22:48.617652+00:00",
+  "classes": [
+    "Brown_rust",
+    "Healthy",
+    "Yellow_rust"
+  ],
+  "train_primary": "${PROJECT_ROOT}\\Data\\train",
+  "train_additional": {},
+  "internal_validation": "${PROJECT_ROOT}\\Data\\val",
+  "external_heldout_test": "${JIC_ROOT}\\val",
+  "overlap_screen": "SHA-256 and ImageHash pHash",
+  "phash_threshold": 5,
+  "source_counts_before_filter": {
+    "primary": {
+      "Brown_rust": 902,
+      "Healthy": 1116,
+      "Yellow_rust": 924
+    }
+  },
+  "source_counts_after_filter": {
+    "primary": {
+      "Brown_rust": 902,
+      "Healthy": 1115,
+      "Yellow_rust": 924
+    }
+  },
+  "filtered_candidates": [
+    {
+      "source": "primary",
+      "class": "Healthy",
+      "file": "Healthy203.jpg",
+      "reason": "perceptual_holdout_overlap",
+      "matched_holdout_file": "Healthy217.jpg",
+      "phash_distance": 2
+    }
+  ],
+  "conditions": [
+    {
+      "id": "n150_mix000_seed42",
+      "per_class": 150,
+      "mix": 0.0,
+      "seed": 42,
+      "train_dir": "${PROJECT_ROOT}\\experiments\\source_holdout_baseline_20261021_162210\\n150_mix000_seed42\\train",
+      "counts_by_source_class": [
+        {
+          "source": "primary",
+          "class": "Brown_rust",
+          "count": 150
+        },
+        {
+          "source": "primary",
+          "class": "Healthy",
+          "count": 150
+        },
+        {
+          "source": "primary",
+          "class": "Yellow_rust",
+          "count": 150
+        }
+      ]
+    },
+    {
+      "id": "n150_mix000_seed43",
+      "per_class": 150,
+      "mix": 0.0,
+      "seed": 43,
+      "train_dir": "${PROJECT_ROOT}\\experiments\\source_holdout_baseline_20261021_162210\\n150_mix000_seed43\\train",
+      "counts_by_source_class": [
+        {
+          "source": "primary",
+          "class": "Brown_rust",
+          "count": 150
+        },
+        {
+          "source": "primary",
+          "class": "Healthy",
+          "count": 150
+        },
+        {
+          "source": "primary",
+          "class": "Yellow_rust",
+          "count": 150
+        }
+      ]
+    },
+    {
+      "id": "n150_mix000_seed44",
+      "per_class": 150,
+      "mix": 0.0,
+      "seed": 44,
+      "train_dir": "${PROJECT_ROOT}\\experiments\\source_holdout_baseline_20261021_162210\\n150_mix000_seed44\\train",
+      "counts_by_source_class": [
+        {
+          "source": "primary",
+          "class": "Brown_rust",
+          "count": 150
+        },
+        {
+          "source": "primary",
+          "class": "Healthy",
+          "count": 150
+        },
+        {
+          "source": "primary",
+          "class": "Yellow_rust",
+          "count": 150
+        }
+      ]
+    }
+  ]
+}

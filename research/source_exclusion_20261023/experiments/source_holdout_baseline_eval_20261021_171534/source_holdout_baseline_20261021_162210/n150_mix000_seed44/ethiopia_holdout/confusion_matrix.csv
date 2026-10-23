@@ -1,0 +1,4 @@
+actual\predicted,Brown_rust,Healthy,Yellow_rust
+Brown_rust,0,0,0
+Healthy,19,1,0
+Yellow_rust,40,1,0

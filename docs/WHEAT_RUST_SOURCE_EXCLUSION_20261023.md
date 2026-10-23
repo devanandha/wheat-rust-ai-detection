@@ -46,3 +46,7 @@ These findings should be reported as an exploratory diagnostic extension, withou
 - Retrospective baseline audit: `experiments/baseline_selected_audit_20261023_075815`
 
 Prepared from supplied console outputs, saved-result CSV excerpts, confusion matrices, source code and metadata. Raw image datasets and model files were not independently accessed by the report authoring assistant.
+
+## Supporting evidence archive
+
+The [source-exclusion evidence package](../research/source_exclusion_20261023/README.md) includes the supplied result CSVs, prediction tables, confusion matrices, selection manifests, training records, audit outputs and code snapshots. It also includes a labelled reconstruction of the inline preparation procedure. Machine-specific paths are normalised, with original/published file hashes recorded. Dataset staging inputs and checkpoints are not distributed; see the package README for reproduction limits.

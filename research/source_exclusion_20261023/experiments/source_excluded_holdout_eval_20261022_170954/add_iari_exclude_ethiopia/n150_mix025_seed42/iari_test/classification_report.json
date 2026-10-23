@@ -1,0 +1,33 @@
+{
+  "Brown_rust": {
+    "precision": 0.9215686274509803,
+    "recall": 0.8545454545454545,
+    "f1-score": 0.8867924528301887,
+    "support": 55.0
+  },
+  "Healthy": {
+    "precision": 0.8974358974358975,
+    "recall": 0.9459459459459459,
+    "f1-score": 0.9210526315789473,
+    "support": 74.0
+  },
+  "Yellow_rust": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 0.0
+  },
+  "accuracy": 0.9069767441860465,
+  "macro avg": {
+    "precision": 0.6063348416289592,
+    "recall": 0.6001638001638002,
+    "f1-score": 0.6026150281363787,
+    "support": 129.0
+  },
+  "weighted avg": {
+    "precision": 0.9077250458919406,
+    "recall": 0.9069767441860465,
+    "f1-score": 0.9064455786240504,
+    "support": 129.0
+  }
+}

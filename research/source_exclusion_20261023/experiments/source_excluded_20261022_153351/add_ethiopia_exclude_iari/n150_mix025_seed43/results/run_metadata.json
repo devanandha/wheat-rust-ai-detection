@@ -1,0 +1,27 @@
+{
+  "condition": "n150_mix025_seed43",
+  "architecture": "mobilenetv2",
+  "model_recipe": "standalone-extension-v3; frozen ImageNet backbone; augmentation",
+  "seed": 43,
+  "epochs_max": 10,
+  "batch_size": 8,
+  "trained_at_utc": "2026-10-22T15:55:21.546495+00:00",
+  "tensorflow_version": "2.18.1",
+  "numpy_version": "2.0.2",
+  "git_commit": null,
+  "runner_sha256": "c6bb4458b5a9e90aea915772456e4ec7acaef1a041d007755080047ba63c0656",
+  "manifest_sha256": "c53cdcf095e3958cc50e86dd38b93c8e3c8c9f5731e1f83848e8d0222187dbbb",
+  "best_model_sha256": "7c9291ef0891a5c689ee99e9f2f4521f7eca7c5a1bc552520f88e3b86e203f38",
+  "internal": {
+    "images": 737,
+    "accuracy": 0.9620081411126187,
+    "macro_f1": 0.961162023071691
+  },
+  "external": {
+    "images": 489,
+    "accuracy": 0.5030674846625767,
+    "macro_f1": 0.4892282907220082
+  },
+  "external_used_for_training_or_checkpoint_selection": false,
+  "external_benchmark_previously_evaluated": true
+}

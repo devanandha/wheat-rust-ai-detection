@@ -1,0 +1,14 @@
+{
+  "checked_image_counts": {
+    "n150_mix000_seed42": 450,
+    "n150_mix000_seed43": 450,
+    "n150_mix000_seed44": 450,
+    "internal_validation": 737
+  },
+  "protected_images": 319,
+  "exact_match_pairs": 0,
+  "phash_only_pairs": 0,
+  "selected_training_hashes_verified": true,
+  "phash_threshold": 5,
+  "limitations": "pHash matches need visual review; no matches cannot establish plant or field independence."
+}

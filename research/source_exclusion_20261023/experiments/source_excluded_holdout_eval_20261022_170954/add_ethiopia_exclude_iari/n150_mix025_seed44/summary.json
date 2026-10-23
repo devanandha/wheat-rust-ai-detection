@@ -1,0 +1,100 @@
+{
+  "condition": "n150_mix025_seed44",
+  "experiment_group": "add_ethiopia_exclude_iari",
+  "architecture": "mobilenetv2",
+  "seed": 44,
+  "model_sha256": "f9f4a8e45c436c07fb57bf5f2a0f2824433b80ae4870c8fde4a6084c2f7bb225",
+  "checkpoint_path": "${PROJECT_ROOT}\\experiments\\source_excluded_20261022_153351\\add_ethiopia_exclude_iari\\n150_mix025_seed44\\results\\best_model.keras",
+  "evaluated_at_utc": "2026-10-22T16:11:16.035085+00:00",
+  "evaluation_protocol": "separate source holdouts; three-class classifier, two observed classes per holdout",
+  "checkpoint_selected_using_holdouts": false,
+  "jic_used_for_checkpoint_selection": false,
+  "provenance_independence_not_proven": true,
+  "classes": [
+    "Brown_rust",
+    "Healthy",
+    "Yellow_rust"
+  ],
+  "datasets": {
+    "iari_test": {
+      "images": 129,
+      "actual_class_counts": {
+        "Brown_rust": 55,
+        "Healthy": 74
+      },
+      "present_classes": [
+        "Brown_rust",
+        "Healthy"
+      ],
+      "absent_classes": [
+        "Yellow_rust"
+      ],
+      "accuracy": 0.4263565891472868,
+      "macro_f1_present_classes": 0.4250568708400033,
+      "balanced_accuracy_present_classes": 0.4813267813267813,
+      "predictions_of_absent_class": 32,
+      "predicted_class_counts": {
+        "Brown_rust": 88,
+        "Healthy": 9,
+        "Yellow_rust": 32
+      },
+      "full_confusion_matrix": [
+        [
+          47,
+          1,
+          7
+        ],
+        [
+          41,
+          8,
+          25
+        ],
+        [
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    "ethiopia_holdout": {
+      "images": 61,
+      "actual_class_counts": {
+        "Healthy": 20,
+        "Yellow_rust": 41
+      },
+      "present_classes": [
+        "Healthy",
+        "Yellow_rust"
+      ],
+      "absent_classes": [
+        "Brown_rust"
+      ],
+      "accuracy": 0.8524590163934426,
+      "macro_f1_present_classes": 0.9261610424323421,
+      "balanced_accuracy_present_classes": 0.8902439024390244,
+      "predictions_of_absent_class": 8,
+      "predicted_class_counts": {
+        "Brown_rust": 8,
+        "Healthy": 21,
+        "Yellow_rust": 32
+      },
+      "full_confusion_matrix": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          20,
+          0
+        ],
+        [
+          8,
+          1,
+          32
+        ]
+      ]
+    }
+  }
+}
