@@ -184,6 +184,7 @@ See [RESULTS.md](docs/RESULTS.md).
 
 Detailed documentation is available in:
 
+- [Source-exclusion experiment and retrospective audit (23 October 2026)](docs/WHEAT_RUST_SOURCE_EXCLUSION_20261023.md)
 - [Failure and leakage analysis](docs/FAILURE_ANALYSIS.md)
 - [External validation](docs/EXTERNAL_VALIDATION.md)
 - [Baseline architecture comparison](docs/BASELINE_COMPARISON.md)
