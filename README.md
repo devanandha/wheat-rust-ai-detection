@@ -475,6 +475,10 @@ See [EXTERNAL_REVIEW_IMPLEMENTATION.md](docs/EXTERNAL_REVIEW_IMPLEMENTATION.md) 
 - [Read the published LinkedIn technical article](https://www.linkedin.com/pulse/when-anomaly-detection-failed-lessons-from-building-wheat-vs-iotze/)
 - [View the archived software record on Zenodo](https://doi.org/10.5281/zenodo.22726590)
 
+## Talks and community knowledge sharing
+
+- **28 October 2026 — AI Wednesday, TinkerSpace Kochi:** [Beyond Accuracy: What Happens When AI Meets Real-World Data?](talks/2026-10-28-ai-wednesday/README.md) — slides, session summary and photographs covering transfer learning, cross-dataset evaluation and explainability.
+
 ## Responsible use
 
 This software is intended for education and research.
