@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "If you use this research software, please cite the repository's Zenodo record."
+type: software
+authors:
+  - family-names: Shaji
+    given-names: Devanandha Vellaramkuzhiyil
+title: "Wheat Rust AI Detection"
+doi: 10.5281/zenodo.22726590
+url: "https://github.com/devanandha/wheat-rust-ai-detection"
+license: MIT
