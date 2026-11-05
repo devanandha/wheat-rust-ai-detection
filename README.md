@@ -4,6 +4,22 @@
 
 An applied computer-vision research project for classifying wheat-leaf images as **Healthy**, **Brown Rust**, or **Yellow Rust**, with a focus on **generalisation, failure analysis, model comparison, and explainable AI**.
 
+## Independent evaluation and contributions
+
+**Independent checks and constructive criticism are welcome.** See [CONTRIBUTING.md](CONTRIBUTING.md) for two clearly distinguished paths: validating archived result summaries or running an evaluation on independently obtained wheat-leaf data.
+
+For a **data-free consistency check** of the archived 18-run generalisation study, use Python 3 from the repository root:
+
+```bash
+python tools/verify_generalisation_aggregates.py
+```
+
+This verifies the arithmetic of published CSV means and sample standard deviations; **it does not rerun models or establish scientific reproducibility**. Full experimental reproduction requires separately licensed datasets and, for some historical extensions, inputs or checkpoints that are not fully released.
+
+- [Independent evaluation discussion — GitHub Issue #3](https://github.com/devanandha/wheat-rust-ai-detection/issues/3)
+- [18-run study scope and limitations](research/dataset_generalisation/README.md)
+- [Source-exclusion retrospective audit and reproduction limits](research/source_exclusion_20261023/README.md)
+
 ## Live demonstration
 
 [Launch the Wheat Rust AI Detection app](https://devanandha-wheat-rust-ai.streamlit.app/)
