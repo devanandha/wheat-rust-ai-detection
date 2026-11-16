@@ -494,6 +494,7 @@ See [EXTERNAL_REVIEW_IMPLEMENTATION.md](docs/EXTERNAL_REVIEW_IMPLEMENTATION.md) 
 ## Talks and community knowledge sharing
 
 - **28 October 2026 — AI Wednesday, TinkerSpace Kochi:** [Beyond Accuracy: What Happens When AI Meets Real-World Data?](talks/2026-10-28-ai-wednesday/README.md) — slides, session summary and photographs covering transfer learning, cross-dataset evaluation and explainability.
+- **14 November 2026 — DevFest Mangaluru, GDG Cloud Mangalore:** [Beyond Accuracy: When AI Meets Real Data](talks/2026-11-14-devfest-mangaluru/README.md) — official speaker listing, research findings, evaluation lessons, attendee reflections and provenance notes.
 
 ## Responsible use
 
