@@ -5,7 +5,7 @@
 **Location:** wrkwrk Triangle, Mangaluru, Karnataka, India  
 **Officially listed session:** 15:15–16:00 IST, Track 1 (top floor)
 
-[Official DevFest event agenda](https://gdg.community.dev/events/details/google-gdg-cloud-mangalore-presents-devfest-mangaluru-2026/) · [Wheat Rust AI repository](../../README.md) · [Live research demo](https://devanandha-wheat-rust-ai.streamlit.app/)
+**[View the DevFest presentation slides (PDF, 29 slides)](DevFest_Mangaluru_2026_Slides.pdf)** · [Official DevFest event agenda](https://gdg.community.dev/events/details/google-gdg-cloud-mangalore-presents-devfest-mangaluru-2026/) · [Wheat Rust AI repository](../../README.md) · [Live research demo](https://devanandha-wheat-rust-ai.streamlit.app/)
 
 ## Session at a glance
 
@@ -90,6 +90,7 @@ I am grateful to GDG Cloud Mangalore and the event team for the opportunity to s
 
 ## Talk resources and follow-up
 
+- [Presentation slides — Beyond Accuracy: When AI Meets Real Data (PDF)](DevFest_Mangaluru_2026_Slides.pdf)
 - [Official DevFest Mangaluru 2026 programme](https://gdg.community.dev/events/details/google-gdg-cloud-mangalore-presents-devfest-mangaluru-2026/)
 - [Full Wheat Rust AI research project](../../README.md)
 - [Interactive Streamlit demo](https://devanandha-wheat-rust-ai.streamlit.app/)
@@ -98,7 +99,7 @@ I am grateful to GDG Cloud Mangalore and the event team for the opportunity to s
 - [October source-exclusion study and cautions](../../docs/WHEAT_RUST_SOURCE_EXCLUSION_20261023.md)
 - [Earlier AI Wednesday community talk, 28 October 2026](../2026-10-28-ai-wednesday/README.md)
 
-**Presentation slides:** A public slide export has not yet been uploaded to this folder. It should be added only after confirming the final presented version and removing any private speaker notes.
+**Presentation slides:** [Download the 29-slide DevFest Mangaluru presentation (PDF)](DevFest_Mangaluru_2026_Slides.pdf). The public export excludes speaker notes; the editable source remains separately retained by the author.
 
 ## Evidence and provenance
 
@@ -107,6 +108,7 @@ I am grateful to GDG Cloud Mangalore and the event team for the opportunity to s
 | Event, date, speaker and scheduled session | Official GDG Cloud Mangalore agenda | Publicly verifiable using the event link above |
 | Technical findings | Linked project code, reports and evaluation files | Publicly documented, with scope limitations |
 | Delivered-session photographs | Four original event photographs, including stage and audience views | Published above; photos corroborate presentation delivery but do not establish an exact attendance figure |
+| Public presentation material | 29-slide talk export (PDF), excluding speaker notes | Published in this folder and linked above |
 | Attendee's independent reflections | Public LinkedIn post/comments captured in screenshots | Primary post URL still to be added |
 | Session attendance or speaker-selection process | Would require organiser confirmation | Not claimed or quantified |
 
