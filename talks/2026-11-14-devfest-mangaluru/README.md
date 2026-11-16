@@ -15,6 +15,34 @@ I presented the difference between internal and external evaluation, a confusion
 
 The official GDG Cloud Mangalore agenda independently lists me as a speaker for **“Beyond Accuracy: When AI meets Real data”** on 14 November 2026. Its Track 1 capacity is an event-room capacity, **not** a verified count of attendees at my session.
 
+## Event photographs and official agenda
+
+The following original event photographs document the delivered talk, visible audience, and venue agenda. They are provided for factual documentation; no precise session attendance figure is inferred from the photographs.
+
+### Speaking at DevFest Mangaluru
+
+![Devanandha presenting the healthy-image autoencoder concept during DevFest Mangaluru 2026](presenting-autoencoder.png)
+
+*Presenting the healthy-only autoencoder approach and explaining its evaluation.*
+
+### Audience during the session
+
+![Audience seated during the Wheat Rust AI session at DevFest Mangaluru 2026](audience-wide.png)
+
+*Wide view of the developer audience during the presentation. This photograph is not an attendance register.*
+
+### Official printed programme
+
+![DevFest Mangaluru 2026 agenda board listing Devanandha VS and Beyond Accuracy When AI meets Real data](official-agenda.png)
+
+*Venue agenda board showing the talk “Beyond Accuracy: When AI meets Real data,” speaker Devanandha VS, and the scheduled 15:15–16:00 session.*
+
+### Additional stage and audience view
+
+![Devanandha explaining the autoencoder approach with audience visible at DevFest Mangaluru 2026](presenting-audience.png)
+
+*Another view of the presentation, with the speaker and audience in the same frame.*
+
 ## The technical problem
 
 The original classifier uses ImageNet-pretrained **MobileNetV2** features and a three-class classification head for *Healthy*, *Brown rust*, and *Yellow rust* wheat-leaf images.
@@ -78,7 +106,7 @@ I am grateful to GDG Cloud Mangalore and the event team for the opportunity to s
 |---|---|---|
 | Event, date, speaker and scheduled session | Official GDG Cloud Mangalore agenda | Publicly verifiable using the event link above |
 | Technical findings | Linked project code, reports and evaluation files | Publicly documented, with scope limitations |
-| Delivered-session photographs | Event photographs retained by the speaker | Not yet published in this folder |
+| Delivered-session photographs | Four original event photographs, including stage and audience views | Published above; photos corroborate presentation delivery but do not establish an exact attendance figure |
 | Attendee's independent reflections | Public LinkedIn post/comments captured in screenshots | Primary post URL still to be added |
 | Session attendance or speaker-selection process | Would require organiser confirmation | Not claimed or quantified |
 
