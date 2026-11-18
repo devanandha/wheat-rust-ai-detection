@@ -6,3 +6,7 @@ __pycache__/
 *.py[cod]
 .pytest_cache/
 .DS_Store
+
+# Local shadow-mode field study: potentially sensitive records and images
+outputs/field_research/
+research/field_readiness_20261118/private/
