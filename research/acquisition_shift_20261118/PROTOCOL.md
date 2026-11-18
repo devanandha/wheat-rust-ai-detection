@@ -1,6 +1,6 @@
 # Acquisition-shift diagnosis: protocol and evidence limits
 
-**Status, 18 November 2026:** New exploratory diagnostic protocol and synthetic-tested image audit tool. A descriptive audit of 1,226 images from the previously inspected original-validation and JIC collections is now documented in [EXPLORATORY_FINDINGS.md](EXPLORATORY_FINDINGS.md). No new blind external dataset was tested and no model improvement or causal explanation has been demonstrated.
+**Status, 18 November 2026:** New exploratory diagnostic protocol and synthetic-tested image audit tool. A descriptive audit of **4,168 images** (original training and validation plus previously inspected JIC) and an exploratory image-dimensions-only decision-tree diagnostic are documented in [EXPLORATORY_FINDINGS.md](EXPLORATORY_FINDINGS.md). No new blind dataset was tested; no causal explanation or neural-network model improvement has been demonstrated.
 
 ## Narrow research question
 
