@@ -4,9 +4,16 @@
 **Entry point:** [`field_research_app.py`](../../field_research_app.py)  
 **Status:** Implementation available for local smoke testing; **no test run on the user's machine has been observed**, no independent field samples have been collected, no user-access controls are implemented and no real-world performance has been validated.
 
+## Two clearly separated workflows (updated 18 November 2026)
+
+- **Demo Mode (default):** Upload an image you have the right to process, confirm permission to process it locally, and click **Run AI demo**. The isolated worker performs one frozen-model prediction. **No reviewer code, expert label or permission-reference field is requested, and no JSONL research record is created.** Uploaded bytes remain in app memory for processing, not stored as files. The model scores are uncalibrated, not a diagnosis.
+- **Research Mode:** Only for studies with genuine permission and an independently assessed reference label. Reviewer code, permission/consent reference and two attestations are required. Explicit submission appends one metadata-only JSONL record. **Do not enter fake reviewer or permission identifiers for smoke testing.**
+
+Choose the mode at the top of the local interface. Both modes include **unvalidated descriptive image checks** (brightness, dimensions, edge proxy). Neither mode provides field-validated crop decisions. The software does not substitute for a qualified plant pathologist.
+
 ## Purpose
 
-This prototype is an **expert-first shadow-mode research interface**, not a wheat disease diagnosis app. It permits a researcher to upload or capture a photo, examine **unvalidated** image-quality signals, enter the independently assessed label and site/device identifiers, then run the previously saved frozen MobileNetV2 model for a *research comparison*. An expert reviewer must assign the label **before seeing the model score**, to reduce anchoring.
+This prototype is a **two-workflow local-only research interface**, not a wheat disease diagnosis app. The default **Demo Mode** runs the frozen MobileNetV2 model on a permitted photo without logging. **Research Mode** permits a researcher to upload/capture a photo, examine **unvalidated** image-quality signals, enter an independently assessed label plus site/device identifiers, then run a frozen-model comparison and append a local study record. In Research Mode, the reviewer records the label **before seeing the model score** to reduce anchoring.
 
 To reduce startup memory pressure on Windows, Streamlit no longer imports TensorFlow at startup. A separate Python worker [\`src/field_inference_worker.py\`](../../src/field_inference_worker.py) imports TensorFlow for one model inference when a reviewer submits a permitted image, then exits. The worker reads photo bytes from stdin without writing image files. If TensorFlow still raises \`MemoryError\` in the worker, the computer needs more available RAM/Windows virtual memory; this software separation cannot fix a system-wide commit limit.
 
@@ -39,7 +46,7 @@ set "WHEAT_FIELD_MODEL=F:\Github\wheat-rust-ai-github-ready\wheat-rust-ai\models
 python -m streamlit run field_research_app.py --server.address 127.0.0.1 --server.port 8502 --server.fileWatcherType none
 ```
 
-Then open **http://127.0.0.1:8502** on the *same computer*. Use an image you are allowed to process; give a real permission reference. Enter an honestly assessed independent reference label (use `Uncertain_unconfirmed` if the disease is uncertain). Do not treat smoke-test entries or existing curated benchmark images as new field data. The program will only calculate the frozen model's score after the reviewer confirms permission and labels.
+Then open **http://127.0.0.1:8502** on the *same computer*. For a software test, select **Demo Mode**, upload an image you are allowed to process, confirm local processing permission, and click **Run AI demo**; no reviewer code, expert label or research log is required. For a genuine, permissioned expert study, select **Research Mode**; obtain a real consent reference and an independent reviewer label before AI inference. Do not treat test data or existing benchmark images as new field evidence.
 
 Exit with **Ctrl+C** in Command Prompt.
 
