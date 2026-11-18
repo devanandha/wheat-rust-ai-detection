@@ -1,6 +1,6 @@
 # Acquisition-shift diagnosis: protocol and evidence limits
 
-**Status, 18 November 2026:** New exploratory diagnostic protocol and synthetic-tested image audit tool. No results from new wheat images have been generated. Do not interpret this as an independently validated model improvement.
+**Status, 18 November 2026:** New exploratory diagnostic protocol and synthetic-tested image audit tool. A descriptive audit of 1,226 images from the previously inspected original-validation and JIC collections is now documented in [EXPLORATORY_FINDINGS.md](EXPLORATORY_FINDINGS.md). No new blind external dataset was tested and no model improvement or causal explanation has been demonstrated.
 
 ## Narrow research question
 
