@@ -37,7 +37,7 @@ Following independent feedback on cross-dataset generalisation and research nove
 - [Acquisition-shift research protocol](research/acquisition_shift_20261118/PROTOCOL.md): research question, dataset/provenance boundaries, confounding risks and a pre-specified route to future controlled tests.
 - [Exploratory image-acquisition findings](research/acquisition_shift_20261118/EXPLORATORY_FINDINGS.md): measured resolution/class differences and saturation shift between the previously inspected original-validation and JIC subsets; no model was rerun and no cause is established.
 - [Descriptive acquisition-shift audit tool](tools/audit_acquisition_shift.py): local-only image-statistic comparisons by source and class, with [synthetic-only unit tests](tests/test_acquisition_shift.py).
-- **Status:** The new tool has been checked on synthetic images. It has not produced new wheat-dataset results or demonstrated a cause of model failure. The previously examined JIC dataset must not be described as a new blind test.
+- **Status:** The new tool passed three synthetic-image tests and has now produced an **exploratory descriptive audit** of the original validation and previously inspected JIC datasets (1,226 images). It has **not** demonstrated a cause of model failure or produced a new blind external test.
 
 ## Research focus
 
