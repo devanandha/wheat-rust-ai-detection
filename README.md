@@ -30,6 +30,14 @@ The original research explored wheat-rust classification, anomaly detection, tra
 
 > This is a research prototype, not an agronomic or diagnostic tool. Predictions should not be used as the sole basis for crop-treatment decisions.
 
+## Current methodological investigation (November 2026)
+
+Following independent feedback on cross-dataset generalisation and research novelty, the next step is a narrower, hypothesis-driven investigation of **source-specific image acquisition differences and cross-source class-prediction collapse**.
+
+- [Acquisition-shift research protocol](research/acquisition_shift_20261118/PROTOCOL.md): research question, dataset/provenance boundaries, confounding risks and a pre-specified route to future controlled tests.
+- [Descriptive acquisition-shift audit tool](tools/audit_acquisition_shift.py): local-only image-statistic comparisons by source and class, with [synthetic-only unit tests](tests/test_acquisition_shift.py).
+- **Status:** The new tool has been checked on synthetic images. It has not produced new wheat-dataset results or demonstrated a cause of model failure. The previously examined JIC dataset must not be described as a new blind test.
+
 ## Research focus
 
 The current project is guided by the following research question:
