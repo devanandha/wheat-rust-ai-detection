@@ -34,7 +34,7 @@ The original research explored wheat-rust classification, anomaly detection, tra
 
 > **Local researcher use only — not field validated, not a diagnosis. No public deployment.**
 
-The [field-research app](field_research_app.py) and [pure logging/quality helpers](src/field_research.py) are implemented **only on the `field-research-prototype-20261118` branch**. Existing `app.py` and live Streamlit demonstration are not changed. The new prototype accepts an uploaded or camera photo, shows **unvalidated** image-quality proxies, records the independent expert label **before** revealing the model prediction, and saves only permission-gated **local JSONL metadata** (not the photo).
+The [field-research app](field_research_app.py), [pure logging/quality helpers](src/field_research.py), and [separate TensorFlow inference worker](src/field_inference_worker.py) are implemented **only on the `field-research-prototype-20261118` branch**. The worker keeps TensorFlow out of the Streamlit server's startup memory and imports it only in a short-lived process when a reviewer submits an image. Existing `app.py` and live Streamlit demonstration are not changed. The new prototype accepts an uploaded or camera photo, shows **unvalidated** image-quality proxies, records the independent expert label **before** revealing the model prediction, and saves only permission-gated **local JSONL metadata** (not the photo).
 
 - [Local setup and smoke-test instructions](research/field_readiness_20261118/LOCAL_PROTOTYPE.md)
 - [No-TensorFlow unit tests for image and record helpers](tests/test_field_research.py)
