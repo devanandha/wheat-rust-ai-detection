@@ -35,6 +35,7 @@ The original research explored wheat-rust classification, anomaly detection, tra
 Following independent feedback on cross-dataset generalisation and research novelty, the next step is a narrower, hypothesis-driven investigation of **source-specific image acquisition differences and cross-source class-prediction collapse**.
 
 - [Acquisition-shift research protocol](research/acquisition_shift_20261118/PROTOCOL.md): research question, dataset/provenance boundaries, confounding risks and a pre-specified route to future controlled tests.
+- [Exploratory image-acquisition findings](research/acquisition_shift_20261118/EXPLORATORY_FINDINGS.md): measured resolution/class differences and saturation shift between the previously inspected original-validation and JIC subsets; no model was rerun and no cause is established.
 - [Descriptive acquisition-shift audit tool](tools/audit_acquisition_shift.py): local-only image-statistic comparisons by source and class, with [synthetic-only unit tests](tests/test_acquisition_shift.py).
 - **Status:** The new tool has been checked on synthetic images. It has not produced new wheat-dataset results or demonstrated a cause of model failure. The previously examined JIC dataset must not be described as a new blind test.
 
