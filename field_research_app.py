@@ -299,12 +299,15 @@ with st.form("expert_review_form", clear_on_submit=False):
             "Lighting", ["Not recorded", "Daylight", "Shade", "Artificial", "Mixed"]
         )
         review_method = st.selectbox(
-            "Expert assessment method", ["Visual only", "Microscopy", "Other", "Not confirmed"]
+            "Expert assessment method",
+            ["Visual only", "Microscopy", "Other", "Not confirmed"],
+            index=3,
         )
     with col3:
         reference_label = st.selectbox(
             "Expert reference label *",
             options=REFERENCE_LABELS,
+            index=len(REFERENCE_LABELS) - 1,
             format_func=lambda x: {
                 "Brown_rust": "Brown Rust",
                 "Healthy": "Healthy",
