@@ -1,6 +1,6 @@
 # Acquisition-shift diagnosis: protocol and evidence limits
 
-**Status, 18 November 2026:** New exploratory diagnostic protocol and synthetic-tested image audit tool. A descriptive audit of **4,168 images** (original training and validation plus previously inspected JIC) and an exploratory image-dimensions-only decision-tree diagnostic are documented in [EXPLORATORY_FINDINGS.md](EXPLORATORY_FINDINGS.md). No new blind dataset was tested; no causal explanation or neural-network model improvement has been demonstrated.
+**Status, 18 November 2026:** New exploratory diagnostic protocol and synthetic-tested image audit tool. A descriptive audit of **4,168 images** (original training and validation plus previously inspected JIC) and an exploratory image-dimensions-only decision-tree diagnostic are documented in [EXPLORATORY_FINDINGS.md](EXPLORATORY_FINDINGS.md). No new blind dataset was tested; no causal explanation or neural-network model improvement has been demonstrated. The subsequent paired inference probe documents **sensitivity**, not a trained model improvement or an independently validated generalisation score.
 
 ## Narrow research question
 
@@ -58,6 +58,8 @@ This proposed diagnostic is **not a novel technique by itself**. Existing plant-
 
 A possible specific research contribution would require a **new, well-controlled explanation** of the unusually strong class-prediction collapse observed in this wheat-rust evaluation, with compatible labels, documented provenance and independently evaluated interventions. This remains a research objective, not a demonstrated contribution.
 
+
+**Results:** The frozen-model experiment is complete. [View the results and class-specific tradeoffs](RESOLUTION_SENSITIVITY_RESULTS.md): the unchanged model reproduced 728/737 original and 188/489 JIC baseline correct, while the fixed 224→112→224 perturbation changed 29/737 original predictions and 154/489 JIC predictions. Accuracy shifted −2.85 pp original and +9.20 pp JIC; this is exploratory and **does not establish a causal resolution shortcut**.
 
 ## Frozen-model paired sensitivity probe (added 18 November 2026)
 
