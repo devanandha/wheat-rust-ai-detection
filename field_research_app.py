@@ -6,12 +6,13 @@ Do NOT deploy as a publicly accessible app or offer agronomic diagnosis.
 """
 from __future__ import annotations
 
+import json
 import os
 from pathlib import Path
+import subprocess
+import sys
 
-import numpy as np
 import streamlit as st
-import tensorflow as tf
 
 from src.field_research import (
     MODEL_CLASSES,
@@ -20,7 +21,6 @@ from src.field_research import (
     inspect_photo,
     make_review_record,
     sha256_bytes,
-    sha256_file,
 )
 
 LOG_PATH = Path("outputs/field_research/reviews.jsonl")
@@ -50,20 +50,66 @@ st.info(
 )
 
 
-@st.cache_resource(show_spinner="Loading the saved MobileNetV2 classifier…")
-def load_saved_model(model_path: str):
-    return tf.keras.models.load_model(model_path, compile=False)
+def predict_for_research(model_path: Path, raw_photo: bytes) -> tuple[list[float], str]:
+    """Run frozen-model inference in a separate process, not the Streamlit server.
 
+    TensorFlow's Keras/scikit-learn/scipy imports can consume considerable
+    RAM on Windows. The UI should remain usable even if the worker cannot load.
+    Raw photo bytes are piped via stdin and are never written to an image file.
+    """
+    command = [
+        sys.executable, "-m", "src.field_inference_worker",
+        "--model", str(model_path.resolve()),
+    ]
+    environment = dict(os.environ)
+    environment.setdefault("TF_CPP_MIN_LOG_LEVEL", "2")
+    environment.setdefault("OMP_NUM_THREADS", "2")
+    try:
+        finished = subprocess.run(
+            command,
+            input=raw_photo,
+            stdout=subprocess.PIPE,
+            stderr=subprocess.PIPE,
+            timeout=240,
+            check=False,
+            env=environment,
+        )
+    except subprocess.TimeoutExpired as exc:
+        raise RuntimeError(
+            "Model inference exceeded the local time limit. "
+            "Check system memory and close any other Python/Streamlit processes."
+        ) from exc
+    except OSError as exc:
+        raise RuntimeError(f"Unable to start the isolated inference worker: {exc}") from exc
 
-def predict_for_research(model, photo) -> list[float]:
-    # Match src.data.load_split: float RGB 0..255, bilinear to 224x224.
-    # The existing Keras model includes MobileNetV2 preprocessing internally.
-    pixels = tf.convert_to_tensor(np.asarray(photo, dtype=np.float32))
-    resized = tf.image.resize(pixels, (224, 224), method="bilinear")
-    scores = np.asarray(model(tf.expand_dims(resized, 0), training=False), dtype=float)
-    if scores.shape != (1, 3) or not np.all(np.isfinite(scores)):
-        raise ValueError(f"Unexpected model output shape or nonfinite scores: {scores.shape}")
-    return list(map(float, scores[0]))
+    worker_errors = finished.stderr.decode("utf-8", errors="replace")
+    if finished.returncode != 0:
+        if "MemoryError" in worker_errors or "failed to allocate" in worker_errors.lower():
+            raise RuntimeError(
+                "Windows ran out of memory while loading TensorFlow. "
+                "Close other memory-heavy apps and verify that Windows "
+                "virtual memory (page file) is enabled, then retry."
+            )
+        raise RuntimeError(
+            f"Isolated model process failed (exit {finished.returncode}): "
+            f"{worker_errors[-1600:]}"
+        )
+
+    output = finished.stdout.decode("utf-8", errors="replace")
+    prefix = "FIELD_RESULT_JSON:"
+    lines = [line for line in output.splitlines() if line.startswith(prefix)]
+    if not lines:
+        raise RuntimeError("Inference worker returned no valid result.")
+    try:
+        result = json.loads(lines[-1][len(prefix):])
+        scores = [float(item) for item in result["scores"]]
+        if len(scores) != len(MODEL_CLASSES):
+            raise ValueError("Wrong class score count")
+        if result.get("privacy") != "no_original_image_written":
+            raise ValueError("Worker privacy contract mismatch")
+        return scores, str(result["model_sha256"])
+    except (KeyError, TypeError, ValueError, json.JSONDecodeError) as exc:
+        raise RuntimeError("Inference worker returned an invalid result.") from exc
 
 
 with st.sidebar:
@@ -208,12 +254,13 @@ if submitted:
     else:
         try:
             with st.spinner("Running frozen-model inference locally…"):
-                model = load_saved_model(str(Path(model_path).resolve()))
-                probabilities = predict_for_research(model, image)
+                probabilities, model_hash = predict_for_research(
+                    Path(model_path), raw_image
+                )
                 record = make_review_record(
                     image_hash=image_hash,
                     photo_metrics=metrics,
-                    model_hash=sha256_file(Path(model_path)),
+                    model_hash=model_hash,
                     probabilities=probabilities,
                     reference_label=reference_label,
                     reviewer_code=reviewer_code,
