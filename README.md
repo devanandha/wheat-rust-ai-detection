@@ -30,6 +30,18 @@ The original research explored wheat-rust classification, anomaly detection, tra
 
 > This is a research prototype, not an agronomic or diagnostic tool. Predictions should not be used as the sole basis for crop-treatment decisions.
 
+## Experimental field-research prototype (separate branch only)
+
+> **Local researcher use only — not field validated, not a diagnosis. No public deployment.**
+
+The [field-research app](field_research_app.py) and [pure logging/quality helpers](src/field_research.py) are implemented **only on the `field-research-prototype-20261118` branch**. Existing `app.py` and live Streamlit demonstration are not changed. The new prototype accepts an uploaded or camera photo, shows **unvalidated** image-quality proxies, records the independent expert label **before** revealing the model prediction, and saves only permission-gated **local JSONL metadata** (not the photo).
+
+- [Local setup and smoke-test instructions](research/field_readiness_20261118/LOCAL_PROTOTYPE.md)
+- [No-TensorFlow unit tests for image and record helpers](tests/test_field_research.py)
+- [Field-readiness research protocol](research/field_readiness_20261118/FIELD_VALIDATION_PLAN.md)
+
+**Testing status:** Files are committed, but local execution, user acceptance and real-field evaluation remain outstanding.
+
 ## Proposed real-world field-readiness research (November 2026)
 
 - [Field-validation and supervised pilot protocol](research/field_readiness_20261118/FIELD_VALIDATION_PLAN.md): proposed wheat-field data acquisition, expert labels, group-aware split, model reliability/abstention evaluation, and non-diagnostic Streamlit-to-mobile research workflow.
