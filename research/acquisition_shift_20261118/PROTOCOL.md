@@ -58,6 +58,29 @@ This proposed diagnostic is **not a novel technique by itself**. Existing plant-
 
 A possible specific research contribution would require a **new, well-controlled explanation** of the unusually strong class-prediction collapse observed in this wheat-rust evaluation, with compatible labels, documented provenance and independently evaluated interventions. This remains a research objective, not a demonstrated contribution.
 
+
+## Frozen-model paired sensitivity probe (added 18 November 2026)
+
+The exploratory acquisition audit found strong class-associated differences in **source image dimensions** in both original train and validation. A metadata-only classifier transferred poorly. This is not evidence that the actual CNN learned those metadata cues.
+
+To test the saved model's **input-resolution sensitivity** without retraining, run the [paired resolution probe](../../tools/probe_resolution_sensitivity.py). It uses the existing `src.data.load_split` loader, which supplies 224 x 224 RGB values on the original 0–255 scale; **MobileNetV2 preprocessing is inside the saved model**. The probe compares inference-mode predictions with and without a predetermined bilinear downsample to 112 x 112 followed by bilinear resizing back to 224 x 224. Model weights and source files remain unchanged.
+
+From repository root on Windows (replace paths for other machines):
+
+```cmd
+python -m tools.probe_resolution_sensitivity --model "F:\Github\wheat-rust-ai-github-ready\wheat-rust-ai\models\wheat_rust_mobilenetv2.keras" --original-val "F:\Github\wheat-rust-ai-github-ready\wheat-rust-ai\Data\val" --jic-val "F:\Github\external-wheat-validation\val" --output-dir "outputs\resolution_sensitivity"
+```
+
+Outputs include `original_val_paired_predictions.csv`, `jic_paired_predictions.csv` and `paired_sensitivity_summary.json`. The latter includes a SHA-256 identifier of the exact saved model and flags whether unperturbed correct counts reproduce the historical original 728/737 and JIC 188/489. **If either baseline does not match, diagnose preprocessing, model-file and dataset-version differences before interpreting perturbation effects.**
+
+This artificial blur/downsample is not a physical recreation of original collection conditions, and input-scale sensitivity is not a direct causal demonstration of resolution-shortcut learning. Pre-specify follow-up interventions and seek independent evaluation data rather than selecting hyperparameters based on JIC.
+
+For a lightweight unit test of metric bookkeeping (no TensorFlow required):
+
+```cmd
+python -m unittest discover -s tests -p test_resolution_sensitivity.py -v
+```
+
 ## Interpretation gate
 
 Do not claim that brightness, preprocessing or background differences **cause** poor generalisation without a controlled demonstration. If descriptive metrics show little separation, or if a properly controlled intervention does not improve performance on independent evaluation data, preserve that negative result.
