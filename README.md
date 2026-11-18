@@ -30,6 +30,12 @@ The original research explored wheat-rust classification, anomaly detection, tra
 
 > This is a research prototype, not an agronomic or diagnostic tool. Predictions should not be used as the sole basis for crop-treatment decisions.
 
+## Proposed real-world field-readiness research (November 2026)
+
+- [Field-validation and supervised pilot protocol](research/field_readiness_20261118/FIELD_VALIDATION_PLAN.md): proposed wheat-field data acquisition, expert labels, group-aware split, model reliability/abstention evaluation, and non-diagnostic Streamlit-to-mobile research workflow.
+- [Blank field-image provenance template](research/field_readiness_20261118/FIELD_IMAGE_LOG_TEMPLATE.csv): image, site/session/device, expert label, consent and split fields.
+- **Status: planning only.** No new field samples have been collected and no independent field validation has been completed. Existing model performance is insufficient for autonomous farmer-facing diagnoses.
+
 ## Current methodological investigation (November 2026)
 
 Following independent feedback on cross-dataset generalisation and research novelty, the next step is a narrower, hypothesis-driven investigation of **source-specific image acquisition differences and cross-source class-prediction collapse**.
