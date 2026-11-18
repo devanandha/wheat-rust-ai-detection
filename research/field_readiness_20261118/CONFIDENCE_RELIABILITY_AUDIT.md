@@ -1,7 +1,7 @@
 # Exploratory confidence and false-reassurance audit — protocol
 
 **Date:** 18 November 2026  
-**Status:** Code and synthetic unit tests created. **No new real-image results have been generated yet.** Awaiting local user execution.  
+**Status:** Completed by the user on the previously evaluated 737 original-validation and 489 JIC images. [View the exploratory reliability results](CONFIDENCE_RELIABILITY_RESULTS.md): JIC had 151 diseased → Healthy predictions, and 55 of 83 accepted score-≥0.99 predictions were wrong. These are not independent field-validation results.  
 **Scope:** Existing frozen MobileNetV2 model, original `val` and previously examined JIC `val`. This is a **reused benchmark exploratory analysis, not a new field study or a novel external test**.
 
 ## Motivation
