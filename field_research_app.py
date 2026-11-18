@@ -35,7 +35,7 @@ st.set_page_config(
 )
 
 st.title("🌾 Wheat Rust AI — Field Research")
-st.caption("Local research-only prototype · Expert-first labels · Shadow-mode inference")
+st.caption("Local research prototype · Software Demo Mode or expert-first Research Mode")
 st.error(
     "**NOT FIELD-VALIDATED — DO NOT USE FOR CROP DIAGNOSIS OR TREATMENT.** "
     "The saved classifier performed poorly on a previously inspected external "
@@ -45,8 +45,8 @@ st.error(
 st.info(
     "This app is intended for a trusted local researcher. It has no login, "
     "encrypted study database, or built-in consent-management system. Uploaded "
-    "photo bytes are not saved; optional study metadata and AI scores are "
-    "appended only on explicit submission."
+    "photo bytes are not saved. Demo Mode does not write research records; "
+    "Research Mode appends metadata and AI scores only on explicit submission."
 )
 
 
@@ -144,6 +144,27 @@ with st.sidebar:
         "Do not deploy this unauthenticated prototype publicly."
     )
 
+st.subheader("Choose a workflow")
+workflow = st.radio(
+    "Mode",
+    ["Demo Mode — no research records saved", "Research Mode — expert review and study logging"],
+    index=0,
+    horizontal=True,
+    help="Use Demo Mode to check that the classifier runs. Research Mode requires a genuinely independent label and permission to record metadata.",
+)
+is_demo = workflow.startswith("Demo Mode")
+if is_demo:
+    st.info(
+        "Demo Mode runs the saved classifier locally without creating an expert label "
+        "or writing a research record. Results are uncalibrated, not field validated, "
+        "and must not guide crop decisions."
+    )
+else:
+    st.info(
+        "Research Mode: independent expert labeling and actual permission to log "
+        "study metadata are required. Do not enter made-up reviewer or permission details."
+    )
+
 st.subheader("1 · Capture an image")
 capture_mode = st.radio(
     "Source",
@@ -158,7 +179,7 @@ else:
     )
 
 if uploaded is None:
-    st.caption("Select or capture a photo to begin a local, non-diagnostic study record.")
+    st.caption("Select or capture a photo to begin a local, non-diagnostic analysis.")
     st.stop()
 
 raw_image = uploaded.getvalue()
@@ -172,7 +193,11 @@ image_hash = sha256_bytes(raw_image)
 
 left, right = st.columns([1, 1])
 with left:
-    st.image(image, caption="Image under independent expert review", use_container_width=True)
+    st.image(
+        image,
+        caption="Local demonstration image" if is_demo else "Image under independent expert review",
+        use_container_width=True,
+    )
 with right:
     st.subheader("2 · Descriptive image checks")
     st.metric("Original dimensions", f"{metrics['width_px']} × {metrics['height_px']} px")
@@ -189,6 +214,68 @@ with right:
         "wheat-leaf detector or evidence of diagnostic reliability. "
         "Even apparently clear photographs can contain unsupported diseases."
     )
+
+if is_demo:
+    st.divider()
+    st.subheader("3 · Run a model demonstration")
+    st.warning(
+        "This saved model failed substantially on external wheat images. "
+        "Even a high score is NOT a trustworthy crop diagnosis. "
+        "Do not use the output for treatment or to declare a plant healthy."
+    )
+    st.caption(
+        "The photo stays in app memory while being analysed. "
+        "This mode does not save a photo, create an expert label, or append any study log."
+    )
+    demo_permission = st.checkbox(
+        "I have the right to process this photo for a local software demonstration.",
+        key=f"demo_permission_{image_hash[:20]}",
+    )
+    if st.button(
+        "Run AI demo (do not save a research record)",
+        type="primary",
+        disabled=not demo_permission,
+    ):
+        if not Path(model_path).is_file():
+            st.error(f"Model not found at: {model_path}")
+        else:
+            try:
+                with st.spinner("Running isolated-model inference locally…"):
+                    scores, model_hash = predict_for_research(
+                        Path(model_path), raw_image
+                    )
+                st.session_state["field_demo_latest"] = {
+                    "image_sha256": image_hash,
+                    "model_path": str(Path(model_path).resolve()),
+                    "model_sha256": model_hash,
+                    "scores": scores,
+                }
+                st.success("Local inference completed; no research record was saved.")
+            except (OSError, ValueError, RuntimeError, ImportError) as exc:
+                st.session_state.pop("field_demo_latest", None)
+                st.error(f"Model demo could not run: {exc}")
+
+    demo_result = st.session_state.get("field_demo_latest")
+    if (
+        demo_result is not None
+        and demo_result["image_sha256"] == image_hash
+        and demo_result["model_path"] == str(Path(model_path).resolve())
+    ):
+        values = demo_result["scores"]
+        best = int(max(range(len(values)), key=lambda i: values[i]))
+        st.subheader("4 · Research demonstration output")
+        st.write(
+            "**Highest-scoring class (NOT a verified diagnosis):** "
+            + MODEL_CLASSES[best].replace("_", " ")
+        )
+        for name, score in zip(MODEL_CLASSES, values):
+            st.write(f"{name.replace('_', ' ')}: {score:.3f}")
+        st.caption(
+            "These are uncalibrated closed-set model scores, not probabilities "
+            "that a field diagnosis is correct. This output is not entered "
+            "in the scientific research log."
+        )
+    st.stop()
 
 st.divider()
 st.subheader("3 · Independent expert reference before seeing AI results")
