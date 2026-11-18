@@ -34,6 +34,7 @@ The original research explored wheat-rust classification, anomaly detection, tra
 
 - [Field-validation and supervised pilot protocol](research/field_readiness_20261118/FIELD_VALIDATION_PLAN.md): proposed wheat-field data acquisition, expert labels, group-aware split, model reliability/abstention evaluation, and non-diagnostic Streamlit-to-mobile research workflow.
 - [Blank field-image provenance template](research/field_readiness_20261118/FIELD_IMAGE_LOG_TEMPLATE.csv): image, site/session/device, expert label, consent and split fields.
+- [Confidence and false-reassurance research audit](research/field_readiness_20261118/CONFIDENCE_RELIABILITY_AUDIT.md): pre-specified model-score calibration, high-confidence errors, diseased-as-Healthy mistakes and expert-referral coverage on **previously examined** evaluation images. [Code](tools/audit_prediction_reliability.py) and [synthetic tests](tests/test_prediction_reliability.py) are available; **no real-data audit results have been produced yet**.
 - **Status: planning only.** No new field samples have been collected and no independent field validation has been completed. Existing model performance is insufficient for autonomous farmer-facing diagnoses.
 
 ## Current methodological investigation (November 2026)
