@@ -8,6 +8,8 @@
 
 This prototype is an **expert-first shadow-mode research interface**, not a wheat disease diagnosis app. It permits a researcher to upload or capture a photo, examine **unvalidated** image-quality signals, enter the independently assessed label and site/device identifiers, then run the previously saved frozen MobileNetV2 model for a *research comparison*. An expert reviewer must assign the label **before seeing the model score**, to reduce anchoring.
 
+To reduce startup memory pressure on Windows, Streamlit no longer imports TensorFlow at startup. A separate Python worker [\`src/field_inference_worker.py\`](../../src/field_inference_worker.py) imports TensorFlow for one model inference when a reviewer submits a permitted image, then exits. The worker reads photo bytes from stdin without writing image files. If TensorFlow still raises \`MemoryError\` in the worker, the computer needs more available RAM/Windows virtual memory; this software separation cannot fix a system-wide commit limit.
+
 The prototype does not recommend fungicides or provide agronomic treatment instructions. It never declares the image “safe” based on a confidence threshold. The model's three supported labels are Healthy, Brown Rust and Yellow Rust; other diseases and mixed presentations are outside that scope.
 
 ## Security and ethics
@@ -29,11 +31,12 @@ The user currently has a working local ZIP extraction at `C:\WheatAI\wheat-rust-
 ```cmd
 curl.exe -L "https://raw.githubusercontent.com/devanandha/wheat-rust-ai-detection/field-research-prototype-20261118/field_research_app.py" -o "field_research_app.py"
 curl.exe -L "https://raw.githubusercontent.com/devanandha/wheat-rust-ai-detection/field-research-prototype-20261118/src/field_research.py" -o "src\field_research.py"
+curl.exe -L "https://raw.githubusercontent.com/devanandha/wheat-rust-ai-detection/field-research-prototype-20261118/src/field_inference_worker.py" -o "src\field_inference_worker.py"
 curl.exe -L "https://raw.githubusercontent.com/devanandha/wheat-rust-ai-detection/field-research-prototype-20261118/tests/test_field_research.py" -o "tests\test_field_research.py"
 python -m pip install "streamlit>=1.45,<2"
 python -m unittest discover -s tests -p "test_field_research.py" -v
 set "WHEAT_FIELD_MODEL=F:\Github\wheat-rust-ai-github-ready\wheat-rust-ai\models\wheat_rust_mobilenetv2.keras"
-python -m streamlit run field_research_app.py --server.address 127.0.0.1 --server.port 8502
+python -m streamlit run field_research_app.py --server.address 127.0.0.1 --server.port 8502 --server.fileWatcherType none
 ```
 
 Then open **http://127.0.0.1:8502** on the *same computer*. Use an image you are allowed to process; give a real permission reference. Enter an honestly assessed independent reference label (use `Uncertain_unconfirmed` if the disease is uncertain). Do not treat smoke-test entries or existing curated benchmark images as new field data. The program will only calculate the frozen model's score after the reviewer confirms permission and labels.
