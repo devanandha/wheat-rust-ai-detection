@@ -1,0 +1,78 @@
+{
+  "research_status": "exploratory_reused_JIC_set",
+  "baseline_validation": "all 489 per-image class scores matched audit within absolute tolerance 0.001",
+  "model": "models\\wheat_rust_mobilenetv2.keras",
+  "data": "JIC/val",
+  "crop_fractions": [
+    0.8,
+    0.6
+  ],
+  "caveats": [
+    "The JIC dataset has been repeatedly inspected; this is NOT an independent holdout.",
+    "Centre cropping changes leaf scale, context and framing simultaneously; background causation is NOT established.",
+    "A crop can remove disease symptoms; changes in accuracy are not automatically improvements in robustness.",
+    "No model weights or calibrations were changed."
+  ],
+  "conditions": {
+    "0.8": {
+      "all": {
+        "n": 489,
+        "baseline_accuracy": 0.38445807770961143,
+        "crop_accuracy": 0.4233128834355828,
+        "changed_predictions": 107,
+        "wrong_to_right": 46,
+        "right_to_wrong": 27,
+        "mean_yellow_score_delta": 0.027581017699028976,
+        "crop_predicted_class_counts": {
+          "Brown_rust": 171,
+          "Healthy": 286,
+          "Yellow_rust": 32
+        }
+      },
+      "yellow": {
+        "n": 239,
+        "baseline_accuracy": 0.06276150627615062,
+        "crop_accuracy": 0.12552301255230125,
+        "changed_predictions": 59,
+        "wrong_to_right": 20,
+        "right_to_wrong": 5,
+        "mean_yellow_score_delta": 0.05063265238096719,
+        "crop_predicted_class_counts": {
+          "Brown_rust": 96,
+          "Healthy": 113,
+          "Yellow_rust": 30
+        }
+      }
+    },
+    "0.6": {
+      "all": {
+        "n": 489,
+        "baseline_accuracy": 0.38445807770961143,
+        "crop_accuracy": 0.4867075664621677,
+        "changed_predictions": 118,
+        "wrong_to_right": 71,
+        "right_to_wrong": 21,
+        "mean_yellow_score_delta": 0.09520765606665475,
+        "crop_predicted_class_counts": {
+          "Brown_rust": 170,
+          "Healthy": 258,
+          "Yellow_rust": 61
+        }
+      },
+      "yellow": {
+        "n": 239,
+        "baseline_accuracy": 0.06276150627615062,
+        "crop_accuracy": 0.2217573221757322,
+        "changed_predictions": 68,
+        "wrong_to_right": 40,
+        "right_to_wrong": 2,
+        "mean_yellow_score_delta": 0.1600906418667482,
+        "crop_predicted_class_counts": {
+          "Brown_rust": 88,
+          "Healthy": 98,
+          "Yellow_rust": 53
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "research_status": "exploratory_reused_JIC_not_independent_holdout",
+  "baseline_validation": "All 489 predictions matched stored class scores within 0.001",
+  "model": "models\\wheat_rust_mobilenetv2.keras",
+  "image_root": "JIC/val",
+  "conditions": {
+    "0.8": {
+      "all": {
+        "n": 489,
+        "baseline_accuracy": 0.38445807770961143,
+        "modified_accuracy": 0.37627811860940696,
+        "changed_predictions": 44,
+        "wrong_to_right": 11,
+        "right_to_wrong": 15,
+        "false_healthy_before": 151,
+        "false_healthy_after": 125,
+        "high_confidence_errors_before": 135,
+        "high_confidence_errors_after": 134,
+        "mean_yellow_score_change": -0.005874568604666103,
+        "modified_prediction_counts": {
+          "Brown_rust": 258,
+          "Healthy": 213,
+          "Yellow_rust": 18
+        }
+      },
+      "yellow": {
+        "n": 239,
+        "baseline_accuracy": 0.06276150627615062,
+        "modified_accuracy": 0.06276150627615062,
+        "changed_predictions": 19,
+        "wrong_to_right": 1,
+        "right_to_wrong": 1,
+        "false_healthy_before": 98,
+        "false_healthy_after": 80,
+        "high_confidence_errors_before": 110,
+        "high_confidence_errors_after": 115,
+        "mean_yellow_score_change": -0.013709739153849638,
+        "modified_prediction_counts": {
+          "Brown_rust": 144,
+          "Healthy": 80,
+          "Yellow_rust": 15
+        }
+      }
+    },
+    "1.2": {
+      "all": {
+        "n": 489,
+        "baseline_accuracy": 0.38445807770961143,
+        "modified_accuracy": 0.38650306748466257,
+        "changed_predictions": 33,
+        "wrong_to_right": 9,
+        "right_to_wrong": 8,
+        "false_healthy_before": 151,
+        "false_healthy_after": 173,
+        "high_confidence_errors_before": 135,
+        "high_confidence_errors_after": 138,
+        "mean_yellow_score_change": -0.0022953935408918046,
+        "modified_prediction_counts": {
+          "Brown_rust": 196,
+          "Healthy": 280,
+          "Yellow_rust": 13
+        }
+      },
+      "yellow": {
+        "n": 239,
+        "baseline_accuracy": 0.06276150627615062,
+        "modified_accuracy": 0.0502092050209205,
+        "changed_predictions": 21,
+        "wrong_to_right": 1,
+        "right_to_wrong": 4,
+        "false_healthy_before": 98,
+        "false_healthy_after": 116,
+        "high_confidence_errors_before": 110,
+        "high_confidence_errors_after": 109,
+        "mean_yellow_score_change": -0.0016336278431971292,
+        "modified_prediction_counts": {
+          "Brown_rust": 111,
+          "Healthy": 116,
+          "Yellow_rust": 12
+        }
+      }
+    }
+  },
+  "caveats": [
+    "JIC has been repeatedly inspected and is not an untouched test set.",
+    "Brightness multiplication changes image intensity and may clip bright pixels.",
+    "Intervention sensitivity does not prove illumination caused source shift.",
+    "No model training, fine-tuning, or calibration was performed."
+  ]
+}

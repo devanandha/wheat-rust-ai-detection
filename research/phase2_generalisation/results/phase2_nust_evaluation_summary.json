@@ -1,0 +1,65 @@
+{
+  "evaluation_type": "new-source, frozen-model, one-class (yellow/stripe rust) image-level evaluation",
+  "model_file": "models/wheat_rust_mobilenetv2.keras",
+  "model_sha256": "2c18f6061bd3f26427bdb05d21ea1b3bd85fc82f92596194c3e36f6b2c1513e4",
+  "dataset_root": "NUST/NWRD",
+  "class_order": [
+    "Brown_rust",
+    "Healthy",
+    "Yellow_rust"
+  ],
+  "preprocessing": "tf.io.decode_jpeg RGB, tf.image.resize bilinear 224x224 float32 0..255; MobileNetV2 preprocessing embedded in model",
+  "ground_truth_caveat": "Positive image-level label is inferred from nonempty segmentation masks, conditional on dataset authors defining foreground as yellow-rust lesions; no healthy or brown-rust reference labels exist in this test.",
+  "whole_cohort": {
+    "n": 100,
+    "yellow_rust_predicted": 0,
+    "yellow_rust_recall_if_all_positive": 0.0,
+    "yellow_rust_recall_wilson_95pct_ci": [
+      0.0,
+      0.036993
+    ],
+    "predicted_class_counts": {
+      "Brown_rust": 20,
+      "Healthy": 80
+    },
+    "high_confidence_wrong_at_0_9": 74,
+    "mean_yellow_probability": 0.004512
+  },
+  "by_original_split": {
+    "train": {
+      "n": 90,
+      "yellow_rust_predicted": 0,
+      "yellow_rust_recall_if_all_positive": 0.0,
+      "yellow_rust_recall_wilson_95pct_ci": [
+        0.0,
+        0.040936
+      ],
+      "predicted_class_counts": {
+        "Brown_rust": 17,
+        "Healthy": 73
+      },
+      "high_confidence_wrong_at_0_9": 67,
+      "mean_yellow_probability": 0.003549
+    },
+    "test": {
+      "n": 10,
+      "yellow_rust_predicted": 0,
+      "yellow_rust_recall_if_all_positive": 0.0,
+      "yellow_rust_recall_wilson_95pct_ci": [
+        0.0,
+        0.277533
+      ],
+      "predicted_class_counts": {
+        "Healthy": 7,
+        "Brown_rust": 3
+      },
+      "high_confidence_wrong_at_0_9": 7,
+      "mean_yellow_probability": 0.013178
+    }
+  },
+  "limitations": [
+    "One-class dataset: recall only, not three-class accuracy, specificity, or generalisation across all classes.",
+    "Train/test refers to original NUST segmentation split; neither split was used to train this classifier.",
+    "Image and scene shifts, crop/recompression overlap, and segmentation-to-classification label differences remain possible."
+  ]
+}
