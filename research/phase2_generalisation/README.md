@@ -115,4 +115,6 @@ A near-99% internal-validation score did not transfer reliably to the JIC and NU
 
 ## Publication status
 
-As of 19 November 2026, the five selected experiments have passed local prediction-level comparisons. Public release remains subject to a final code/data-path audit, source-dataset documentation and licence verification, documentation review, and an explicit Git commit/push. No independent third-party reproduction is claimed here.
+As of 19 November 2026, the Phase 2 research package has been published on the `research/phase2-generalisation` branch of the Wheat Rust AI Detection GitHub repository (initial commit `4e39b7f`). Five selected experiments passed same-environment prediction-level reproducibility checks.
+
+The research remains exploratory and has not undergone independent scientific peer review or cross-machine reproduction. Third-party dataset licensing, source attribution, and the NUST disease-label interpretation require further verification. The nine manually prepared background masks are not distributed, so that experiment is not yet independently reproducible from the public repository alone.

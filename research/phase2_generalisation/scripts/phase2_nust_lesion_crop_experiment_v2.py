@@ -1,10 +1,11 @@
-"""Experiment 7: preregistered-style diagnostic crop comparison, frozen NUST model.
+"""Experiment 7: exploratory NUST lesion-centred crop diagnostic.
 
-Run from <repository-root>:
-    python phase2_nust_lesion_crop_experiment.py
+Run from repository root:
+    python research/phase2_generalisation/scripts/phase2_nust_lesion_crop_experiment_v2.py
 
-Mask-informed crops use ground truth information unavailable at deployment.
-They are mechanism probes, NOT unbiased real-world performance estimates.
+Mask-informed crops use ground-truth information unavailable at deployment.
+This is a retrospective diagnostic analysis, not a preregistered trial
+or an unbiased estimate of real-world performance.
 """
 from __future__ import annotations
 
