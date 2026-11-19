@@ -109,6 +109,35 @@ The published NUST baseline reference is `results/phase2_nust_evaluation_nust_fr
 
 Review `results/` and individual legacy scripts for local filesystem paths, source-image-derived data, licensing issues, and reproducibility limitations before staging or pushing to GitHub.
 
+### John Innes Centre (JIC) dataset verification
+
+The external JIC evaluation used 489 images drawn from a locally held 999-image *Wheat Disease Dataset — Small* collection, associated with Long et al., John Innes Centre.
+
+Source record: https://doi.org/10.5281/zenodo.7307816
+
+On 19 November 2026, SHA-256 comparisons confirmed that all 489 evaluation images were byte-identical to corresponding files in the local 999-image collection.
+
+The local source image `BrownRust1018.png` also matched the MD5 checksum published by Zenodo (`5f4042b7cd0231f8d1aefe8a0174d626`).
+
+These checks support the dataset's provenance but do not constitute a complete file-by-file verification of the entire collection against Zenodo. The source dataset images are not redistributed in this repository.
+
+### NUST dataset archive verification
+
+The NUST NWRD dataset archive was obtained from the dataset's Zenodo record:
+
+https://zenodo.org/records/21672928
+
+The locally downloaded `NWRD.zip` archive was checked on 19 November 2026.
+
+- **MD5:** `7b9193efebe1ed8c60b10c9f05d11e14`
+- **SHA-256:** `7493a66318fb16cff0a45cc47361b0fbf34d38bfe8a15351b575c21063ab9385`
+
+The MD5 checksum matches the checksum recorded for the published archive. The SHA-256 value provides an additional identifier for the locally evaluated archive.
+
+The dataset contains 100 image-mask pairs. The evaluation assumes that the positive segmentation masks correspond to Yellow/stripe rust. This interpretation remains conditional on the dataset's original annotation definitions.
+
+Dataset identity verification does not establish independent model generalisation or permission to redistribute the source images.
+
 ## Interpretation
 
 A near-99% internal-validation score did not transfer reliably to the JIC and NUST external sources. Some central crops improved JIC predictions, but simple brightness changes did not materially improve accuracy, and mask-guided NUST crops did not recover Yellow rust predictions. These observations support further investigation of dataset composition, framing, annotation alignment, image acquisition, and model generalisation. They do not uniquely identify why transfer failed.
