@@ -4,6 +4,29 @@
 
 An applied computer-vision research project for classifying wheat-leaf images as **Healthy**, **Brown Rust**, or **Yellow Rust**, with a focus on **generalisation, failure analysis, model comparison, and explainable AI**.
 
+## Latest research: Cross-Dataset Generalisation (2026)
+
+**New research: 18-model source-diversity investigation,
+external evaluation and cross-seed Grad-CAM analysis.**
+
+The latest experimental extension examines how training-source
+composition affects wheat rust classification across datasets.
+
+Source mixing improved mean aggregate accuracy on two exploratory
+benchmarks, but disease-specific performance varied substantially.
+
+At 300 images per class and 50% source mixing, Yellow Rust recall
+was 53.42% on the previously examined JIC benchmark compared
+with 5.62% on the screened Kaggle benchmark.
+
+**[Read the consolidated Phases 3?5 research summary](https://github.com/devanandha/wheat-rust-ai-detection/blob/research/phase3-source-diversity/research/dataset_generalisation/RESEARCH_SUMMARY_PHASES_3_TO_5.md)**
+
+The research includes dataset-integrity audits, external evaluation
+records and exploratory Grad-CAM findings.
+
+These experiments do not establish independent field validation,
+causal benefits of source mixing or deployment readiness.
+
 ## Independent evaluation and contributions
 
 **Independent checks and constructive criticism are welcome.** See [CONTRIBUTING.md](CONTRIBUTING.md) for two clearly distinguished paths: validating archived result summaries or running an evaluation on independently obtained wheat-leaf data.
