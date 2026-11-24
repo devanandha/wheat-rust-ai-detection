@@ -4,6 +4,28 @@
 
 An applied computer-vision research project for classifying wheat-leaf images as **Healthy**, **Brown Rust**, or **Yellow Rust**, with a focus on **generalisation, failure analysis, model comparison, and explainable AI**.
 
+## Latest research: Phases 3?5 (November 2026)
+
+**New: Cross-dataset generalisation and disease-class confusion**
+
+A controlled 18-model MobileNetV2 study examined the effects of
+training-source diversity across two exploratory external benchmarks.
+
+Source mixing improved mean aggregate accuracy, but class-specific
+performance varied substantially between datasets. At 300 images
+per class and 50% mixing, Yellow Rust recall was 53.42% on the
+previously examined JIC benchmark versus 5.62% on the screened
+Kaggle benchmark.
+
+The work includes dataset-integrity verification, evaluation
+results for all 18 frozen models, and exploratory cross-seed
+Grad-CAM analysis.
+
+**[Read the consolidated research summary](research/dataset_generalisation/RESEARCH_SUMMARY_PHASES_3_TO_5.md)**
+
+The study does not establish causal benefits of source mixing,
+independent field validation, or deployment readiness.
+
 ## Independent evaluation and contributions
 
 **Independent checks and constructive criticism are welcome.** See [CONTRIBUTING.md](CONTRIBUTING.md) for two clearly distinguished paths: validating archived result summaries or running an evaluation on independently obtained wheat-leaf data.
