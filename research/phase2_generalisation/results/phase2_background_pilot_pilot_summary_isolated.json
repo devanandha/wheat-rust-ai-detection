@@ -1,0 +1,10 @@
+{
+  "research_status": "exploratory_outcome_selected_nine_image_pilot_not_independent",
+  "n_completed": 9,
+  "n_expected": 9,
+  "failures": [],
+  "note": "Masks isolate selected leaves, not all foliage. Grey replacement creates artificial edges. No claim of background causation.",
+  "changed_predictions": 3,
+  "wrong_to_right": 0,
+  "right_to_wrong": 2
+}

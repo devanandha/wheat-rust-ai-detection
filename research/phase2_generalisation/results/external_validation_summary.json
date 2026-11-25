@@ -1,0 +1,9 @@
+{
+  "external_images": 489,
+  "correct": 188,
+  "misclassified": 301,
+  "accuracy": 0.38445807770961143,
+  "original_internal_accuracy": 0.9877883310719131,
+  "exact_cross_dataset_duplicates": 0,
+  "near_duplicates_phash_le_5": 0
+}

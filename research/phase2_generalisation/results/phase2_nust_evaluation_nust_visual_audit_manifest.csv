@@ -1,0 +1,13 @@
+split,image_name,image_path,mask_path,predicted_label,confidence,prob_brown_rust,prob_healthy,prob_yellow_rust,lesion_coverage_pct,selection_group
+train,144.jpg,NUST/NWRD/train/images/144.jpg,NUST/NWRD/train/masks/144.png,Healthy,0.99999738,2.53e-06,0.99999738,1.1e-07,0.144381,High-confidence Healthy
+train,139.jpg,NUST/NWRD/train/images/139.jpg,NUST/NWRD/train/masks/139.png,Healthy,0.99998319,1.395e-05,0.99998319,2.83e-06,1.013705,High-confidence Healthy
+train,140.jpg,NUST/NWRD/train/images/140.jpg,NUST/NWRD/train/masks/140.png,Healthy,0.99998045,1.288e-05,0.99998045,6.68e-06,0.628505,High-confidence Healthy
+train,146.jpg,NUST/NWRD/train/images/146.jpg,NUST/NWRD/train/masks/146.png,Healthy,0.99995303,4.651e-05,0.99995303,5e-07,0.419673,High-confidence Healthy
+train,60.jpg,NUST/NWRD/train/images/60.jpg,NUST/NWRD/train/masks/60.png,Brown_rust,0.99958998,0.99958998,0.00040342,6.57e-06,0.370765,Brown-rust predictions
+train,13.jpg,NUST/NWRD/train/images/13.jpg,NUST/NWRD/train/masks/13.png,Brown_rust,0.98376924,0.98376924,0.01617795,5.277e-05,0.083112,Brown-rust predictions
+train,58.jpg,NUST/NWRD/train/images/58.jpg,NUST/NWRD/train/masks/58.png,Brown_rust,0.97929907,0.97929907,0.02016196,0.00053895,0.833378,Brown-rust predictions
+train,64.jpg,NUST/NWRD/train/images/64.jpg,NUST/NWRD/train/masks/64.png,Brown_rust,0.97314453,0.97314453,0.02494315,0.00191227,1.279791,Brown-rust predictions
+train,19.jpg,NUST/NWRD/train/images/19.jpg,NUST/NWRD/train/masks/19.png,Brown_rust,0.74676049,0.74676049,0.24727155,0.00596793,2.988506,Largest lesion coverage
+train,24.jpg,NUST/NWRD/train/images/24.jpg,NUST/NWRD/train/masks/24.png,Brown_rust,0.86134368,0.86134368,0.13526149,0.00339478,2.769569,Largest lesion coverage
+train,138.jpg,NUST/NWRD/train/images/138.jpg,NUST/NWRD/train/masks/138.png,Healthy,0.92725611,0.02058304,0.92725611,0.05216087,2.566466,Largest lesion coverage
+train,117.jpg,NUST/NWRD/train/images/117.jpg,NUST/NWRD/train/masks/117.png,Healthy,0.98248518,0.01732083,0.98248518,0.00019395,2.378142,Largest lesion coverage

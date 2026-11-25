@@ -1,0 +1,154 @@
+{
+  "study": "wheat_rust_phase3",
+  "overlap_screen": "SHA-256 and ImageHash pHash",
+  "internal_validation": "F:\\Github\\wheat-rust-ai-github-ready\\wheat-rust-ai\\Data\\val",
+  "external_heldout_test": "F:\\Github\\external-wheat-validation\\val",
+  "external_benchmark_previously_evaluated": true,
+  "eligibility_manifest_sha256": "10b80ee46fe6ab9708395cc140099aef851105a0890408b99a2012014f8322e9",
+  "conditions": [
+    {
+      "id": "n150_mix00_seed42",
+      "seed": 42,
+      "train_dir": "C:\\WheatAI\\wheat-rust-ai-detection-main\\research\\dataset_generalisation\\phase3\\staged_training\\n150_mix00_seed42\\train",
+      "per_class_size": 150,
+      "additional_fraction_percent": 0,
+      "cohort_manifest_sha256": "93acbf0178802c7e5e118264949d6e83eabf7f8a12f796cddd518c2731b8fa81"
+    },
+    {
+      "id": "n150_mix00_seed43",
+      "seed": 43,
+      "train_dir": "C:\\WheatAI\\wheat-rust-ai-detection-main\\research\\dataset_generalisation\\phase3\\staged_training\\n150_mix00_seed43\\train",
+      "per_class_size": 150,
+      "additional_fraction_percent": 0,
+      "cohort_manifest_sha256": "bef2a26304f9dcab1ebc2b40a4e8e00fe7ff145cae08e04a9f90684321abf52f"
+    },
+    {
+      "id": "n150_mix00_seed44",
+      "seed": 44,
+      "train_dir": "C:\\WheatAI\\wheat-rust-ai-detection-main\\research\\dataset_generalisation\\phase3\\staged_training\\n150_mix00_seed44\\train",
+      "per_class_size": 150,
+      "additional_fraction_percent": 0,
+      "cohort_manifest_sha256": "2c6845612494970881f659ad7e1e3f7e9daa29b1ad8e060c5a33ea50eb718b1f"
+    },
+    {
+      "id": "n150_mix25_seed42",
+      "seed": 42,
+      "train_dir": "C:\\WheatAI\\wheat-rust-ai-detection-main\\research\\dataset_generalisation\\phase3\\staged_training\\n150_mix25_seed42\\train",
+      "per_class_size": 150,
+      "additional_fraction_percent": 25,
+      "cohort_manifest_sha256": "11e2b74ebf67ced2bb9be37d06aa417b5bc166c4a582fe0eb815c442a586f5ae"
+    },
+    {
+      "id": "n150_mix25_seed43",
+      "seed": 43,
+      "train_dir": "C:\\WheatAI\\wheat-rust-ai-detection-main\\research\\dataset_generalisation\\phase3\\staged_training\\n150_mix25_seed43\\train",
+      "per_class_size": 150,
+      "additional_fraction_percent": 25,
+      "cohort_manifest_sha256": "c8e234713de20905415cfb95140aa4450c95a42076ce9f10985a49f11ddb9105"
+    },
+    {
+      "id": "n150_mix25_seed44",
+      "seed": 44,
+      "train_dir": "C:\\WheatAI\\wheat-rust-ai-detection-main\\research\\dataset_generalisation\\phase3\\staged_training\\n150_mix25_seed44\\train",
+      "per_class_size": 150,
+      "additional_fraction_percent": 25,
+      "cohort_manifest_sha256": "8bc8579183f80dd457d8cc8f6ba53a4549b3a92afe33d34bcd005095d4035918"
+    },
+    {
+      "id": "n150_mix50_seed42",
+      "seed": 42,
+      "train_dir": "C:\\WheatAI\\wheat-rust-ai-detection-main\\research\\dataset_generalisation\\phase3\\staged_training\\n150_mix50_seed42\\train",
+      "per_class_size": 150,
+      "additional_fraction_percent": 50,
+      "cohort_manifest_sha256": "fb76e54e38aad2ebaf5fb0be479af454783ec4afaabcc1d27854813c95cf3666"
+    },
+    {
+      "id": "n150_mix50_seed43",
+      "seed": 43,
+      "train_dir": "C:\\WheatAI\\wheat-rust-ai-detection-main\\research\\dataset_generalisation\\phase3\\staged_training\\n150_mix50_seed43\\train",
+      "per_class_size": 150,
+      "additional_fraction_percent": 50,
+      "cohort_manifest_sha256": "1cfe3eb8d9da56b926f11569a5377c66011ce3400fed039106509b870814b869"
+    },
+    {
+      "id": "n150_mix50_seed44",
+      "seed": 44,
+      "train_dir": "C:\\WheatAI\\wheat-rust-ai-detection-main\\research\\dataset_generalisation\\phase3\\staged_training\\n150_mix50_seed44\\train",
+      "per_class_size": 150,
+      "additional_fraction_percent": 50,
+      "cohort_manifest_sha256": "8842f161a5eae20c5a8eaa9ea59007a045102c5d4412946f64aaa36989216c9e"
+    },
+    {
+      "id": "n300_mix00_seed42",
+      "seed": 42,
+      "train_dir": "C:\\WheatAI\\wheat-rust-ai-detection-main\\research\\dataset_generalisation\\phase3\\staged_training\\n300_mix00_seed42\\train",
+      "per_class_size": 300,
+      "additional_fraction_percent": 0,
+      "cohort_manifest_sha256": "a5292030ad15b9b6144ac7a95cfa1870fc2c617956b7b7de323566a71c5821cd"
+    },
+    {
+      "id": "n300_mix00_seed43",
+      "seed": 43,
+      "train_dir": "C:\\WheatAI\\wheat-rust-ai-detection-main\\research\\dataset_generalisation\\phase3\\staged_training\\n300_mix00_seed43\\train",
+      "per_class_size": 300,
+      "additional_fraction_percent": 0,
+      "cohort_manifest_sha256": "2449caeed79b59786b5df98df7eb616a87dd93b2790a6accc39df5dec2735e88"
+    },
+    {
+      "id": "n300_mix00_seed44",
+      "seed": 44,
+      "train_dir": "C:\\WheatAI\\wheat-rust-ai-detection-main\\research\\dataset_generalisation\\phase3\\staged_training\\n300_mix00_seed44\\train",
+      "per_class_size": 300,
+      "additional_fraction_percent": 0,
+      "cohort_manifest_sha256": "f237b547792e0b8529dfb67dfa6f997dc0095bbff6cf7739c9b964719b6c409d"
+    },
+    {
+      "id": "n300_mix25_seed42",
+      "seed": 42,
+      "train_dir": "C:\\WheatAI\\wheat-rust-ai-detection-main\\research\\dataset_generalisation\\phase3\\staged_training\\n300_mix25_seed42\\train",
+      "per_class_size": 300,
+      "additional_fraction_percent": 25,
+      "cohort_manifest_sha256": "d9bdb635cbe8a4a6cbb16ee2120b194e4fbe41864f2c3ff2cd8e0511f7678cf6"
+    },
+    {
+      "id": "n300_mix25_seed43",
+      "seed": 43,
+      "train_dir": "C:\\WheatAI\\wheat-rust-ai-detection-main\\research\\dataset_generalisation\\phase3\\staged_training\\n300_mix25_seed43\\train",
+      "per_class_size": 300,
+      "additional_fraction_percent": 25,
+      "cohort_manifest_sha256": "4ba53041cb9f3ba1a2359729886d14d6a5363ea8d3b54dd715794f7e5dda0486"
+    },
+    {
+      "id": "n300_mix25_seed44",
+      "seed": 44,
+      "train_dir": "C:\\WheatAI\\wheat-rust-ai-detection-main\\research\\dataset_generalisation\\phase3\\staged_training\\n300_mix25_seed44\\train",
+      "per_class_size": 300,
+      "additional_fraction_percent": 25,
+      "cohort_manifest_sha256": "2c2bd4623bb3543dd1cc4cf07cd54efcc059f74d54b40a466c894422ea1782f0"
+    },
+    {
+      "id": "n300_mix50_seed42",
+      "seed": 42,
+      "train_dir": "C:\\WheatAI\\wheat-rust-ai-detection-main\\research\\dataset_generalisation\\phase3\\staged_training\\n300_mix50_seed42\\train",
+      "per_class_size": 300,
+      "additional_fraction_percent": 50,
+      "cohort_manifest_sha256": "1905082038221d797df650304d6dcd1e4b187f9a8b476d66031abc5b09240a7d"
+    },
+    {
+      "id": "n300_mix50_seed43",
+      "seed": 43,
+      "train_dir": "C:\\WheatAI\\wheat-rust-ai-detection-main\\research\\dataset_generalisation\\phase3\\staged_training\\n300_mix50_seed43\\train",
+      "per_class_size": 300,
+      "additional_fraction_percent": 50,
+      "cohort_manifest_sha256": "d621adc44c160306b7a14134d0adb5290e0746029dbfab50cbb0c43c776496b6"
+    },
+    {
+      "id": "n300_mix50_seed44",
+      "seed": 44,
+      "train_dir": "C:\\WheatAI\\wheat-rust-ai-detection-main\\research\\dataset_generalisation\\phase3\\staged_training\\n300_mix50_seed44\\train",
+      "per_class_size": 300,
+      "additional_fraction_percent": 50,
+      "cohort_manifest_sha256": "314e439a0aaf33935502c4de7e468349bfbf6a87e559d3b38ea6eaf45009dde4"
+    }
+  ]
+}
