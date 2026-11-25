@@ -1,0 +1,170 @@
+{
+  "experiment": "NUST frozen model diagnostic, 50%-short-side square crops, 9x9 position grid",
+  "model_sha256": "2c18f6061bd3f26427bdb05d21ea1b3bd85fc82f92596194c3e36f6b2c1513e4",
+  "source_predictions_sha256": "ee64eda3e8a583dbdd993287824ec9f8deb93c955cdaa906e5d5eba54d726875",
+  "class_order": [
+    "Brown_rust",
+    "Healthy",
+    "Yellow_rust"
+  ],
+  "crop_fraction": 0.5,
+  "grid_steps_per_axis": 9,
+  "ground_truth_assumption": "All 100 images labelled yellow from nonempty binary rust-lesion masks; verify source definitions",
+  "caveats": [
+    "Uses ground-truth segmentation masks to select crops; NOT deployment performance",
+    "Control crop is least lesion-dense among matching grid crops, not a random independent control",
+    "Cropping changes symptom visibility, scale, scene context and background simultaneously",
+    "Perceptual similarity checks do not establish complete absence of source overlap",
+    "Near-size-matched masks are nearest-neighbour resized; spatial registration must be visually checked before causal interpretation"
+  ],
+  "counts": {
+    "rescaled_masks": 1,
+    "mask_grid_ties": 0,
+    "equal_actual_mask_counts": 0,
+    "proxy_order_inversions": 0
+  },
+  "all": {
+    "n": 100,
+    "full": {
+      "yellow_predictions": 0,
+      "yellow_detection_fraction_conditional_on_labels": 0.0,
+      "prediction_counts": {
+        "Brown_rust": 20,
+        "Healthy": 80,
+        "Yellow_rust": 0
+      },
+      "mean_yellow_score": 0.0045115178532017805
+    },
+    "lesion": {
+      "yellow_predictions": 0,
+      "yellow_detection_fraction_conditional_on_labels": 0.0,
+      "prediction_counts": {
+        "Brown_rust": 30,
+        "Healthy": 70,
+        "Yellow_rust": 0
+      },
+      "mean_yellow_score": 0.0050835098775696965
+    },
+    "control": {
+      "yellow_predictions": 0,
+      "yellow_detection_fraction_conditional_on_labels": 0.0,
+      "prediction_counts": {
+        "Brown_rust": 24,
+        "Healthy": 76,
+        "Yellow_rust": 0
+      },
+      "mean_yellow_score": 0.005688399723044668
+    },
+    "full_vs_lesion": {
+      "wrong_to_yellow": 0,
+      "yellow_to_wrong": 0,
+      "exact_mcnemar_two_sided_p": 1.0
+    },
+    "full_vs_control": {
+      "wrong_to_yellow": 0,
+      "yellow_to_wrong": 0,
+      "exact_mcnemar_two_sided_p": 1.0
+    },
+    "control_vs_lesion": {
+      "wrong_to_yellow": 0,
+      "yellow_to_wrong": 0,
+      "exact_mcnemar_two_sided_p": 1.0
+    }
+  },
+  "train": {
+    "n": 90,
+    "full": {
+      "yellow_predictions": 0,
+      "yellow_detection_fraction_conditional_on_labels": 0.0,
+      "prediction_counts": {
+        "Brown_rust": 17,
+        "Healthy": 73,
+        "Yellow_rust": 0
+      },
+      "mean_yellow_score": 0.003548585940248788
+    },
+    "lesion": {
+      "yellow_predictions": 0,
+      "yellow_detection_fraction_conditional_on_labels": 0.0,
+      "prediction_counts": {
+        "Brown_rust": 27,
+        "Healthy": 63,
+        "Yellow_rust": 0
+      },
+      "mean_yellow_score": 0.0053413373986007035
+    },
+    "control": {
+      "yellow_predictions": 0,
+      "yellow_detection_fraction_conditional_on_labels": 0.0,
+      "prediction_counts": {
+        "Brown_rust": 22,
+        "Healthy": 68,
+        "Yellow_rust": 0
+      },
+      "mean_yellow_score": 0.0059096911842722475
+    },
+    "full_vs_lesion": {
+      "wrong_to_yellow": 0,
+      "yellow_to_wrong": 0,
+      "exact_mcnemar_two_sided_p": 1.0
+    },
+    "full_vs_control": {
+      "wrong_to_yellow": 0,
+      "yellow_to_wrong": 0,
+      "exact_mcnemar_two_sided_p": 1.0
+    },
+    "control_vs_lesion": {
+      "wrong_to_yellow": 0,
+      "yellow_to_wrong": 0,
+      "exact_mcnemar_two_sided_p": 1.0
+    }
+  },
+  "test": {
+    "n": 10,
+    "full": {
+      "yellow_predictions": 0,
+      "yellow_detection_fraction_conditional_on_labels": 0.0,
+      "prediction_counts": {
+        "Brown_rust": 3,
+        "Healthy": 7,
+        "Yellow_rust": 0
+      },
+      "mean_yellow_score": 0.013177905069778718
+    },
+    "lesion": {
+      "yellow_predictions": 0,
+      "yellow_detection_fraction_conditional_on_labels": 0.0,
+      "prediction_counts": {
+        "Brown_rust": 3,
+        "Healthy": 7,
+        "Yellow_rust": 0
+      },
+      "mean_yellow_score": 0.0027630621882906324
+    },
+    "control": {
+      "yellow_predictions": 0,
+      "yellow_detection_fraction_conditional_on_labels": 0.0,
+      "prediction_counts": {
+        "Brown_rust": 2,
+        "Healthy": 8,
+        "Yellow_rust": 0
+      },
+      "mean_yellow_score": 0.0036967765719964516
+    },
+    "full_vs_lesion": {
+      "wrong_to_yellow": 0,
+      "yellow_to_wrong": 0,
+      "exact_mcnemar_two_sided_p": 1.0
+    },
+    "full_vs_control": {
+      "wrong_to_yellow": 0,
+      "yellow_to_wrong": 0,
+      "exact_mcnemar_two_sided_p": 1.0
+    },
+    "control_vs_lesion": {
+      "wrong_to_yellow": 0,
+      "yellow_to_wrong": 0,
+      "exact_mcnemar_two_sided_p": 1.0
+    }
+  }
+}

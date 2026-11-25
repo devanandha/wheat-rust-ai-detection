@@ -1,0 +1,166 @@
+{
+  "status": "exploratory_paired_sensitivity_no_retraining",
+  "model_sha256": "2c18f6061bd3f26427bdb05d21ea1b3bd85fc82f92596194c3e36f6b2c1513e4",
+  "tensorflow_version": "2.18.1",
+  "class_order": [
+    "Brown_rust",
+    "Healthy",
+    "Yellow_rust"
+  ],
+  "perturbation": "224x224 RGB resized bilinear to 112x112, bilinear back to 224x224",
+  "warnings": [
+    "Artificial degradation does not recreate the original source image size or acquisition conditions.",
+    "The saved model has built-in preprocessing: no external scaling was applied.",
+    "The original validation and JIC sets have been examined repeatedly: results are exploratory, not a new blind test.",
+    "Changes in confidence/accuracy do not establish the model uses a resolution shortcut.",
+    "No model was trained or changed; original image files were not modified."
+  ],
+  "sources": {
+    "original_val": {
+      "count": 737,
+      "baseline": {
+        "correct": 728,
+        "accuracy": 0.9877883310719131,
+        "support_by_class": {
+          "Brown_rust": 226,
+          "Healthy": 279,
+          "Yellow_rust": 232
+        },
+        "recall_by_class": {
+          "Brown_rust": 0.9734513274336283,
+          "Healthy": 0.996415770609319,
+          "Yellow_rust": 0.9913793103448276
+        },
+        "confusion_matrix_true_rows_predicted_columns": [
+          [
+            220,
+            3,
+            3
+          ],
+          [
+            1,
+            278,
+            0
+          ],
+          [
+            2,
+            0,
+            230
+          ]
+        ]
+      },
+      "perturbed": {
+        "correct": 707,
+        "accuracy": 0.9592944369063772,
+        "support_by_class": {
+          "Brown_rust": 226,
+          "Healthy": 279,
+          "Yellow_rust": 232
+        },
+        "recall_by_class": {
+          "Brown_rust": 0.9734513274336283,
+          "Healthy": 0.9139784946236559,
+          "Yellow_rust": 1.0
+        },
+        "confusion_matrix_true_rows_predicted_columns": [
+          [
+            220,
+            1,
+            5
+          ],
+          [
+            14,
+            255,
+            10
+          ],
+          [
+            0,
+            0,
+            232
+          ]
+        ]
+      },
+      "accuracy_change_percentage_points": -2.84939,
+      "predictions_changed": 29,
+      "correct_to_wrong": 25,
+      "wrong_to_correct": 4,
+      "mean_change_in_true_class_probability": -0.04807643
+    },
+    "jic": {
+      "count": 489,
+      "baseline": {
+        "correct": 188,
+        "accuracy": 0.38445807770961143,
+        "support_by_class": {
+          "Brown_rust": 128,
+          "Healthy": 122,
+          "Yellow_rust": 239
+        },
+        "recall_by_class": {
+          "Brown_rust": 0.578125,
+          "Healthy": 0.8114754098360656,
+          "Yellow_rust": 0.06276150627615062
+        },
+        "confusion_matrix_true_rows_predicted_columns": [
+          [
+            74,
+            53,
+            1
+          ],
+          [
+            23,
+            99,
+            0
+          ],
+          [
+            126,
+            98,
+            15
+          ]
+        ]
+      },
+      "perturbed": {
+        "correct": 233,
+        "accuracy": 0.47648261758691207,
+        "support_by_class": {
+          "Brown_rust": 128,
+          "Healthy": 122,
+          "Yellow_rust": 239
+        },
+        "recall_by_class": {
+          "Brown_rust": 0.46875,
+          "Healthy": 0.8032786885245902,
+          "Yellow_rust": 0.3138075313807531
+        },
+        "confusion_matrix_true_rows_predicted_columns": [
+          [
+            60,
+            51,
+            17
+          ],
+          [
+            14,
+            98,
+            10
+          ],
+          [
+            93,
+            71,
+            75
+          ]
+        ]
+      },
+      "accuracy_change_percentage_points": 9.20245,
+      "predictions_changed": 154,
+      "correct_to_wrong": 38,
+      "wrong_to_correct": 83,
+      "mean_change_in_true_class_probability": 0.08057399
+    }
+  },
+  "historical_baseline_check": {
+    "original_val_correct_expected": 728,
+    "jic_correct_expected": 188,
+    "original_val_matches": true,
+    "jic_matches": true
+  }
+}

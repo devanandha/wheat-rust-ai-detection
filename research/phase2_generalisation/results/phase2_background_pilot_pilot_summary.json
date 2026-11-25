@@ -1,0 +1,14 @@
+{
+  "status": "exploratory_selected_nine_image_pilot_not_independent",
+  "model_unchanged": true,
+  "background_fill_rgb": [
+    128,
+    128,
+    128
+  ],
+  "n": 9,
+  "changed_predictions": 3,
+  "wrong_to_right": 0,
+  "right_to_wrong": 2,
+  "caveat": "Foreground manually annotated; masks can be imperfect, grey backgrounds introduce artifacts; outcomes selected before annotation. Not proof of background causation."
+}

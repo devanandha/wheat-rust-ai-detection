@@ -19,7 +19,7 @@ At 300 images per class and 50% source mixing, Yellow Rust recall
 was 53.42% on the previously examined JIC benchmark compared
 with 5.62% on the screened Kaggle benchmark.
 
-**[Read the consolidated Phases 3?5 research summary](https://github.com/devanandha/wheat-rust-ai-detection/blob/research/phase3-source-diversity/research/dataset_generalisation/RESEARCH_SUMMARY_PHASES_3_TO_5.md)**
+**[Read the consolidated Phases 3?5 research summary](research/dataset_generalisation/RESEARCH_SUMMARY_PHASES_3_TO_5.md)**
 
 The research includes dataset-integrity audits, external evaluation
 records and exploratory Grad-CAM findings.

@@ -1,0 +1,36 @@
+{
+  "images_evaluated": 60,
+  "images_per_class": 20,
+  "mask_fraction": 0.2,
+  "random_repeats_per_image": 5,
+  "random_baseline": "spatially coherent random rectangular regions",
+  "mean_gradcam_confidence_drop": 0.2091051473059148,
+  "median_gradcam_confidence_drop": 0.02877330780029297,
+  "mean_random_block_confidence_drop": 0.03858088633666436,
+  "median_random_block_confidence_drop": 0.0036345839500427244,
+  "mean_gradcam_advantage": 0.17052426096925047,
+  "fraction_gradcam_drop_greater_than_random": 0.6833333333333333,
+  "per_class": {
+    "Brown_rust": {
+      "images": 20,
+      "mean_gradcam_confidence_drop": 0.18465581983327867,
+      "mean_random_block_confidence_drop": 0.0766348833218217,
+      "mean_gradcam_advantage": 0.10802093651145697,
+      "fraction_gradcam_drop_greater_than_random": 0.7
+    },
+    "Healthy": {
+      "images": 20,
+      "mean_gradcam_confidence_drop": -0.007948672771453858,
+      "mean_random_block_confidence_drop": 0.007509031295776368,
+      "mean_gradcam_advantage": -0.015457704067230224,
+      "fraction_gradcam_drop_greater_than_random": 0.35
+    },
+    "Yellow_rust": {
+      "images": 20,
+      "mean_gradcam_confidence_drop": 0.4506082948559197,
+      "mean_random_block_confidence_drop": 0.031598744392395024,
+      "mean_gradcam_advantage": 0.41900955046352467,
+      "fraction_gradcam_drop_greater_than_random": 1.0
+    }
+  }
+}

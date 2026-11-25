@@ -1,0 +1,16 @@
+# Generated reproduction outputs
+/reproduced_outputs/
+
+# Locally prepared masks; redistribution not yet cleared
+/masks/
+
+# Figures containing third-party dataset imagery;
+# review licensing before including any of these
+/figures/
+
+# Python temporary files
+__pycache__/
+*.pyc
+*.py.bak
+/results/nust_frozen_predictions_original.csv
+*.json.bak
